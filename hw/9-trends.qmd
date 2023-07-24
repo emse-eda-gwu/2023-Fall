@@ -1,0 +1,7 @@
+---
+title: "Trends"
+params:
+  number: 8
+---
+
+Coming soon!

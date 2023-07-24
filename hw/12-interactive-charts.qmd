@@ -1,0 +1,7 @@
+---
+title: "Interactive Charts"
+params:
+  number: 11
+---
+
+Coming soon!
