@@ -14,17 +14,17 @@ project:
     - "data/"
 
 website:
-  title: EMSE 4571 / 6571
+  title: EMSE 4572 / 6572
   image: images/logo.png
-  site-url: https://p4a.seas.gwu.edu/2023-Spring/
+  site-url: https://eda.seas.gwu.edu/2023-Fall/
   favicon: images/favicon.ico
-  repo-url: https://github.com/emse-p4a-gwu/2023-Spring
+  repo-url: https://github.com/emse-eda-gwu/2023-Fall
   repo-actions: [edit, issue]
-  description: 'Course website for Spring 2023 semester of the EMSE course "Intro. to Programming for Analytics" at GWU'
+  description: 'Course website for Fall 2023 semester of the EMSE course "Exploratory Data Analysis" at GWU'
   search: true
   open-graph:
     locale: es_ES
-    site-name: https://p4a.seas.gwu.edu/
+    site-name: https://eda.seas.gwu.edu/
   twitter-card:
     creator: "@johnhelveston"
     site: "@johnhelveston"
@@ -45,21 +45,43 @@ website:
       - text: Schedule
         icon: table
         href: schedule.qmd
-      - text: Textbook
-        icon: book-fill
-        href: https://p4a.jhelvy.com/
+      - section: Mini Projects
+        icon: question-circle-fill
+        contents:
+          - text: "Data Cleaning (Due Sep 27)"
+            href: project-mini/1-data-cleaning.qmd
+          - text: "Exploring Data (Due Oct 18)"
+            href: project-mini/2-exploring-data.qmd
+          - text: "Re-design (Due Nov 15)"
+            href: project-mini/3-re-design.qmd
+      - section: Final Project
+        icon: question-circle-fill
+        contents:
+          - text: "Project Overview"
+            href: project-final/0-overview.qmd
+          - text: Proposal (Due Oct 04)
+            href: project-final/1-proposal.qmd
+          - text: Progress Report (Due Nov 01)
+            href: project-final/2-progress-report.qmd
+          - text: Final Report (Due Dec 11)
+            href: project-final/3-final-report.qmd
+          - text: Final Presentation (Due Dec 13)
+            href: project-final/4-final-presentation.qmd
+          - text: Examples
+            icon: file-earmark-medical
+            href: project-final/examples.qmd
       - text: Software
         icon: download
         href: software.qmd
+      - text: Getting Help
+        icon: question-circle
+        href: help/getting-help.qmd
       - text: References
         icon: bookmark-fill
         href: references.qmd
-      - text: Autograder
-        icon: list-check
-        href: autograder.html
       - text: Slack
         icon: slack
-        href: https://emse-p4a-s23.slack.com
+        href: https://emse-eda-s23.slack.com
       - text: "Schedule a call w/Prof. Helveston"
         icon: clock-fill
         href: https://jhelvy.appointlet.com/b/professor-helveston
@@ -77,7 +99,7 @@ website:
             href: mailto:jph@gwu.edu
           - text: Source files
             icon: github
-            href: https://github.com/emse-p4a-gwu/2023-Spring
+            href: https://github.com/emse-eda-gwu/2023-Fall
   page-footer:
     center:
       - text: '© 2023 John Paul Helveston <a href="LICENSE.html"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a><br><i class="far fa-calendar-alt"></i> {{< var weekday >}} | <i class="far fa-clock"></i> {{< var time >}} | <a href="{{< var room_url >}}"><i class="fa fa-map-marker-alt"></i> {{< var room >}}</a> | <a href="https://www.jhelvy.com"><i class="fas fa-user"></i> Dr. John Paul Helveston</a> | <a href="mailto:{{< var email >}}"><i class="fas fa-envelope"></i> {{< var email >}}</a> | <a href="{{< var repo >}}"><i class="fab fa-github"></i></a>'
