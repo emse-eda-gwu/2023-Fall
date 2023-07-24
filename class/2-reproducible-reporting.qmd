@@ -1,0 +1,7 @@
+---
+title: "Reproducible Reporting with Quarto"
+params:
+  class: "2-reproducible-reporting"
+---
+
+Coming soon!

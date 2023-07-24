@@ -1,0 +1,12 @@
+---
+title: "Maps"
+params:
+  class: "11-maps"
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("R", "settings.R"))
+```
+
+```{r child = here::here("fragments", "class.qmd")}
+```

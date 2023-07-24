@@ -1,0 +1,12 @@
+---
+title: "Trends"
+params:
+  class: "9-trends"
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("R", "settings.R"))
+```
+
+```{r child = here::here("fragments", "class.qmd")}
+```

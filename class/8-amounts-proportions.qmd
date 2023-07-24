@@ -1,0 +1,12 @@
+---
+title: "Amounts & Proportions"
+params:
+  class: "7-amounts-proportions"
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("R", "settings.R"))
+```
+
+```{r child = here::here("fragments", "class.qmd")}
+```
