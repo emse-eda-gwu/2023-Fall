@@ -8,8 +8,8 @@ weekday: "Thursdays"
 dates: "Aug. 30 - Dec 13, 2023"
 time: "12:45PM - 3:15PM EST"
 room: 'Monroe Hall 114'
-room_address: 725 21st Street NW
-room_url: "https://acadtech.gwu.edu/location?id=382&campus=FB&type=building&selection=37"
+room_address: 2115 G St NW
+room_url: "https://acadtech.gwu.edu/main-classroom-search/monroe-hall-114"
 slack: "https://emse-eda-s23.slack.com"
 repo: "https://github.com/emse-eda-gwu/2023-Fall"
 site_url: "https://eda.seas.gwu.edu/2023-Fall/"
