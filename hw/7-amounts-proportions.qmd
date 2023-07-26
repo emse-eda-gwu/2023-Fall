@@ -1,7 +1,0 @@
----
-title: "Amounts & Proportions"
-params:
-  number: 6
----
-
-Coming soon!

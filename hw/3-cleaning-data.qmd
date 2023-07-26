@@ -1,7 +1,0 @@
----
-title: "Cleaning Data"
-params:
-  number: 2
----
-
-Coming soon!

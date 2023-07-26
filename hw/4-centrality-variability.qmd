@@ -1,7 +1,0 @@
----
-title: "Centrality & Variability"
-params:
-  number: 3
----
-
-Coming soon!

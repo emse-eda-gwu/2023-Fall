@@ -1,12 +1,7 @@
 ---
 title: "Communicating Results"
 params:
-  class: "14-communicating-results"
+  class: "15-communicating-results"
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
-source(here::here("R", "settings.R"))
-```
-
-```{r child = here::here("fragments", "class.qmd")}
-```
+Coming soon!

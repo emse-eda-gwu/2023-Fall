@@ -1,7 +1,0 @@
----
-title: "Comparisons"
-params:
-  number: 7
----
-
-Coming soon!

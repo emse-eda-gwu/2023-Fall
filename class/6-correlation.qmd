@@ -1,12 +1,7 @@
 ---
 title: "Correlation"
 params:
-  class: "5-correlation"
+  class: "6-correlation"
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
-source(here::here("R", "settings.R"))
-```
-
-```{r child = here::here("fragments", "class.qmd")}
-```
+Coming soon!

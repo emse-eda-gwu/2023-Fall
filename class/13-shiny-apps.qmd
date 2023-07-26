@@ -1,12 +1,7 @@
 ---
 title: "Team Meetings"
 params:
-  class: "13-shiny-apps"
+  class: "14-shiny-apps"
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
-source(here::here("R", "settings.R"))
-```
-
-```{r child = here::here("fragments", "class.qmd")}
-```
+Coming soon!

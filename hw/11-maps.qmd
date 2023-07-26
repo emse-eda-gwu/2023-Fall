@@ -1,7 +1,0 @@
----
-title: "Maps"
-params:
-  number: 10
----
-
-Coming soon!

@@ -1,12 +1,7 @@
 ---
 title: "Tidy Data"
 params:
-  class: "2-tidy-data"
+  class: "3-tidy-data"
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
-source(here::here("R", "settings.R"))
-```
-
-```{r child = here::here("fragments", "class.qmd")}
-```
+Coming soon!

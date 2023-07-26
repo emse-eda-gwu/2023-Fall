@@ -1,12 +1,7 @@
 ---
 title: "Comparisons"
 params:
-  class: "8-comparisons"
+  class: "9-comparisons"
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
-source(here::here("R", "settings.R"))
-```
-
-```{r child = here::here("fragments", "class.qmd")}
-```
+Coming soon!

@@ -1,7 +1,0 @@
----
-title: "Tidy Data"
-params:
-  number: 1
----
-
-Coming soon!

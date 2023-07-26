@@ -1,7 +1,0 @@
----
-title: "Polishing Charts"
-params:
-  number: 9
----
-
-Coming soon!
