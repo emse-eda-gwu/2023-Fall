@@ -1,12 +1,7 @@
 ---
 title: "Visualizing Information"
 params:
-  class: "6-visualizing-information"
+  class: "7-visualizing-information"
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
-source(here::here("R", "settings.R"))
-```
-
-```{r child = here::here("fragments", "class.qmd")}
-```
+Coming soon!

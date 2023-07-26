@@ -1,13 +1,7 @@
 ---
 title: "Cleaning Data"
 params:
-  class: "3-cleaning-data"
+  class: "4-cleaning-data"
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
-source(here::here("R", "settings.R"))
-```
-
-```{r child = here::here("fragments", "class.qmd")}
-```
-
+Coming soon!
