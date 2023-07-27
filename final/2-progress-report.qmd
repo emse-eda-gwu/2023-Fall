@@ -1,8 +1,7 @@
 ---
 title: Progress Report
 toc: true
-toc-title: Table of contents
-toc-location: left
+toc-location: right
 params:
   number: 2
   weight: '12%'
