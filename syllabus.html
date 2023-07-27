@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="EMSE 4572 / 6572 - Syllabus">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://eda.seas.gwu.edu/2023-Fall/figs/grades-1.png">
+<meta property="og:image" content="https://eda.seas.gwu.edu/2023-Fall/figs/grade-breakdown-1.png">
 <meta property="og:site-name" content="https://eda.seas.gwu.edu/">
 <meta property="og:locale" content="es_ES">
 <meta property="og:image:height" content="864">
@@ -318,15 +318,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a>
   <ul class="collapse">
   <li><a href="#participation-attendance" id="toc-participation-attendance" class="nav-link" data-scroll-target="#participation-attendance">Participation &amp; Attendance</a></li>
-  <li><a href="#homework-assignments" id="toc-homework-assignments" class="nav-link" data-scroll-target="#homework-assignments">Homework Assignments</a></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   <li><a href="#quizzes" id="toc-quizzes" class="nav-link" data-scroll-target="#quizzes">Quizzes</a></li>
-  <li><a href="#exams" id="toc-exams" class="nav-link" data-scroll-target="#exams">Exams</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
+  <li><a href="#final-project" id="toc-final-project" class="nav-link" data-scroll-target="#final-project">Final Project</a></li>
+  <li><a href="#final-interview" id="toc-final-interview" class="nav-link" data-scroll-target="#final-interview">Final Interview</a></li>
   </ul></li>
   <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
   <ul class="collapse">
-  <li><a href="#standard-grading" id="toc-standard-grading" class="nav-link" data-scroll-target="#standard-grading">Standard Grading</a></li>
-  <li><a href="#amg-grading" id="toc-amg-grading" class="nav-link" data-scroll-target="#amg-grading">AMG Grading</a></li>
+  <li><a href="#category-breakdown" id="toc-category-breakdown" class="nav-link" data-scroll-target="#category-breakdown">Category Breakdown</a></li>
   <li><a href="#grading-scale" id="toc-grading-scale" class="nav-link" data-scroll-target="#grading-scale">Grading Scale</a></li>
   <li><a href="#rounding" id="toc-rounding" class="nav-link" data-scroll-target="#rounding">Rounding</a></li>
   </ul></li>
@@ -341,14 +340,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">tl;dr</a></li>
   <li><a href="#late-policy" id="toc-late-policy" class="nav-link" data-scroll-target="#late-policy">Late Policy</a></li>
-  <li><a href="#collaboration-policy" id="toc-collaboration-policy" class="nav-link" data-scroll-target="#collaboration-policy">Collaboration Policy</a>
+  <li><a href="#cheating" id="toc-cheating" class="nav-link" data-scroll-target="#cheating">Cheating</a>
   <ul class="collapse">
-  <li><a href="#good-collaboration" id="toc-good-collaboration" class="nav-link" data-scroll-target="#good-collaboration">Good Collaboration</a></li>
-  <li><a href="#over-collaboration" id="toc-over-collaboration" class="nav-link" data-scroll-target="#over-collaboration">Over-collaboration</a></li>
-  <li><a href="#cheating" id="toc-cheating" class="nav-link" data-scroll-target="#cheating">Cheating</a></li>
   <li><a href="#use-of-chatgpt-and-other-ai-tools" id="toc-use-of-chatgpt-and-other-ai-tools" class="nav-link" data-scroll-target="#use-of-chatgpt-and-other-ai-tools">Use of chatGPT and other AI tools</a></li>
   <li><a href="#penalties" id="toc-penalties" class="nav-link" data-scroll-target="#penalties">Penalties</a></li>
-  <li><a href="#plagiarism-detection" id="toc-plagiarism-detection" class="nav-link" data-scroll-target="#plagiarism-detection">Plagiarism Detection</a></li>
   <li><a href="#grace-period" id="toc-grace-period" class="nav-link" data-scroll-target="#grace-period">Grace Period</a></li>
   </ul></li>
   <li><a href="#children-in-class" id="toc-children-in-class" class="nav-link" data-scroll-target="#children-in-class">Children in class</a></li>
@@ -363,7 +358,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#support-for-students-outside-the-classroom" id="toc-support-for-students-outside-the-classroom" class="nav-link" data-scroll-target="#support-for-students-outside-the-classroom">Support for Students Outside the Classroom</a></li>
   <li><a href="#academic-integrity-code" id="toc-academic-integrity-code" class="nav-link" data-scroll-target="#academic-integrity-code">Academic Integrity Code</a></li>
   </ul></li>
-  <li><a href="#cute-animals" id="toc-cute-animals" class="nav-link" data-scroll-target="#cute-animals">Cute Animals</a></li>
+  <li><a href="#super-heros" id="toc-super-heros" class="nav-link" data-scroll-target="#super-heros">Super Heros</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/emse-eda-gwu/2023-Fall/edit/main/syllabus.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/emse-eda-gwu/2023-Fall/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -466,7 +461,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="texts" class="level2">
 <h2 class="anchored" data-anchor-id="texts">Texts</h2>
-<p>The main textbook we will use for this course is “Programming for Analytics in R”, by Professor Helveston. The book is available freely on the web at <a href="https://p4a.jhelvy.com/" target="_blank">https://p4a.jhelvy.com/</a>.</p>
+<p>Each week students will be responsible for completing assigned readings, most of which will come from these three books, which are available both free online and for purchase via the following links:</p>
+<ul>
+<li>Healy, Kieran. “Data Visualization: A practical introduction” [<a href="http://socviz.co/">free online</a>], [<a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624">buy on amazon</a>]</li>
+<li>Grolemund, Garrett and Wickham, Hadley. “R for Data Science” [<a href="https://r4ds.had.co.nz/">free online</a>], [<a href="https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399">buy on amazon</a>]</li>
+<li>Wilke, Claus O. “Fundamentals of Data Visualization” [<a href="https://serialmentor.com/dataviz/">free online</a>], [<a href="https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089">buy on amazon</a>]</li>
+</ul>
 </section>
 </section>
 <section id="assignments" class="level1">
@@ -475,71 +475,99 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="participation-attendance">Participation &amp; Attendance</h2>
 <p><strong>Attendance will be taken</strong> and will be part of your participation grade.</p>
 <p>In-person attendance is critical as we will spend a lot of time working on problems and writing code during class. You should plan to attend class in person each week.</p>
-<p>There will be no option for remote attendance (e.g.&nbsp;zoom), and class sessions will not be recorded. If you have any questions or need special accommodations, send me a message on slack and we can discuss. If you must miss class for an excused absence (e.g.&nbsp;medical issue), please message Professor Helveston and get notes from your fellows classmates.</p>
+<p><strong>There will be no option for remote attendance (e.g.&nbsp;zoom)</strong>, and class sessions will not be recorded. If you have any questions or need special accommodations, send me a message on slack and we can discuss. If you must miss class for an excused absence (e.g.&nbsp;medical issue), please message Professor Helveston and get notes from your fellows classmates.</p>
 <p>Multiple absences, inappropriate or unprofessional behavior during class (such as monopolizing discussions or being rude or disruptive), not participating in classroom exercises, and not being prepared for class will result in a poor score for attendance and participation.</p>
-</section>
-<section id="homework-assignments" class="level2">
-<h2 class="anchored" data-anchor-id="homework-assignments">Homework Assignments</h2>
-<p>Homework assignments contain a mix of coding exercises and written exercises. They assess the material taught the week(s) they are assigned, and should take several hours to complete. <strong>Start homeworks early</strong>.</p>
-<p>Read the <a href="#collaboration-policy">Collaboration Policy</a> about collaborating with fellow students on homeworks. While most problems must be worked on individually, some will be marked as “collaborative”; on these problems (and <em>only</em> these problems), you may work on code with other students.</p>
-<p>Homeworks will be graded based on style (modularity, readability, commenting, etc.) and functionality (correctness on a series of tests). Your code should be properly annotated with comments that are well-placed, concise, and informative. Your assignments will be graded by an automated grader and the instructional team.</p>
-</section>
-<section id="readings" class="level2">
-<h2 class="anchored" data-anchor-id="readings">Readings</h2>
-<p>In addition to weekly homework assignments, students are expected to read through the assigned weekly reading to prepare for the next class. Check the <a href="schedule.html">schedule</a> for the reading assignments.</p>
 </section>
 <section id="quizzes" class="level2">
 <h2 class="anchored" data-anchor-id="quizzes">Quizzes</h2>
-<p>There will be 7 quizzes given about once every other week immediately at the beginning of class. Make up quizzes will not be available if you miss it (except for excused absences). Please show up on time to class each week to ensure that you do not miss a quiz. Quizzes will cover material presented in previous classes and assignments during the weeks since the most-recent quiz.</p>
+<p>Quizzes will be given about once every other week immediately at the beginning of class (check the <a href="schedule.html">schedule</a>). Make up quizzes will not be available if you miss it (except for excused absences). Please show up on time to class each week to ensure that you do not miss a quiz. Quizzes will cover material presented in previous classes and assignments during the weeks since the most-recent quiz.</p>
 <p>Quizzes are <strong>short</strong> (10 minutes) and are designed to test for fluency and to demonstrate where additional study is needed. <strong>Quizzes are low-stakes</strong> - your worst one is dropped, and the rest count for a small portion of your final grade. If you do poorly on one or two, use that as feedback on where you need additional improvement.</p>
 <blockquote class="blockquote">
 <p><strong>Why quiz at all?</strong> Research shows that giving small quizzes throughout a class can dramatically help with <em>retention</em>. It’s a phenomenon known as the “retrieval effect” - basically, you have to <em>practice</em> remembering things, otherwise your brain won’t remember them. The phenomenon and research on it is explained in detail in the book <a href="https://www.hup.harvard.edu/catalog.php?isbn=9780674729018">“Make It Stick: The Science of Successful Learning,”</a> by Brown, Roediger, and McDaniel.</p>
 </blockquote>
 </section>
-<section id="exams" class="level2">
-<h2 class="anchored" data-anchor-id="exams">Exams</h2>
-<p>There will be one midterm exam covering the first 6 weeks of class, and a standard final exam during the final exam period at the end of the semester covering material from the entire semester. See the <a href="schedule.html">schedule</a> for details.</p>
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">Homework</h2>
+<p>Students will be responsible for two types of assignments throughout the semester:</p>
+<ul>
+<li><strong>Weekly Assignments</strong>: Each week, students will be assigned specific readings and exercises to prepare for the next class period. Students will need to submit responses that include a thoughtful reflection on these concepts each week.</li>
+<li><strong>Mini Projects</strong>: There will be three mini projects throughout the semester designed to provide hands-on experience with the material covered in class by working with and exploring real data sets and / or creating visualizations. While students may work with their peers on these assignments, each student must submit their own work. Credit for each assignment will be allocated according to a rubric provided in the assignment description.</li>
+</ul>
+</section>
+<section id="final-project" class="level2">
+<h2 class="anchored" data-anchor-id="final-project">Final Project</h2>
+<p>Throughout the semester, students will work in teams of 2-3 students towards a final project of an exploratory data analysis. At the end of the semester, each student will submit a report of their analysis in the form of an html web page and create a 5 to 10-minute video presentation of their results. To make the overall project more manageable, it will be broken down into several separate “milestone” deliverables due throughout the semester, including a proposal, progress report, presentation video, and final report.</p>
+<p>View the <a href="project-final/0-overview.qmd">final project overview</a> page for more details.</p>
+</section>
+<section id="final-interview" class="level2">
+<h2 class="anchored" data-anchor-id="final-interview">Final Interview</h2>
+<p>Rather than have a final exam, each student will have a 10-minute interview by the instructor. The interview will be focused on the final project the student worked and will contain questions related to concepts covered during the course. Students will be provided a list of questions and the grading rubric ahead of the interview.</p>
 </section>
 </section>
 <section id="grading" class="level1">
 <h1>Grading</h1>
-<section id="standard-grading" class="level2">
-<h2 class="anchored" data-anchor-id="standard-grading">Standard Grading</h2>
+<section id="category-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="category-breakdown">Category Breakdown</h2>
 <p>Final grades will be calculated as follows:</p>
-<div style="width:500px">
+<div style="width:550px">
 <table class="table">
 <thead>
 <tr class="header">
-<th>Component</th>
+<th>Item</th>
 <th>Weight</th>
 <th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Participation / Attendance</td>
-<td>7%</td>
-<td>(Yes, I take attendance)</td>
+<td>Weekly HW</td>
+<td>12 %</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Homeworks &amp; Readings (13x)</td>
-<td>48%</td>
-<td>Lowest 1 dropped</td>
+<td>Quizzes</td>
+<td>8 %</td>
+<td>5 quizzes, lowest dropped</td>
 </tr>
 <tr class="odd">
-<td>Quizzes (7x)</td>
-<td>15%</td>
-<td>Lowest 2 dropped</td>
+<td>Mini Project 1</td>
+<td>8 %</td>
+<td>Individual assignments</td>
 </tr>
 <tr class="even">
-<td>Midterm Exam</td>
-<td>10%</td>
+<td>Mini Project 2</td>
+<td>8 %</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Final Exam</td>
-<td>20%</td>
+<td>Mini Project 3</td>
+<td>8 %</td>
 <td></td>
+</tr>
+<tr class="even">
+<td>Final Project: Proposal</td>
+<td>9 %</td>
+<td>Teams of 2-3 students</td>
+</tr>
+<tr class="odd">
+<td>Final Project: Progress Report</td>
+<td>12 %</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Final Project: Report</td>
+<td>16 %</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Final Project: Presentation</td>
+<td>9 %</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Final Interview</td>
+<td>10 %</td>
+<td>Individual interview</td>
 </tr>
 </tbody>
 </table>
@@ -549,54 +577,15 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="figs/grades-1.png" class="img-fluid figure-img" width="576"></p>
+<p><img src="figs/grade-breakdown-1.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
 </div>
 </section>
-<section id="amg-grading" class="level2">
-<h2 class="anchored" data-anchor-id="amg-grading">AMG Grading</h2>
-<p>An Alternative Minimum Grading (AMG) policy is available to everybody, but is designed specifically for students who struggle in the first part of the course, and then through sustained hard work and dedication manage to elevate their performance in the latter part of the course to a level that merits passing with a C (even if their Standard Grade might be lower than that).</p>
-<p>Student cannot “sign up” for AMG grading. Every student will be considered both for Standard Grading and AMG, and the instructor can choose to assign the AMG grade if a student’s effort merits it. To qualify for AMG you must put forth sustained effort, which means meeting the following requirements:</p>
-<ul>
-<li>You attend all class periods (with excused exceptions)</li>
-<li>You complete all assignments</li>
-<li>You do not violate the Collaboration Policy</li>
-</ul>
-<p>To compute your AMG score, first use the following to compute your raw score. If the resulting score is higher than a C, set it back to a C.</p>
-<div style="width:300px">
-<table class="table">
-<thead>
-<tr class="header">
-<th>Course Component</th>
-<th>Weight</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Best 10 Homeworks</td>
-<td>40%</td>
-</tr>
-<tr class="even">
-<td>Best 4 Quizzes</td>
-<td>10%</td>
-</tr>
-<tr class="odd">
-<td>Midterm Exam</td>
-<td>10%</td>
-</tr>
-<tr class="even">
-<td>Final Exam</td>
-<td>40%</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
 <section id="grading-scale" class="level2">
 <h2 class="anchored" data-anchor-id="grading-scale">Grading Scale</h2>
-<div style="width:350px">
+<div style="width:400px">
 <table class="table">
 <thead>
 <tr class="header">
@@ -701,44 +690,17 @@ ul.task-list li input[type="checkbox"] {
 <p>Beyond those, assignments are due by 11:59pm on the assigned due date unless specified otherwise. Assignments submitted up to 24 hours past this deadline will be graded to a max of 50% of the available points. Assignments submitted beyond 24 hours past the deadline will not be graded and will be assigned a 0.</p>
 <p>If you need a special accommodation such as due to an illness, family emergency, or religious holidays, contact the instructor ahead of time.</p>
 </section>
-<section id="collaboration-policy" class="level2">
-<h2 class="anchored" data-anchor-id="collaboration-policy">Collaboration Policy</h2>
-<!-- This policy is mostly copied from the course 15-112 at Carnegie Mellon University -->
-<p>Learning how to program is like learning how to ride a bicycle - to get better, you must practice writing code <strong>yourself</strong>. Therefore, we have a set of strict rules regarding what kind of collaboration is allowed, what counts as over-collaboration, and what counts as cheating.</p>
-<section id="good-collaboration" class="level3">
-<h3 class="anchored" data-anchor-id="good-collaboration">Good Collaboration</h3>
-<ul>
-<li>Discussing which general concepts might be useful in solving a problem (conditionals, loops, etc.).</li>
-<li>Asking for debugging help with code.</li>
-<li>Sketch out algorithms on a whiteboard together.</li>
-<li>To avoid copying the code, you should write up the solution together, discuss it, then erase the solution, wait a few minutes, and write up solutions individually.</li>
-<li>Help each other debug specific parts of assignment code.</li>
-<li>General discussion of course concepts.</li>
-<li>Detailed explanations of example code on the course website.</li>
-<li>Collaboratively solving a practice problem, with any level of co-writing code and co-debugging.</li>
-</ul>
-</section>
-<section id="over-collaboration" class="level3">
-<h3 class="anchored" data-anchor-id="over-collaboration">Over-collaboration</h3>
-<p>Over-collaboration results in a warning on the first offense, and a penalty on later offenses. Examples include:</p>
-<ul>
-<li>Explaining to a friend how to solve a problem in high-level terms by going through your own program line-by-line.</li>
-<li>Helping a friend debug code by suggesting they use your own approach to the problem.</li>
-<li>Collaborating with a student on an assignment and then <em>not</em> including their name as a collaborator in the assignment writeup.</li>
-<li>In the case that you have taken this course before, copying your own code from the previous time you took the course.</li>
-</ul>
-</section>
-<section id="cheating" class="level3">
-<h3 class="anchored" data-anchor-id="cheating">Cheating</h3>
+<section id="cheating" class="level2">
+<h2 class="anchored" data-anchor-id="cheating">Cheating</h2>
 <p>Cheating results in a penalty on the first offense, and failing the course on the second offense. Cheating on assignments can include:</p>
 <ul>
-<li>Copying or stealing any amount of code from someone currently in the class or someone who has taken the class before. Copying is never okay, whether the code is provided electronically, visually, audibly, or on paper.</li>
+<li>Copying or stealing any amount of code from someone currently in the class or someone who has taken the class before.</li>
+<li>NOTE: Copying is never okay, whether the code is provided electronically, visually, audibly, or on paper. Even if you work together on an assignment, <strong>write your own code</strong>.</li>
 <li>Providing code you have written for an assignment to anyone else in the class.</li>
-<li>Finding code online and using it in the assignment (one exception: you may use code from the course website).</li>
 <li>Putting code solutions from the course assignments online.</li>
-<li>Receiving code-level assistance from someone or something not associated with the course.</li>
+<li>Receiving code-level assistance from any person not associated with the course.</li>
 <li>Getting someone else to write the assignment code for you.</li>
-<li>Asking questions about the assignments on any online services outside of the course office hours or <a href="https://emse-eda-s23.slack.com">slack</a>.</li>
+<li>Asking questions about the assignments on any online services outside of the course office hours / Slack.</li>
 </ul>
 <p>Cheating on quizzes, assignments, or the final project can include:</p>
 <ul>
@@ -746,17 +708,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Copying part of an answer off of another student’s paper, even if it is very small.</li>
 <li>Using solutions provided by students who previously took the course.</li>
 </ul>
-</section>
 <section id="use-of-chatgpt-and-other-ai-tools" class="level3">
 <h3 class="anchored" data-anchor-id="use-of-chatgpt-and-other-ai-tools">Use of chatGPT and other AI tools</h3>
 <p>Large language models (LLMs) are capable of producing exact solutions to some of the coding problems assigned in this class. So we all basically have a solutions manual available for free.</p>
-<p>With this in mind, the use of AI tools is permitted as follows:</p>
-<ul>
-<li><strong>Assignments 1-7</strong>: Not permitted. Copying solutions from these engines and submitting them as your own for these assignments will be considered cheating. In this section of the course, we are building foundational skills in computational thinking and problem solving. If you don’t master these skills, you won’t be able to interpret what chatGPT is giving you, and you won’t be able to test if it is wrong. Master these skills first - it is worth the effort.</li>
-<li><strong>Assignments 8-13</strong>: Permitted, with caveats. If you do use AI tools on these assignments, you must include the prompt(s) you used as well as changed to made to them to get better results to receive full credit.</li>
-</ul>
+<p>With this in mind, the use of AI tools is in general permitted, but with caveats. If you do use AI tools on assignments in this class, you must include the prompt(s) you used as well as changed to made to them to get better results to receive full credit.</p>
 <p>Learn to use tools like ChatGPT as a learning assistant - a tool to help you accomplish the task - rather than just a solutions manual. One version of using it makes you a better and more efficient coder, the other robs you of that.</p>
-<p>In the follow-on course to this one (<a href="https://eda.seas.gwu.edu/">EMSE 4572: Exploratory Data Analysis</a>), the use of AI engines will be allowed to support your projects.</p>
 </section>
 <section id="penalties" class="level3">
 <h3 class="anchored" data-anchor-id="penalties">Penalties</h3>
@@ -767,11 +723,6 @@ ul.task-list li input[type="checkbox"] {
 <li>Automatically failing the course.</li>
 </ul>
 <p>Depending on the student’s prior academic history, violations may also be accompanied by a letter to the Dean of Student Affairs, again at the instructors’ discretion. This can lead to university-level penalties, such as being suspended or expelled.</p>
-</section>
-<section id="plagiarism-detection" class="level3">
-<h3 class="anchored" data-anchor-id="plagiarism-detection">Plagiarism Detection</h3>
-<p>Programs are naturally structured, which makes them <strong>very easy</strong> to compare for plagiarism. Automated plagiarism detection systems make this process even easier. <a href="http://www.kosbie.net/cmu/spring-13/15-112/automated-plagiarism-detector-demo.mp4">Watch this video</a> showing plagiarism detection software in action (this example is using Python code, but this also works for R code).</p>
-<p><strong>In short, if you copy code, we will know - don’t copy code!</strong></p>
 </section>
 <section id="grace-period" class="level3">
 <h3 class="anchored" data-anchor-id="grace-period">Grace Period</h3>
@@ -838,11 +789,11 @@ ul.task-list li input[type="checkbox"] {
 <p>In addition to the formal code of academic integrity, the instructor expects that students will treat this course with the level of professionalism required in the workplace. Remember that real firms are sponsoring student projects throughout the semester; in a workplace setting, these firms would be paying clients for the analyses being conducted. This course prepares students to succeed in the workplace, and maintaining a high degree of professionalism is expected.</p>
 </section>
 </section>
-<section id="cute-animals" class="level1">
-<h1>Cute Animals</h1>
+<section id="super-heros" class="level1">
+<h1>Super Heros</h1>
 <div class="grid">
 <div class="g-col-4">
-<p><img src="images/cute_penguin.gif" width="100%"></p>
+<p><img src="images/prof_x.gif" width="100%"></p>
 </div>
 <div class="g-col-8">
 <p>Once you have read this entire syllabus and viewed the <a href="./schedule.html">course schedule</a>, please send me a picture of <em>cute</em> picture of your favorite animal in a direct message on Slack.</p>
@@ -850,13 +801,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Brownie points if it’s animated.</p>
 </div>
 </div>
-<hr>
-<p><strong>Page sources</strong>:</p>
-<p>Some content on this page is inspired by and / or modified from other sources:</p>
-<ul>
-<li>The “Pep Talk” and “Cute Animals” sections are inspired by <a href="https://www.andrewheiss.com/teaching/">Andrew Heiss’s courses</a>.</li>
-<li>The cheating policy is modified from the course <a href="http://www.kosbie.net/cmu/fall-19/15-112/">15-112</a> at Carnegie Mellon University</li>
-</ul>
 
 
 </section>
