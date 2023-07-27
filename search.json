@@ -207,54 +207,194 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "All assignments are due by 11:59pm on the due date.\n\n\n\n\n\nWeek\nDate\nClass\nWeekly HW\nMini Projects\nFinal Projects\n\n\n\n\n1\nAug 30\nGetting Started\nClass orientation; workflow; importing data; data wrangling & plotting refresher\nHW 1\nDue: Sep 05\n\n\n\n\n2\nSep 06\nReproducible Reporting\nCombinging text and code with Quarto\nHW 2\nDue: Sep 12\n\n\n\n\n3\nSep 13\nTidy Data\nTidy data; reshaping data; data provenance; writing a research question\nHW 3\nDue: Sep 19\n\nProposal\nDue: Sep 26\n\n\n4\nSep 20\nCleaning Data\nJoins; changing data types; dealing with messy Excel files\nHW 4\nDue: Sep 26\nData Cleaning\nDue: Oct 03\n\n\n\n5\nSep 27\nCentrality & Variability\nData types & scales; centrality & spread; variation & covariation; plot types\nHW 5\nDue: Oct 03\n\n\n\n\n6\nOct 04\nCorrelation\nCorrelation metrics; outliers; visualizing correlations; linear models\nHW 6\nDue: Oct 10\n\n\n\n\n7\nOct 11\nVisualizing Information\nPsychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices\nHW 7\nDue: Oct 17\nExploring Data\nDue: Oct 24\n\n\n\n8\nOct 18\nFactors, Amounts, & Proportions\nManipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole\nHW 8\nDue: Oct 24\n\nProgress Report\nDue: Oct 31\n\n\n9\nOct 25\nComparisons\nFacets; reference lines; dumbbells; slopes; distributions\nHW 9\nDue: Oct 31\n\n\n\n\n10\nNov 01\nTrends\nLine charts; heat maps; animation\nHW 10\nDue: Nov 07\n\n\n\n\n11\nNov 08\nPolishing Charts\nColors; annotations; scales; themes; multi-panel figures\nHW 11\nDue: Nov 14\n\n\n\n\n12\nNov 15\nMaps & Project Workshop\nMaps in ggplot; mapping data to maps; projections; project workshop\nHW 12\nDue: Nov 28\nRe-design\nDue: Nov 28\n\n\n\n13\nNov 22\nThanksgiving - no class\n\n\n\n\n\n\n14\nNov 29\nInteractivity\nPlotly; interactive tables; shiny apps\nHW 13\nDue: Dec 05\n\nFinal Report\nDue: Dec 10\n\n\n15\nDec 06\nCommunicating Results\nTelling stories; slide design; giving a talk\n\n\nPresentation\nDue: Dec 12\n\n\n16\nDec 13\nFinal Presentations\nIn-class presentation showcase w/Q&A\n\n\n\n\n\n\n\n\n\n\n#&gt; function (x) \n#&gt; {\n#&gt;     new_box(maybe_missing(x), class = \"rlang_box_done\", empty = missing(x))\n#&gt; }\n#&gt; &lt;bytecode: 0x7f7d8900eb70&gt;\n#&gt; &lt;environment: namespace:rlang&gt;"
+    "text": "All assignments are due by 11:59pm on the due date.\n\n\n\n\n\nWeek\nDate\nClass\nWeekly HW\nMini Projects\nFinal Projects\n\n\n\n\n1\nAug 30\nGetting Started\nClass orientation; workflow; importing data; data wrangling & plotting refresher\nHW 1\nDue: Sep 05\n\n\n\n\n2\nSep 06\nReproducible Reporting\nCombinging text and code with Quarto\nHW 2\nDue: Sep 12\n\n\n\n\n3\nSep 13\nTidy Data\nTidy data; reshaping data; data provenance; writing a research question\nHW 3\nDue: Sep 19\n\nProposal\nDue: Sep 26\n\n\n4\nSep 20\nCleaning Data\nJoins; changing data types; dealing with messy Excel files\nHW 4\nDue: Sep 26\nData Cleaning\nDue: Oct 03\n\n\n\n5\nSep 27\nCentrality & Variability\nData types & scales; centrality & spread; variation & covariation; plot types\nHW 5\nDue: Oct 03\n\n\n\n\n6\nOct 04\nCorrelation\nCorrelation metrics; outliers; visualizing correlations; linear models\nHW 6\nDue: Oct 10\n\n\n\n\n7\nOct 11\nVisualizing Information\nPsychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices\nHW 7\nDue: Oct 17\nExploring Data\nDue: Oct 24\n\n\n\n8\nOct 18\nFactors, Amounts, & Proportions\nManipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole\nHW 8\nDue: Oct 24\n\nProgress Report\nDue: Oct 31\n\n\n9\nOct 25\nComparisons\nFacets; reference lines; dumbbells; slopes; distributions\nHW 9\nDue: Oct 31\n\n\n\n\n10\nNov 01\nTrends\nLine charts; heat maps; animation\nHW 10\nDue: Nov 07\n\n\n\n\n11\nNov 08\nPolishing Charts\nColors; annotations; scales; themes; multi-panel figures\nHW 11\nDue: Nov 14\nRe-design\nDue: Nov 28\n\n\n\n12\nNov 15\nMaps & Project Workshop\nMaps in ggplot; mapping data to maps; projections; project workshop\nHW 12\nDue: Nov 28\n\n\n\n\n13\nNov 22\nThanksgiving - no class\n\n\n\n\n\n\n14\nNov 29\nInteractivity\nPlotly; interactive tables; shiny apps\nHW 13\nDue: Dec 05\n\nFinal Report\nDue: Dec 10\n\n\n15\nDec 06\nCommunicating Results\nTelling stories; slide design; giving a talk\n\n\nPresentation\nDue: Dec 12\n\n\n16\nDec 13\nFinal Presentations\nIn-class presentation showcase w/Q&A\n\n\n\n\n\n\n\n\n\n\n#&gt; function (x) \n#&gt; {\n#&gt;     new_box(maybe_missing(x), class = \"rlang_box_done\", empty = missing(x))\n#&gt; }\n#&gt; &lt;bytecode: 0x7f8d1c33db70&gt;\n#&gt; &lt;environment: namespace:rlang&gt;"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "EMSE 4572 / 6572Exploratory Data AnalysisFall 2023",
-    "section": "",
-    "text": "EMSE 4572 / 6572Exploratory Data AnalysisFall 2023\n\n\n\n\n\nDepartment: Engineering Management and Systems Engineering @ GWU\nCredits: 3\nDescription:\nThis course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nLearning Objectives:\nHaving successfully completed this course, students will be able to:\n\nWrite a clear, focused, concise, complex, and arguable research question.\nImport, manipulate, clean, visualize, and export data in R.\nWrangle data from its original format into a fit-for-purpose format.\nConduct a systematic exploratory data analysis (EDA) of different types of data.\nApply fundamental principles of visualizing information for exploratory analysis and communication.\nGet data off the web and expose data, code, results on the web.\nGenerate fully reproducible reports that contain code, equations, visualizations, and narrative text.\n\nPrerequisites:\nStudents should have taken EMSE 4571/6571: Intro to Programming for Analytics or have experience working with data in at least one programming language. If you’re not sure whether you have the necessary prerequisite skills, you can try and get up to speed by completing this optional course primer assignment before class starts. Once class starts, it may be difficult to keep up without this background, and it may be more beneficial to wait and take this course next year after taking Programming for Analytics."
-  },
-  {
-    "objectID": "hw/8-comparisons.html",
-    "href": "hw/8-comparisons.html",
-    "title": "Comparisons",
+    "objectID": "mini/3-redesign.html",
+    "href": "mini/3-redesign.html",
+    "title": "Mini Project 3: Data Viz Re-Design",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/6-visualizing-information.html",
-    "href": "hw/6-visualizing-information.html",
-    "title": "Visualizing Information",
+    "objectID": "mini/1-data-cleaning.html",
+    "href": "mini/1-data-cleaning.html",
+    "title": "Mini Project 1: Data Cleaning",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/4-centrality-variability.html",
-    "href": "hw/4-centrality-variability.html",
-    "title": "Centrality & Variability",
+    "objectID": "hw/9-trends.html",
+    "href": "hw/9-trends.html",
+    "title": "Trends",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/2-tidy-data.html",
-    "href": "hw/2-tidy-data.html",
+    "objectID": "hw/7-amounts-proportions.html",
+    "href": "hw/7-amounts-proportions.html",
+    "title": "Amounts & Proportions",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "hw/5-correlation.html",
+    "href": "hw/5-correlation.html",
+    "title": "Correlation",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "hw/3-cleaning-data.html",
+    "href": "hw/3-cleaning-data.html",
+    "title": "Cleaning Data",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "hw/13-communicating-results.html",
+    "href": "hw/13-communicating-results.html",
+    "title": "Communicating Results",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "hw/11-maps.html",
+    "href": "hw/11-maps.html",
+    "title": "Maps",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "hw/1-reproducible-reporting.html",
+    "href": "hw/1-reproducible-reporting.html",
+    "title": "Reproducible Reporting",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/interviews.html",
+    "href": "class/interviews.html",
+    "title": "Final Interviews",
+    "section": "",
+    "text": "Due: Students will sign up for individual meetings during finals week (Dec 12 - 13).\nWeight: This assignment is worth 10% of your final grade.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\n\nThe instructor will hold a 10-minute one-on-one interview with each student. The interview will consist of questions about your final project as well as questions about core concepts covered during the course.\nSome suggestions:\n\nBring water to drink - it will calm you when you are nervous and your mouth dries up. You can also pause and think while you drink.\nDon’t answer right away - think a bit.\nAnswer the question asked. Don’t try to impress or I will ask more questions.\nDon’t say “I don’t know.” Try and I will help you.\n\n\nGrading Rubric\n\n100 Total Points\nYou will be asked 10 questions; for each question, you will be assigned points based on this scale:\n\n\n\nPoints\nDescription\n\n\n\n\n10\nAnswers immediately and correctly without hesitation\n\n\n9\nAnswers correctly after some initial struggles\n\n\n8\nAnswers mostly correct after some time\n\n\n7\nAnswers mostly correct after some time and some help\n\n\n6\nAnswers mostly correctly after considerable help\n\n\n5\nPoor or partial answer, even after considerable help\n\n\n0\nCannot answer even with considerable help"
+  },
+  {
+    "objectID": "class/8-amounts-proportions.html",
+    "href": "class/8-amounts-proportions.html",
+    "title": "Amounts & Proportions",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/6-correlation.html",
+    "href": "class/6-correlation.html",
+    "title": "Correlation",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/4-cleaning-data.html",
+    "href": "class/4-cleaning-data.html",
+    "title": "Cleaning Data",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/2-reproducible-reporting.html",
+    "href": "class/2-reproducible-reporting.html",
+    "title": "Reproducible Reporting with Quarto",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/14-communicating-results.html",
+    "href": "class/14-communicating-results.html",
+    "title": "Communicating Results",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/12-maps-workshop.html",
+    "href": "class/12-maps-workshop.html",
+    "title": "Maps",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/10-trends.html",
+    "href": "class/10-trends.html",
+    "title": "Trends",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "Licensing and copyright information",
+    "section": "",
+    "text": "The course material is licensed under the Creative Commons ShareAlike 4.0 International License. In addition to my own developed material, I have also modified material from the courses, workshops, and textbooks listed below:\n\nCourses / workshops\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nSTAT 545\nU. of British Columbia\ncourse; GitHub\n\n\nPatrick Meyer’s Youtube lectures\nProf. Patrick Meyer\nplaylists\n\n\nAndrew Heiss’s data viz courses\nAndrew Heiss\nMPA 635, more here\n\n\nIntro. to Data Visualization, Fall 2018\nPeter Aldhous\ncourse site\n\n\n\n\n\nBooks\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nR for Data Science\nGarrett Grolemund & Hadley Wickham\nonline book; GitHub; purchase\n\n\nData Visualization: A practical introduction\nKieran Healy\nonline book; GitHub; purchase\n\n\nFundamentals of Data Visualization\nClaus O. Wilke\nonline book; purchase"
+  },
+  {
+    "objectID": "class/1-getting-started.html",
+    "href": "class/1-getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
+  },
+  {
+    "objectID": "class/11-polishing-charts.html",
+    "href": "class/11-polishing-charts.html",
+    "title": "Polishing Charts",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/13-interactivity.html",
+    "href": "class/13-interactivity.html",
+    "title": "Interactivity",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/15-final-presentations.html",
+    "href": "class/15-final-presentations.html",
+    "title": "Final Presentations",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/3-tidy-data.html",
+    "href": "class/3-tidy-data.html",
     "title": "Tidy Data",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/12-interactive-charts.html",
-    "href": "hw/12-interactive-charts.html",
-    "title": "Interactive Charts",
+    "objectID": "class/5-centrality-variability.html",
+    "href": "class/5-centrality-variability.html",
+    "title": "Centrality & Variability",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/10-polishing-charts.html",
-    "href": "hw/10-polishing-charts.html",
-    "title": "Polishing Charts",
+    "objectID": "class/7-visualizing-information.html",
+    "href": "class/7-visualizing-information.html",
+    "title": "Visualizing Information",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/9-comparisons.html",
+    "href": "class/9-comparisons.html",
+    "title": "Comparisons",
     "section": "",
     "text": "Coming soon!"
   },
@@ -273,177 +413,58 @@
     "text": "Students should have taken EMSE 4574: Intro to Programming for Analytics prior to taking this course.\nFor those who did not, I strongly suggest you go through all the lessons in this primer course:\n\nR for Analytics Primer\n\nAfter completing these lessons, you should be able to:\n\nUse RStudio to write basic R commands.\nKnow the distinctions between different R operators and data types, including numeric, string, and logical data.\nUse tidyverse functions to wrangle and manipulate data in R.\nUse the ggplot2 library to create plots in R.\n\nAlso, it can be very helpful to see these skills applied in practice. Take a look at this example of using Tidyverse tools to explore and visualize data on survivors aboard the Titantic. It’s a good example of conducting an Exploratory Data Analysis to gain insights about a data set."
   },
   {
-    "objectID": "class/9-comparisons.html",
-    "href": "class/9-comparisons.html",
-    "title": "Comparisons",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/7-visualizing-information.html",
-    "href": "class/7-visualizing-information.html",
-    "title": "Visualizing Information",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/5-centrality-variability.html",
-    "href": "class/5-centrality-variability.html",
-    "title": "Centrality & Variability",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/3-tidy-data.html",
-    "href": "class/3-tidy-data.html",
-    "title": "Tidy Data",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/14-communicating-results.html",
-    "href": "class/14-communicating-results.html",
-    "title": "Communicating Results",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/13-interactive-charts.html",
-    "href": "class/13-interactive-charts.html",
-    "title": "Interactive Charts",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/11-polishing-charts.html",
-    "href": "class/11-polishing-charts.html",
+    "objectID": "hw/10-polishing-charts.html",
+    "href": "hw/10-polishing-charts.html",
     "title": "Polishing Charts",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/1-getting-started.html",
-    "href": "class/1-getting-started.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "Licensing and copyright information",
-    "section": "",
-    "text": "The course material is licensed under the Creative Commons ShareAlike 4.0 International License. In addition to my own developed material, I have also modified material from the courses, workshops, and textbooks listed below:\n\nCourses / workshops\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nSTAT 545\nU. of British Columbia\ncourse; GitHub\n\n\nPatrick Meyer’s Youtube lectures\nProf. Patrick Meyer\nplaylists\n\n\nAndrew Heiss’s data viz courses\nAndrew Heiss\nMPA 635, more here\n\n\nIntro. to Data Visualization, Fall 2018\nPeter Aldhous\ncourse site\n\n\n\n\n\nBooks\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nR for Data Science\nGarrett Grolemund & Hadley Wickham\nonline book; GitHub; purchase\n\n\nData Visualization: A practical introduction\nKieran Healy\nonline book; GitHub; purchase\n\n\nFundamentals of Data Visualization\nClaus O. Wilke\nonline book; purchase"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester."
-  },
-  {
-    "objectID": "class/10-trends.html",
-    "href": "class/10-trends.html",
-    "title": "Trends",
+    "objectID": "hw/12-interactivity.html",
+    "href": "hw/12-interactivity.html",
+    "title": "Interactivity",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/12-maps.html",
-    "href": "class/12-maps.html",
-    "title": "Maps",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/13-shiny-apps.html",
-    "href": "class/13-shiny-apps.html",
-    "title": "Team Meetings",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/2-reproducible-reporting.html",
-    "href": "class/2-reproducible-reporting.html",
-    "title": "Reproducible Reporting with Quarto",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/4-cleaning-data.html",
-    "href": "class/4-cleaning-data.html",
-    "title": "Cleaning Data",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/6-correlation.html",
-    "href": "class/6-correlation.html",
-    "title": "Correlation",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/8-amounts-proportions.html",
-    "href": "class/8-amounts-proportions.html",
-    "title": "Amounts & Proportions",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/interviews.html",
-    "href": "class/interviews.html",
-    "title": "Final Interviews",
-    "section": "",
-    "text": "Due: Students will sign up for individual meetings during finals week (Dec 12 - 13).\nWeight: This assignment is worth 10% of your final grade.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\n\nThe instructor will hold a 10-minute one-on-one interview with each student. The interview will consist of questions about your final project as well as questions about core concepts covered during the course.\nSome suggestions:\n\nBring water to drink - it will calm you when you are nervous and your mouth dries up. You can also pause and think while you drink.\nDon’t answer right away - think a bit.\nAnswer the question asked. Don’t try to impress or I will ask more questions.\nDon’t say “I don’t know.” Try and I will help you.\n\n\nGrading Rubric\n\n100 Total Points\nYou will be asked 10 questions; for each question, you will be assigned points based on this scale:\n\n\n\nPoints\nDescription\n\n\n\n\n10\nAnswers immediately and correctly without hesitation\n\n\n9\nAnswers correctly after some initial struggles\n\n\n8\nAnswers mostly correct after some time\n\n\n7\nAnswers mostly correct after some time and some help\n\n\n6\nAnswers mostly correctly after considerable help\n\n\n5\nPoor or partial answer, even after considerable help\n\n\n0\nCannot answer even with considerable help"
-  },
-  {
-    "objectID": "hw/1-reproducible-reporting.html",
-    "href": "hw/1-reproducible-reporting.html",
+    "objectID": "hw/2-tidy-data.html",
+    "href": "hw/2-tidy-data.html",
     "title": "Tidy Data",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/11-maps.html",
-    "href": "hw/11-maps.html",
-    "title": "Maps",
+    "objectID": "hw/4-centrality-variability.html",
+    "href": "hw/4-centrality-variability.html",
+    "title": "Centrality & Variability",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/13-communicating-results.html",
-    "href": "hw/13-communicating-results.html",
-    "title": "Communicating Results",
+    "objectID": "hw/6-visualizing-information.html",
+    "href": "hw/6-visualizing-information.html",
+    "title": "Visualizing Information",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/3-cleaning-data.html",
-    "href": "hw/3-cleaning-data.html",
-    "title": "Cleaning Data",
+    "objectID": "hw/8-comparisons.html",
+    "href": "hw/8-comparisons.html",
+    "title": "Comparisons",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "hw/5-correlation.html",
-    "href": "hw/5-correlation.html",
-    "title": "Correlation",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EMSE 4572 / 6572Exploratory Data AnalysisFall 2023",
     "section": "",
-    "text": "Coming soon!"
+    "text": "EMSE 4572 / 6572Exploratory Data AnalysisFall 2023\n\n\n\n\n\nDepartment: Engineering Management and Systems Engineering @ GWU\nCredits: 3\nDescription:\nThis course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nLearning Objectives:\nHaving successfully completed this course, students will be able to:\n\nWrite a clear, focused, concise, complex, and arguable research question.\nImport, manipulate, clean, visualize, and export data in R.\nWrangle data from its original format into a fit-for-purpose format.\nConduct a systematic exploratory data analysis (EDA) of different types of data.\nApply fundamental principles of visualizing information for exploratory analysis and communication.\nGet data off the web and expose data, code, results on the web.\nGenerate fully reproducible reports that contain code, equations, visualizations, and narrative text.\n\nPrerequisites:\nStudents should have taken EMSE 4571/6571: Intro to Programming for Analytics or have experience working with data in at least one programming language. If you’re not sure whether you have the necessary prerequisite skills, you can try and get up to speed by completing this optional course primer assignment before class starts. Once class starts, it may be difficult to keep up without this background, and it may be more beneficial to wait and take this course next year after taking Programming for Analytics."
   },
   {
-    "objectID": "hw/7-amounts-proportions.html",
-    "href": "hw/7-amounts-proportions.html",
-    "title": "Amounts & Proportions",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "hw/9-trends.html",
-    "href": "hw/9-trends.html",
-    "title": "Trends",
+    "objectID": "mini/2-exploring-data.html",
+    "href": "mini/2-exploring-data.html",
+    "title": "Mini Project 2: Exploring Data",
     "section": "",
     "text": "Coming soon!"
   },

@@ -1,7 +1,0 @@
----
-title: "Interactive Charts"
-params:
-  class: "13-interactive-charts"
----
-
-Coming soon!
