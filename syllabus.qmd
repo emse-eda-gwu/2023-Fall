@@ -52,7 +52,7 @@ All texts and software for this course is freely available on the web. This incl
 
 ## Software
 
-Go to the [Course Software](help/course-software.qmd) page for detailed instructions on how to install the software we'll be using. Here's a quick list:
+Go to the Course [Software page](software.qmd) for detailed instructions on how to install the software we'll be using. Here's a quick list:
 
 - R (version 4.1.0 or later), which can be downloaded from [The Comprehensive R Archive Network (CRAN)](https://cloud.r-project.org)
 - RStudio (Desktop Version), a free IDE for R, which can be downloaded from [RStudio](https://rstudio.com/products/rstudio/download/)
