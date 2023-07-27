@@ -1,0 +1,12 @@
+---
+title: "Mini Project 1: Data Cleaning"
+toc: true
+toc-title: On this page
+toc-location: left
+params:
+  number: 1
+  weight: '8%'
+  purpose: 'When you start looking for data to address your project for this course, you will inevitably come across some rather messy data. Fear not! After completing this assignment, you will be well-prepared to tackle the messiness of real-world data! This assignment will put your data wrangling and cleaning skills to the test and will challenge you to become a master data janitor!'
+---
+
+Coming soon!

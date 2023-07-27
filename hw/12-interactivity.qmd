@@ -1,5 +1,5 @@
 ---
-title: "Interactive Charts"
+title: "Interactivity"
 params:
   number: 12
 ---

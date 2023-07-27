@@ -1,7 +1,0 @@
----
-title: "Team Meetings"
-params:
-  class: "14-shiny-apps"
----
-
-Coming soon!

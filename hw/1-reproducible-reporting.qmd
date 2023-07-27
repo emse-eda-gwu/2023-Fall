@@ -1,5 +1,5 @@
 ---
-title: "Tidy Data"
+title: "Reproducible Reporting"
 params:
   number: 1
 ---
