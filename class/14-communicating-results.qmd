@@ -2,6 +2,10 @@
 title: "Communicating Results"
 params:
   class: "15-communicating-results"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

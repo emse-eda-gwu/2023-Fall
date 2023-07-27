@@ -2,6 +2,10 @@
 title: "Amounts & Proportions"
 params:
   class: "8-amounts-proportions"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

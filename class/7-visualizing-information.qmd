@@ -2,6 +2,10 @@
 title: "Visualizing Information"
 params:
   class: "7-visualizing-information"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

@@ -1,5 +1,9 @@
 ---
 title: Final Interviews
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 > **Due**: Students will sign up for individual meetings during finals week (Dec 12 - 13).

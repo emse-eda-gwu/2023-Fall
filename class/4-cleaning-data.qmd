@@ -2,6 +2,10 @@
 title: "Cleaning Data"
 params:
   class: "4-cleaning-data"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

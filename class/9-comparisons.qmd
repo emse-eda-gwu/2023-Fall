@@ -2,6 +2,10 @@
 title: "Comparisons"
 params:
   class: "9-comparisons"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

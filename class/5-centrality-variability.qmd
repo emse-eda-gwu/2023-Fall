@@ -2,6 +2,10 @@
 title: "Centrality & Variability"
 params:
   class: "5-centrality-variability"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

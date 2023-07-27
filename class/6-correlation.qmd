@@ -2,6 +2,10 @@
 title: "Correlation"
 params:
   class: "6-correlation"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

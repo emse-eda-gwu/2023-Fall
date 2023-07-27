@@ -2,6 +2,10 @@
 title: "Trends"
 params:
   class: "10-trends"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!
