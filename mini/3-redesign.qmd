@@ -1,0 +1,16 @@
+---
+title: "Mini Project 3: Data Viz Re-Design"
+toc: true
+toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
+params:
+  number: 3
+  weight: '8%'
+  purpose: 'At some point in your career, you will likely be involved in creating or revising a summary chart of some data. When that happens, you will also likely be the most knowledge person in the room about what to do to design the chart(s) to effectively communicate the information in the data. This assignment is a practice run for that day.'
+  assessment: 'Your project will be assessed using [this rubric](rubrics/mini-3/rubric.html){target="_blank"}.'
+---
+
+Coming soon!

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -135,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false"><i class="bi bi-question-circle-fill" role="img">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false"><i class="bi bi-pencil-square" role="img">
 </i> 
  <span class="menu-text">Mini Projects</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
@@ -145,27 +179,27 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-mini/1-data-cleaning.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Cleaning (Due Sep 27)</span></a>
+  <a href="../mini/1-data-cleaning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1: Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-mini/2-exploring-data.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Exploring Data (Due Oct 18)</span></a>
+  <a href="../mini/2-exploring-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2: Exploring Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-mini/3-re-design.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Re-design (Due Nov 15)</span></a>
+  <a href="../mini/3-redesign.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3: Re-design</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false"><i class="bi bi-question-circle-fill" role="img">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false"><i class="bi bi-search" role="img">
 </i> 
  <span class="menu-text">Final Project</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
@@ -175,38 +209,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-final/0-overview.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Overview</span></a>
+  <a href="../final/0-overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-final/1-proposal.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Proposal (Due Oct 04)</span></a>
+  <a href="../final/1-proposal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Proposal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-final/2-progress-report.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Progress Report (Due Nov 01)</span></a>
+  <a href="../final/2-progress-report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Progress Report</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-final/3-final-report.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Final Report (Due Dec 11)</span></a>
+  <a href="../final/3-final-report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Report</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-final/4-final-presentation.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Final Presentation (Due Dec 13)</span></a>
+  <a href="../final/4-presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Presentation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-final/examples.qmd" class="sidebar-item-text sidebar-link"><i class="bi bi-file-earmark-medical" role="img">
-</i> 
+  <a href="../final/examples.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Examples</span></a>
   </div>
 </li>
@@ -221,9 +254,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../help/getting-help.qmd" class="sidebar-item-text sidebar-link"><i class="bi bi-question-circle" role="img">
+  <a href="../finding-data.html" class="sidebar-item-text sidebar-link"><i class="bi bi-database-fill" role="img">
 </i> 
- <span class="menu-text">Getting Help</span></a>
+ <span class="menu-text">Finding Data</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -313,6 +346,11 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>path_slides <span class="ot">&lt;-</span> <span class="fu">file.path</span>(params<span class="sc">$</span>class, <span class="st">"index.html"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>path_pdf <span class="ot">&lt;-</span> <span class="fu">file.path</span>(params<span class="sc">$</span>class, <span class="fu">paste0</span>(params<span class="sc">$</span>class, <span class="st">".pdf"</span>))</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>path_notes <span class="ot">&lt;-</span> <span class="fu">file.path</span>(params<span class="sc">$</span>class, <span class="fu">paste0</span>(params<span class="sc">$</span>class, <span class="st">".zip"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="grid">
 <div class="g-col-6">
 <p><strong>KEYBOARD SHORTCUTS FOR SLIDES:</strong></p>
@@ -338,6 +376,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>xaringanExtra<span class="sc">::</span><span class="fu">embed_xaringan</span>(<span class="at">url =</span> path_slides, <span class="at">ratio =</span> <span class="st">"16:9"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
 <iframe src="1-getting-started/index.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>

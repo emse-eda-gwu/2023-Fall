@@ -207,7 +207,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "All assignments are due by 11:59pm on the due date.\n\n\n\n\n\nWeek\nDate\nClass\nWeekly HW\nMini Projects\nFinal Projects\n\n\n\n\n1\nAug 30\nGetting Started\nClass orientation; workflow; importing data; data wrangling & plotting refresher\nHW 1\nDue: Sep 05\n\n\n\n\n2\nSep 06\nReproducible Reporting\nCombinging text and code with Quarto\nHW 2\nDue: Sep 12\n\n\n\n\n3\nSep 13\nTidy Data\nTidy data; reshaping data; data provenance; writing a research question\nHW 3\nDue: Sep 19\n\nProposal\nDue: Sep 26\n\n\n4\nSep 20\nCleaning Data\nJoins; changing data types; dealing with messy Excel files\nHW 4\nDue: Sep 26\nData Cleaning\nDue: Oct 03\n\n\n\n5\nSep 27\nCentrality & Variability\nData types & scales; centrality & spread; variation & covariation; plot types\nHW 5\nDue: Oct 03\n\n\n\n\n6\nOct 04\nCorrelation\nCorrelation metrics; outliers; visualizing correlations; linear models\nHW 6\nDue: Oct 10\n\n\n\n\n7\nOct 11\nVisualizing Information\nPsychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices\nHW 7\nDue: Oct 17\nExploring Data\nDue: Oct 24\n\n\n\n8\nOct 18\nFactors, Amounts, & Proportions\nManipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole\nHW 8\nDue: Oct 24\n\nProgress Report\nDue: Oct 31\n\n\n9\nOct 25\nComparisons\nFacets; reference lines; dumbbells; slopes; distributions\nHW 9\nDue: Oct 31\n\n\n\n\n10\nNov 01\nTrends\nLine charts; heat maps; animation\nHW 10\nDue: Nov 07\n\n\n\n\n11\nNov 08\nPolishing Charts\nColors; annotations; scales; themes; multi-panel figures\nHW 11\nDue: Nov 14\nRe-design\nDue: Nov 28\n\n\n\n12\nNov 15\nMaps & Project Workshop\nMaps in ggplot; mapping data to maps; projections; project workshop\nHW 12\nDue: Nov 28\n\n\n\n\n13\nNov 22\nThanksgiving - no class\n\n\n\n\n\n\n14\nNov 29\nInteractivity\nPlotly; interactive tables; shiny apps\nHW 13\nDue: Dec 05\n\nFinal Report\nDue: Dec 10\n\n\n15\nDec 06\nCommunicating Results\nTelling stories; slide design; giving a talk\n\n\nPresentation\nDue: Dec 12\n\n\n16\nDec 13\nFinal Presentations\nIn-class presentation showcase w/Q&A\n\n\n\n\n\n\n\n\n\n\n#&gt; function (x) \n#&gt; {\n#&gt;     new_box(maybe_missing(x), class = \"rlang_box_done\", empty = missing(x))\n#&gt; }\n#&gt; &lt;bytecode: 0x7f8d1c33db70&gt;\n#&gt; &lt;environment: namespace:rlang&gt;"
+    "text": "All assignments are due by 11:59pm on the due date.\n\n\n\n\n\nWeek\nDate\nClass\nWeekly HW\nMini Projects\nFinal Projects\n\n\n\n\n1\nAug 30\nGetting Started\nClass orientation; workflow; importing data; data wrangling & plotting refresher\nHW 1\nDue: Sep 05\n\n\n\n\n2\nSep 06\nReproducible Reporting\nCombinging text and code with Quarto\nHW 2\nDue: Sep 12\n\n\n\n\n3\nSep 13\nTidy Data\nTidy data; reshaping data; data provenance; writing a research question\nHW 3\nDue: Sep 19\n\nProposal\nDue: Sep 26\n\n\n4\nSep 20\nCleaning Data\nJoins; changing data types; dealing with messy Excel files\nHW 4\nDue: Sep 26\nData Cleaning\nDue: Oct 03\n\n\n\n5\nSep 27\nCentrality & Variability\nData types & scales; centrality & spread; variation & covariation; plot types\nHW 5\nDue: Oct 03\n\n\n\n\n6\nOct 04\nCorrelation\nCorrelation metrics; outliers; visualizing correlations; linear models\nHW 6\nDue: Oct 10\n\n\n\n\n7\nOct 11\nVisualizing Information\nPsychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices\nHW 7\nDue: Oct 17\nExploring Data\nDue: Oct 24\n\n\n\n8\nOct 18\nFactors, Amounts, & Proportions\nManipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole\nHW 8\nDue: Oct 24\n\nProgress Report\nDue: Oct 31\n\n\n9\nOct 25\nComparisons\nFacets; reference lines; dumbbells; slopes; distributions\nHW 9\nDue: Oct 31\n\n\n\n\n10\nNov 01\nTrends\nLine charts; heat maps; animation\nHW 10\nDue: Nov 07\n\n\n\n\n11\nNov 08\nPolishing Charts\nColors; annotations; scales; themes; multi-panel figures\nHW 11\nDue: Nov 14\nRe-design\nDue: Nov 28\n\n\n\n12\nNov 15\nMaps & Project Workshop\nMaps in ggplot; mapping data to maps; projections; project workshop\nHW 12\nDue: Nov 28\n\n\n\n\n13\nNov 22\nThanksgiving - no class\n\n\n\n\n\n\n14\nNov 29\nInteractivity\nPlotly; interactive tables; shiny apps\nHW 13\nDue: Dec 05\n\nFinal Report\nDue: Dec 10\n\n\n15\nDec 06\nCommunicating Results\nTelling stories; slide design; giving a talk\n\n\nPresentation\nDue: Dec 12\n\n\n16\nDec 13\nFinal Presentations\nIn-class presentation showcase w/Q&A\n\n\n\n\n\n\n\n\n\n\n#&gt; function (x) \n#&gt; {\n#&gt;     new_box(maybe_missing(x), class = \"rlang_box_done\", empty = missing(x))\n#&gt; }\n#&gt; &lt;bytecode: 0x7fd19ee9cbe0&gt;\n#&gt; &lt;environment: namespace:rlang&gt;"
   },
   {
     "objectID": "mini/3-redesign.html",
@@ -273,114 +273,37 @@
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/interviews.html",
-    "href": "class/interviews.html",
-    "title": "Final Interviews",
+    "objectID": "finding-data.html",
+    "href": "finding-data.html",
+    "title": "Finding Data",
     "section": "",
-    "text": "Due: Students will sign up for individual meetings during finals week (Dec 12 - 13).\nWeight: This assignment is worth 10% of your final grade.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\n\nThe instructor will hold a 10-minute one-on-one interview with each student. The interview will consist of questions about your final project as well as questions about core concepts covered during the course.\nSome suggestions:\n\nBring water to drink - it will calm you when you are nervous and your mouth dries up. You can also pause and think while you drink.\nDon’t answer right away - think a bit.\nAnswer the question asked. Don’t try to impress or I will ask more questions.\nDon’t say “I don’t know.” Try and I will help you.\n\n\nGrading Rubric\n\n100 Total Points\nYou will be asked 10 questions; for each question, you will be assigned points based on this scale:\n\n\n\nPoints\nDescription\n\n\n\n\n10\nAnswers immediately and correctly without hesitation\n\n\n9\nAnswers correctly after some initial struggles\n\n\n8\nAnswers mostly correct after some time\n\n\n7\nAnswers mostly correct after some time and some help\n\n\n6\nAnswers mostly correctly after considerable help\n\n\n5\nPoor or partial answer, even after considerable help\n\n\n0\nCannot answer even with considerable help"
+    "text": "The world is full of data, but sometimes finding it can be difficult. As a starting point, GW libraries has an excellent set of Research Guides that can be helpful. Depending on your research question, searching Google can also lead to good sources.\nHere are some other resources:\n\nLarge, search-able sites\nBasically like running a Google search but only for data sets:\n\nGoogle Dataset Search\nQuandl: Over 2 million financial, economic, and social datasets.\nWharton Research Data Services: Single-point access to over 200 terabytes of data across multiple disciplines, including Finance, Marketing, and Economics.\n\n\n\nWebsites\nA collection of various websites that have lots of interesting datasets:\n\n“Tidy Tuesday” challenges: Wide variety of datasets for data visualization practice. See many of the visualizations others have created here.\n“Makeover Monday” challenges: Wide variety of datasets for data visualization practice.\nTableau Community Forums: Sometimes you’ll find some interesting datasets in here.\n“Data is Beautiful” subreddit: Feed of user-generated data visualizations, though quality varies substantially.\nKaggle: Hosts machine learning competitions, and as a result has lots of really interesting data sets open to the public.\n\n\n\nPackages\nMany packages contain interesting datasets. If you can find a package with data, it will usually be nicely-formatted 😄\nHere is a table of lots of packages that contain multiple dataset. Some of my favorites are:\n\ndslabs\nDAAG\nMASS\n\nIn addition, some packages exclusively just contain datasets, such as:\n\nfivethirtyeight: Datasets and code published by the data journalism website ‘FiveThirtyEight’, available at https://github.com/fivethirtyeight/data\ngapminder\nbabynames\nnycflights13\nfueleconomy\nnasaweather\nusdanutrients\n\n\n\nGovernment-ish sources:\n“Government-ish” because while some of these sites host government data, the sites themselves may or may not be affiliated with a government agency:\n\nUS Open Gov Data: links to federal and non-federal sources in US and abroad\nUS City Open Data Census: Open data from more than 100 U.S. cities.\nOpen Africa\nEU Open Data Portal\nChina data: Various datasets on China posted by Gang He.\n\n\n\nEnergy data\nSince I happen to work with energy data a lot, here’s some common go-to sources:\n\nChina Energy Portal Statistics: Loads of energy statistics from China.\nU.S. Energy Information Administration: from Wikipedia: the “principal agency of the U.S. Federal Statistical System responsible for collecting, analyzing, and disseminating energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA programs cover data on coal, petroleum, natural gas, electric, renewable and nuclear energy. EIA is part of the U.S. Department of Energy.”\nEnvironmental Performance Index, Yale University: Ranks 163 countries on 25 performance indicators tracked across ten policy categories covering both environmental public health and ecosystem vitality. These indicators provide a gauge at a national government scale of how close countries are to established environmental policy goals.\n\n\n\nSpatial data\n\nhttp://freegisdata.rtwilson.com/\nhttps://data.nasa.gov/\nhttps://planet.parts/\nhttps://www.efi.int/knowledge/maps/forest\nhttps://land.copernicus.eu/\nhttps://maps.elie.ucl.ac.be/CCI/viewer/\nhttps://www.ecad.eu//dailydata/predefinedseries.php\nhttp://www.worldclim.org/version2\nhttps://www.geoportal.org/\nhttps://scihub.copernicus.eu/\nhttps://sedac.ciesin.columbia.edu/\nhttps://earthexplorer.usgs.gov/"
   },
   {
-    "objectID": "class/8-amounts-proportions.html",
-    "href": "class/8-amounts-proportions.html",
-    "title": "Amounts & Proportions",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/6-correlation.html",
-    "href": "class/6-correlation.html",
-    "title": "Correlation",
+    "objectID": "final/4-presentation.html",
+    "href": "final/4-presentation.html",
+    "title": "Final Presentation",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/4-cleaning-data.html",
-    "href": "class/4-cleaning-data.html",
-    "title": "Cleaning Data",
+    "objectID": "final/2-progress-report.html",
+    "href": "final/2-progress-report.html",
+    "title": "Progress Report",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/2-reproducible-reporting.html",
-    "href": "class/2-reproducible-reporting.html",
-    "title": "Reproducible Reporting with Quarto",
+    "objectID": "final/0-overview.html",
+    "href": "final/0-overview.html",
+    "title": "Project Overview",
     "section": "",
-    "text": "Coming soon!"
+    "text": "For your final project, you will take a dataset, explore it, tinker with it, and tell a nuanced story about it using at least three key charts. I want this project to be as useful for you and your future career as possible - you’ll hopefully want to show off your final project in a portfolio or during job interviews. Accordingly, you get to choose what data you will use for your project. Choose whatever one you are most interested in or will have the most fun with.\n\nCheck out these examples of other exploratory data analyses for inspiration\n\nFor the final project, you will:\n\nWrite a research question.\nConduct an exploratory data analysis of one or more data sources to address your research question.\nCreate visualizations to effectively communicate the results of your analysis using the principles of information visualization covered in this course.\nDocument your entire analysis in a reproducible format, including a detailed curation of the data you used as well as your analysis and results.\n\nPurpose: The skills covered in this course are rooted in design rules and principles rather than formulas and equations. As such, the application of these principles to a real data problem is one of the best ways to learn and assess mastery of these skills. I guarantee you one day you will need to apply these principles to communicate an idea to colleagues, so let’s make sure you have at least one chance to practice before the stakes are higher.\nSkills & Knowledge: Your final project should illustrate your ability to transform raw data into insights by making the non-visible visible, showing clear trends or patterns, and / or identifying outliers or missing information. The specific skills involved in achieving this goal include all of the course learning objectives.\nTeams: Your final project will be a team project made up of 2 to 3 classmates of your choosing. Teams will be finalized at the time of submitting your proposal. Graduate students taking the course must work on individual projects.\nSummary of Deliverables: To make the overall project more manageable, it is broken down into separate “milestone” deliverables due throughout the semester, starting with a proposal due just before spring break.\n\n\n\n\nItem\nWeight towardsfinal grade\nDue Date(by 11:59pm)\n\n\n\n\nProposal\n9 %\nOct 04\n\n\nProgress Report\n12 %\nNov 01\n\n\nFinal Report\n16 %\nDec 11\n\n\nPresentation\n9 %\nDec 13"
   },
   {
-    "objectID": "class/14-communicating-results.html",
-    "href": "class/14-communicating-results.html",
-    "title": "Communicating Results",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/12-maps-workshop.html",
-    "href": "class/12-maps-workshop.html",
-    "title": "Maps",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/10-trends.html",
-    "href": "class/10-trends.html",
-    "title": "Trends",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester."
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "Licensing and copyright information",
-    "section": "",
-    "text": "The course material is licensed under the Creative Commons ShareAlike 4.0 International License. In addition to my own developed material, I have also modified material from the courses, workshops, and textbooks listed below:\n\nCourses / workshops\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nSTAT 545\nU. of British Columbia\ncourse; GitHub\n\n\nPatrick Meyer’s Youtube lectures\nProf. Patrick Meyer\nplaylists\n\n\nAndrew Heiss’s data viz courses\nAndrew Heiss\nMPA 635, more here\n\n\nIntro. to Data Visualization, Fall 2018\nPeter Aldhous\ncourse site\n\n\n\n\n\nBooks\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nR for Data Science\nGarrett Grolemund & Hadley Wickham\nonline book; GitHub; purchase\n\n\nData Visualization: A practical introduction\nKieran Healy\nonline book; GitHub; purchase\n\n\nFundamentals of Data Visualization\nClaus O. Wilke\nonline book; purchase"
-  },
-  {
-    "objectID": "class/1-getting-started.html",
-    "href": "class/1-getting-started.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
-  },
-  {
-    "objectID": "class/11-polishing-charts.html",
-    "href": "class/11-polishing-charts.html",
-    "title": "Polishing Charts",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/13-interactivity.html",
-    "href": "class/13-interactivity.html",
-    "title": "Interactivity",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/15-final-presentations.html",
-    "href": "class/15-final-presentations.html",
-    "title": "Final Presentations",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/3-tidy-data.html",
-    "href": "class/3-tidy-data.html",
-    "title": "Tidy Data",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/5-centrality-variability.html",
-    "href": "class/5-centrality-variability.html",
-    "title": "Centrality & Variability",
+    "objectID": "class/9-comparisons.html",
+    "href": "class/9-comparisons.html",
+    "title": "Comparisons",
     "section": "",
     "text": "Coming soon!"
   },
@@ -392,11 +315,172 @@
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/9-comparisons.html",
-    "href": "class/9-comparisons.html",
-    "title": "Comparisons",
+    "objectID": "class/5-centrality-variability.html",
+    "href": "class/5-centrality-variability.html",
+    "title": "Centrality & Variability",
     "section": "",
     "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/3-tidy-data.html",
+    "href": "class/3-tidy-data.html",
+    "title": "Tidy Data",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/15-final-presentations.html",
+    "href": "class/15-final-presentations.html",
+    "title": "Final Presentations",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/13-interactivity.html",
+    "href": "class/13-interactivity.html",
+    "title": "Interactivity",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/11-polishing-charts.html",
+    "href": "class/11-polishing-charts.html",
+    "title": "Polishing Charts",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/1-getting-started.html",
+    "href": "class/1-getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "path_slides &lt;- file.path(params$class, \"index.html\")\npath_pdf &lt;- file.path(params$class, paste0(params$class, \".pdf\"))\npath_notes &lt;- file.path(params$class, paste0(params$class, \".zip\"))\n\n\n\nKEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file\n\n\n\n\nxaringanExtra::embed_xaringan(url = path_slides, ratio = \"16:9\")"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "Licensing and copyright information",
+    "section": "",
+    "text": "The course material is licensed under the Creative Commons ShareAlike 4.0 International License. In addition to my own developed material, I have also modified material from the courses, workshops, and textbooks listed below:\n\nCourses / workshops\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nSTAT 545\nU. of British Columbia\ncourse; GitHub\n\n\nPatrick Meyer’s Youtube lectures\nProf. Patrick Meyer\nplaylists\n\n\nAndrew Heiss’s data viz courses\nAndrew Heiss\nMPA 635, more here\n\n\nIntro. to Data Visualization, Fall 2018\nPeter Aldhous\ncourse site\n\n\n\n\n\nBooks\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nR for Data Science\nGarrett Grolemund & Hadley Wickham\nonline book; GitHub; purchase\n\n\nData Visualization: A practical introduction\nKieran Healy\nonline book; GitHub; purchase\n\n\nFundamentals of Data Visualization\nClaus O. Wilke\nonline book; purchase"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester."
+  },
+  {
+    "objectID": "class/10-trends.html",
+    "href": "class/10-trends.html",
+    "title": "Trends",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/12-maps-workshop.html",
+    "href": "class/12-maps-workshop.html",
+    "title": "Maps",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/14-communicating-results.html",
+    "href": "class/14-communicating-results.html",
+    "title": "Communicating Results",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/2-reproducible-reporting.html",
+    "href": "class/2-reproducible-reporting.html",
+    "title": "Reproducible Reporting with Quarto",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/4-cleaning-data.html",
+    "href": "class/4-cleaning-data.html",
+    "title": "Cleaning Data",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/6-correlation.html",
+    "href": "class/6-correlation.html",
+    "title": "Correlation",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/8-amounts-proportions.html",
+    "href": "class/8-amounts-proportions.html",
+    "title": "Amounts & Proportions",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/interviews.html",
+    "href": "class/interviews.html",
+    "title": "Final Interviews",
+    "section": "",
+    "text": "Due: Students will sign up for individual meetings during finals week (Dec 12 - 13).\nWeight: This assignment is worth 10% of your final grade.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\n\nThe instructor will hold a 10-minute one-on-one interview with each student. The interview will consist of questions about your final project as well as questions about core concepts covered during the course.\nSome suggestions:\n\nBring water to drink - it will calm you when you are nervous and your mouth dries up. You can also pause and think while you drink.\nDon’t answer right away - think a bit.\nAnswer the question asked. Don’t try to impress or I will ask more questions.\nDon’t say “I don’t know.” Try and I will help you.\n\n\nGrading Rubric\n\n100 Total Points\nYou will be asked 10 questions; for each question, you will be assigned points based on this scale:\n\n\n\nPoints\nDescription\n\n\n\n\n10\nAnswers immediately and correctly without hesitation\n\n\n9\nAnswers correctly after some initial struggles\n\n\n8\nAnswers mostly correct after some time\n\n\n7\nAnswers mostly correct after some time and some help\n\n\n6\nAnswers mostly correctly after considerable help\n\n\n5\nPoor or partial answer, even after considerable help\n\n\n0\nCannot answer even with considerable help"
+  },
+  {
+    "objectID": "final/1-proposal.html",
+    "href": "final/1-proposal.html",
+    "title": "Project Proposal",
+    "section": "",
+    "text": "Due: Sep 26 by 11:59pm\nWeight: This assignment is worth 9% of your final grade.\nPurpose: The purpose of the proposal is to clarify the specific research topic of interest for your team and to ensure that you are headed in a promising direction before spending hours analyzing data for your project.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\nWrite a proposal of an exploratory data analysis that you plan to conduct for your final project. The instructors will review and grade your proposal and provide feedback upon returning from spring break. If your proposal is approved, you are done and can move on towards the next project task. In some cases, the instructors may ask you to submit a revised proposal, most likely by focusing / adjusting the proposal scope and / or research question. Below is a list of specific items your proposal should include."
+  },
+  {
+    "objectID": "final/1-proposal.html#get-organized",
+    "href": "final/1-proposal.html#get-organized",
+    "title": "Project Proposal",
+    "section": "1. Get organized",
+    "text": "1. Get organized\nDownload and unzip this template for your proposal report. Open the project.Rproj file and write your proposal in the report.Rmd file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:\n\nWrite your project title in the title field (and provide a subtitle if you wish, or delete the subtitle field).\nIn the author field, list the names of all teammates, e.g. author: Luke Skywalker, Leia Organa, and Han Solo."
+  },
+  {
+    "objectID": "final/1-proposal.html#write-a-research-question",
+    "href": "final/1-proposal.html#write-a-research-question",
+    "title": "Project Proposal",
+    "section": "2. Write a research question",
+    "text": "2. Write a research question\nState a clear research question. Follow these guidelines. Your question should be:\n\nClear: it provides enough specifics that your audience can easily understand its purpose without needing additional explanation.\nFocused: it is narrow enough that it can be addressed thoroughly with the data available and within the limits of the final project report.\nConcise: it is expressed in the fewest possible words.\nComplex: it is not answerable with a simple “yes” or “no,” but rather requires synthesis and analysis of data.\nArguable: its potential answers are open to debate rather than accepted facts."
+  },
+  {
+    "objectID": "final/1-proposal.html#discuss-your-data-sources",
+    "href": "final/1-proposal.html#discuss-your-data-sources",
+    "title": "Project Proposal",
+    "section": "3. Discuss your data sources",
+    "text": "3. Discuss your data sources\nDiscuss the data source(s) you plan to use for your analysis. Follow these guidelines:\n\nIf you have already identified the source(s), describe them and include urls and / or references to the sources.\nIf you have not identified a source yet, describe the data you hope to use, and give at least one plausible source that may have the data (regardless of whether the source makes it available or not).\nDiscuss the validity of the source(s). For each data source, is the data the original data, or has it been pre-processed by someone else? How was the original data collected and by whom? If you do not yet have a source, discuss what concerns you have about a plausible source that might have the data."
+  },
+  {
+    "objectID": "final/1-proposal.html#describe-anticipated-results",
+    "href": "final/1-proposal.html#describe-anticipated-results",
+    "title": "Project Proposal",
+    "section": "4. Describe anticipated results",
+    "text": "4. Describe anticipated results\n\nChoose two variables that you expect to find in your data that are relevant to your research question.\nRegardless of whether those variables actually exist, describe how you would expect each to be distributed (e.g. unimodal, multimodel, tightly-group, widely-spread, etc.). For example, you might expect the price of gasoline over a particular period to be rather tightly-grouped around a mean, whereas the stock price of a particular company might vary much more widely over the same period.\nDescribe two relationships you expect to find among variables in your data (again, regardless of whether they actually exist in your data). For example, you might expect sales of hybrid vehicles to increase when gas prices increase; in this case, I am expecting that hybrid vehicle sales and gasoline prices are positively correlated.\nDescribe at least two charts that you expect will help you visualize the relationships that you expect to find. For example, a scatterplot of gasoline prices and hybrid vehicle sales over a particular time period might be useful for visualizing the level of correlation between these two variables.\nDiscuss how your expectations about the variables you chose will help inform you about your research question."
+  },
+  {
+    "objectID": "final/1-proposal.html#knit-and-submit",
+    "href": "final/1-proposal.html#knit-and-submit",
+    "title": "Project Proposal",
+    "section": "5. Knit and submit",
+    "text": "5. Knit and submit\nClick the “knit” button to compile your proposal.Rmd file into a html web page, then create a zip file of everything in your R Project folder. Name your file proposal.zip, then go to your team Box folder and submit your zip file in the “submissions” folder. Only one person from your team should submit the report."
+  },
+  {
+    "objectID": "final/3-final-report.html",
+    "href": "final/3-final-report.html",
+    "title": "Final Report",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "final/examples.html",
+    "href": "final/examples.html",
+    "title": "Example Analyses",
+    "section": "",
+    "text": "As inspiration for your final projects, check out these prior exploratory data analyses.\n\nPrevious course showcases\n\n\n\n\n\nSpring 2021 Showcase\nProjects from the spring 2021 semester of this class.\n\n\n\n\n\n\n\nSpring 2020 Showcase\nProjects from the spring 2020 semester of this class.\n\n\n\n\nOther exploratory analyses\nSome of these go into further detail than we will cover in this class, but hopefully they will inspire you as you prepare for your own project:\n\n\n\n\n\nSurvivors of the Titantic\nA great overview of getting started with the tidyverse.\n\n\n\n\n\n\n\nIs Usain Bolt really the fastest man on earth?\nby Anindya Mozumdar. This analysis uses some statistical modeling (which won’t cover), but the use of visualizations alone are effective for addressing the research questions posed.\n\n\n\n\n\n\n\nF1 racing data analysis\nby Jonathan Bouchet. This is an extensive exploratory data analysis of a variety of data on races, drivers, and constructors across the history of Formula 1 racing. This would probably be overkill for a course project, but sections of it (e.g. section 3 on the races, or sections 4 and 5 together on the drivers and constructors) would make a nice project. It involves mutliple data sets, some not-so-simple data cleaning, and a wide variety of nice visualizations.\n\n\n\n\n\n\n\nIncreasing Intensity of Strong Atlantic Hurricanes\nby James B. Elsner. This is a short analysis with the goal of validating the predictions of this study published in Nature in 2008, which predicted that Atlantic tropical cyclones would continue to get stronger on average over time. While this analysis is too short to be considered adequate for a final project, it is still a good example of good data source documentation and one effective visualization. An expanded inquiry into the questions addressed here would make a good course project.\n\n\n\n\n\n\n\nDeath: Reality vs Reported\nby Owen Shen. This is an interesting original analysis in which the author collected the data himself. The analysis compares whether the proportion of actual causes of death is consistent with the proportion of death causes that the media reports. This analysis also uses some interactive graphics so that the reader can view different versions of the same plot, such as scrolling through the plot over time.\n\n\n\n\n\n\n\nAre first babies more likely to be late?\nby Allen Downey. This is another relatively short analysis, but the author does a good job of documenting his data sources, stating the assumptions he makes, and also describes what data were dropped from the analysis (i.e. babies born via C-section).\n\n\n\n\nHistorically significant analyses\nExploratory data analysis has been around for a very long time. Here are some of the most historically famous.\n\n\n\n\n\nW.E.B. Du Bois’ “The Exhibit of American Negroes”\nIn 1900, W.E.B. Du Bois presented “The Exhibit of American Negroes” at the Exposition Universelle in Paris. Du Bois described the exhibition as “Thirty-two charts, 500 photographs, and numerous maps and plans form the basis of this exhibit. The charts are in two sets, one illustrating conditions in the entire United States and the other conditions in the typical State of Georgia.” The charts in his exhibition are staggeringly powerful. This six-part series published in Nightingale displays and discusses many of his impressive visualizations. You can also purchase a book on the portraits on Amazon.\n\n\n\n\n\n\n\nMinard’s Napoleon March Map\nThe “Napoleon March Map” by Charles Joseph Minard is widely viewed as one of the greatest data visualizations of all time. The chart depicts Napoleon’s disastrous campaign to conquer Moscow. Having started with around 470,000 soldiers, he returned with just 10,000. The width of the line represents the total number of soldiers and the color represents the direction (yellow for towards Moscow, black for the return trip).\n\n\n\n\n\n\n\nTableau’s Top 10 GOAT Data Visualizations\nIt’s hard to say which data visualizations are the “Greatest Of All Time,” but Tableau put together a pretty excellent collection for their top 10 list."
   },
   {
     "objectID": "hw/0-course-primer.html",
@@ -564,6 +648,13 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "Software\n\nYou should install and set everything here before the first day of class.\n\n\nSign up for Slack. You should have been sent a link to join in the course intro email. If not, email Professor Helveston for an invite link. Use your @gwu.edu email to sign up.\nInstall the Slack app on your phone and Turn notifications on!. I’ll send all course communication via Slack, so please make sure your notifications are on so you don’t miss anything.\nInstall the latest version of R and RStudio:\n\n\nDownload and install R (version 4.0.2 or higher)\nDownload and install RStudio (Desktop version)\n\n\nIf you have a Mac, install XQuartz. This is needed for making some figures and is only for Mac (if you’re on Windows or Linux, skip this step).\nSign up for Posit Cloud (the free version). It’s basically the same thing as RStudio, but accessible via a web browser. If things aren’t working on your computer, this is a great backup to quickly get back to working in RStudio.\n\n\nFor reference, “Posit” is the company that makes “RStudio”, the software we’ll use to work with R.\n\nThat’s it - you’re all set for class!"
+    "text": "You should install and set everything here before the first day of class.\n\n\nSign up for Slack. You should have been sent a link to join in the course intro email. If not, email Professor Helveston for an invite link. Use your @gwu.edu email to sign up.\nInstall the Slack app on your phone and Turn notifications on!. I’ll send all course communication via Slack, so please make sure your notifications are on so you don’t miss anything.\nInstall the latest version of R and RStudio:\n\n\nDownload and install R (version 4.0.2 or higher)\nDownload and install RStudio (Desktop version)\n\n\nIf you have a Mac, install XQuartz. This is needed for making some figures and is only for Mac (if you’re on Windows or Linux, skip this step).\nSign up for Posit Cloud1 (the free version). It’s basically the same thing as RStudio, but accessible via a web browser. If things aren’t working on your computer, this is a great backup to quickly get back to working in RStudio.\nYou’ll need to install some R packages in RStudio that we will use throughout the semester. To do so, open RStudio then copy-paste this code into the console and press Return. This will install all the packages listed in the file.\n\nThat’s it - you’re all set for class!"
+  },
+  {
+    "objectID": "software.html#footnotes",
+    "href": "software.html#footnotes",
+    "title": "Software",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n“Posit” is the company that makes “RStudio”, the software we’ll use to work with R.↩︎"
   }
 ]
