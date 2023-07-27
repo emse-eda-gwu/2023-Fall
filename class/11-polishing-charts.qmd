@@ -2,6 +2,10 @@
 title: "Polishing Charts"
 params:
   class: "11-polishing-charts"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

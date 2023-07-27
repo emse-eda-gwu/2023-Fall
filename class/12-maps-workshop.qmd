@@ -2,6 +2,10 @@
 title: "Maps"
 params:
   class: "12-maps"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!

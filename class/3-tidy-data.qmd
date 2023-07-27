@@ -2,6 +2,10 @@
 title: "Tidy Data"
 params:
   class: "3-tidy-data"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 Coming soon!
