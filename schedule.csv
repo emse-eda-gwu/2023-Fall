@@ -1,24 +1,17 @@
-week,date,quiz,quiz_coverage,n_class,stub_class,name_class,description_class,n_assign,stub_assign,name_assign,due_assign,name_reading,stub_reading,reading
-1,2023/01/19,,,1,getting-started,Getting Started,"Class orientation, intro to R, workflow, operators, data types",1,getting-started,Getting Started,2023/01/25,"Getting Started
-Operations & Data Types","getting-started
-operators-data-types",
-2,2023/01/26,1,Week 1,2,functions-packages,Functions & Packages,"Functions, arguments, installing external packages, problem solving",2,functions-packages,Functions & Packages,2023/02/01,Functions & Packages,functions-packages,
-3,2023/02/02,2,Weeks 1 - 2,3,creating-functions,Creating Functions,"Defining your own functions, top-down structure",3,creating-functions,Creating Functions,2023/02/08,Creating Functions,creating-functions,
-4,2023/02/09,,,4,conditionals-testing,Conditionals & Testing,"If / else statements, writing unit tests",4,conditionals-testing,Conditionals & Testing,2023/02/15,"Conditionals
-Testing & Debugging","conditionals
-testing-debugging",
-5,2023/02/16,3,Weeks 3 - 4,5,iteration,Iteration,Ins and outs of loops,5,iteration,Iteration,2023/02/22,Iteration,iteration,
-6,2023/02/23,,,6,vectors,Vectors,Creating and slicing collections of values,6,vectors,Vectors,2023/03/01,Vectors,vectors,
-7,2023/03/02,4,Weeks 5 - 6,7,strings,Strings,All things between quotes,7,strings,Strings,2023/03/15,Strings,strings,
-9,2023/03/09,,,,,Midterm,Don't panic!,,,,,,,
-8,2023/03/16,,,,,Spring Break,No class,,,,,,,
-10,2023/03/23,,,8,data-frames,Data Frames,Rows and columns of data,8,data-frames,Data Frames,2023/03/29,"Data Analysis
-Data Frames","data-analysis
-data-frames",
-11,2023/03/30,5,Week 10,9,data-wrangling,Data Wrangling,Modifying data frames,9,data-wrangling,Data Wrangling,2023/04/05,Data Wrangling,data-wrangling,
-12,2023/04/06,,,10,data-visualization,Data Visualization,Visualizing your data,10,data-visualization,Data Visualization,2023/04/12,Data Visualization,data-visualization,
-13,2023/04/13,6,Weeks 11 - 12,11,programming-with-data,Programming with Data,Iterating through data frames and writing functions to summarize data,11,programming-with-data,Programming with Data,2023/04/19,Programming with Data,,"<a href=https://r4ds.hadley.nz/functions.html#data-frame-functions target=""_blank""><b>Sections 26.3 & 26.4 in R4DS</b></a><br><a href=https://www.rebeccabarter.com/blog/2019-08-19_purrr target=""_blank""><b>Post on iteration with {purrr}</b></a>"
-14,2023/04/20,,,12,webscraping,Webscraping,Collecting data embedded in web pages,12,webscraping,Webscraping,2023/04/26,Webscraping,,"<a href=https://r4ds.hadley.nz/webscraping.html target=""_blank""><b>Chapter 25 in R4DS</b></a><br><a href=https://statisticsglobe.com/api-in-r target=""_blank""><b>Post on APIs in R</b></a>"
-15,2023/04/27,7,Week 13,13,monte-carlo-methods,Monte Carlo Methods,Using simulation to solve problems,13,monte-carlo-methods,Monte Carlo Methods,2023/05/03,Monte Carlo Methods,monte-carlo-methods,
-16,2023/05/04,,,14,final-review,Final Exam Review,Overview of entire course,,,,,,,
-17,2023/05/11,,,,,Final Exam,3-5pm in Corcoran Hall 207,,,,,,,
+week,date,quiz,quiz_content,theme,n_class,stub_class,name_class,description_class,n_assign,stub_assign,name_assign,due_assign,n_mini,stub_mini,name_mini,due_mini,n_final,stub_final,name_final,due_final
+1,2023/08/30,,,Cleaning,1,getting-started,Getting Started,Class orientation; workflow; importing data; data wrangling & plotting refresher,1,reproducible-reporting,Reproducible Reporting,2023/09/05,,,,,,,,
+2,2023/09/06,,,Cleaning,2,reproducible-reporting,Reproducible Reporting,Combinging text and code with Quarto,2,tidy-data,Tidy Data,2023/09/12,,,,,,,,
+3,2023/09/13,,,Cleaning,3,tidy-data,Tidy Data,Tidy data; reshaping data; data provenance; writing a research question,3,cleaning-data,Cleaning Data,2023/09/19,,,,,1,project-proposal,Proposal,2023/09/26
+4,2023/09/20,1,Week 3,Cleaning,4,cleaning-data,Cleaning Data,Joins; changing data types; dealing with messy Excel files,4,centrality-variability,Centrality & Variability,2023/09/26,1,mini-data-cleaning,Data Cleaning,2023/10/03,,,,
+5,2023/09/27,,,Exploring,5,centrality-variability,Centrality & Variability,Data types & scales; centrality & spread; variation & covariation; plot types,5,correlation,Correlation,2023/10/03,,,,,,,,
+6,2023/10/04,2,Weeks 4 - 5,Visualizing,6,correlation,Correlation,Correlation metrics; outliers; visualizing correlations; linear models,6,visualizing-information,Visualizing Information,2023/10/10,,,,,,,,
+7,2023/10/11,,,Visualizing,7,visualizing-information,Visualizing Information,"Psychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices",7,factors-amounts-proportions,Amounts & Proportions,2023/10/17,2,mini-exploring-data,Exploring Data,2023/10/24,,,,
+8,2023/10/18,3,Week 6,Visualizing,8,factors-amounts-proportions,"Factors, Amounts, & Proportions","Manipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole",8,comparisons,Comparisons,2023/10/24,,,,,2,project-progress-report,Progress Report,2023/10/31
+9,2023/10/25,,,Visualizing,9,comparisons,Comparisons,Facets; reference lines; dumbbells; slopes; distributions,9,trends,Trends,2023/10/31,,,,,,,,
+10,2023/11/01,4,Weeks 7 - 9,Visualizing,10,trends,Trends,Line charts; heat maps; animation,10,polishing-charts,Polishing Charts,2023/11/07,,,,,,,,
+11,2023/11/08,,,Visualizing,11,polishing-charts,Polishing Charts,Colors; annotations; scales; themes; multi-panel figures,11,maps-workshop,Maps,2023/11/14,,,,,,,,
+12,2023/11/15,,,Visualizing,12,maps-workshop,Maps & Project Workshop,Maps in ggplot; mapping data to maps; projections; project workshop,12,interactivity,Interactivity,2023/11/28,3,mini-redesign,Re-design,2023/11/28,,,,
+13,2023/11/22,,,,,,Thanksgiving - no class,,,,,,,,,,,,,
+14,2023/11/29,5,Weeks 10 - 12,Communicating,13,interactivity,Interactivity,Plotly; interactive tables; shiny apps,13,communicating-results,Communicating Results,2023/12/05,,,,,3,project-final-report,Final Report,2023/12/10
+15,2023/12/06,,,Communicating,14,communicating-results,Communicating Results,Telling stories; slide design; giving a talk,,,,,,,,,4,project-presentation,Presentation,2023/12/12
+16,2023/12/13,,,Communicating,15,final-presentations,Final Presentations,In-class presentation showcase w/Q&A,,,,,,,,,,,,
