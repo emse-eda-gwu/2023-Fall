@@ -2,6 +2,10 @@
 title: "Example Analyses"
 toc: true
 toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 As inspiration for your final projects, check out these prior exploratory data analyses.

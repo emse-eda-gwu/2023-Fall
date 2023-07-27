@@ -48,7 +48,7 @@ get_schedule <- function() {
                 "",
                 paste0('Quiz ', quiz, ":<br><em>", quiz_content, "</em>"))
         ) %>%
-        select(week, quiz)
+        select(week, ends_with('quiz'))
 
     # Class vars
 
@@ -66,7 +66,7 @@ get_schedule <- function() {
                     name_class, "</b></a><br> ",
                     description_class)),
         ) %>%
-        select(week, class)
+        select(week, ends_with('class'))
     
     # Weekly assignment vars
 
@@ -80,7 +80,7 @@ get_schedule <- function() {
                     '<a href="hw/', n_assign, "-", stub_assign, '.html"><b>HW ',
                     n_assign, "</b></a><br>Due: ", due_assign))
         ) %>%
-        select(week, assignments)
+        select(week, ends_with('assignments'))
     
     # Mini project vars
 
@@ -94,7 +94,7 @@ get_schedule <- function() {
                     '<a href="mini/', n_mini, "-", stub_mini, '.html"><b>',
                     name_mini, "</b></a><br>Due: ", due_mini))
         ) %>%
-        select(week, mini)
+        select(week, ends_with('mini'))
 
     # Final project vars
 
@@ -108,7 +108,7 @@ get_schedule <- function() {
                     '<a href="final/', n_final, "-", stub_final, '.html"><b>',
                     name_final, "</b></a><br>Due: ", due_final))
         ) %>%
-        select(week, final)
+        select(week, ends_with('final'))
 
     
     # Final schedule data frame

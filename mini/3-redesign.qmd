@@ -1,8 +1,11 @@
 ---
 title: "Mini Project 3: Data Viz Re-Design"
 toc: true
-toc-title: Table of contents
-toc-location: left
+toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
 params:
   number: 3
   weight: '8%'

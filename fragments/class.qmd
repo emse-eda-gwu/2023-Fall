@@ -1,5 +1,5 @@
 
-```{r, echo=FALSE}
+```{r}
 path_slides <- file.path(params$class, "index.html")
 path_pdf <- file.path(params$class, paste0(params$class, ".pdf"))
 path_notes <- file.path(params$class, paste0(params$class, ".zip"))
@@ -46,6 +46,6 @@ path_notes <- file.path(params$class, paste0(params$class, ".zip"))
 
 :::
 
-```{r lexi-demo, echo=FALSE}
+```{r lexi-demo}
 xaringanExtra::embed_xaringan(url = path_slides, ratio = "16:9")
 ```

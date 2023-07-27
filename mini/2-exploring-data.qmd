@@ -1,8 +1,11 @@
 ---
 title: "Mini Project 2: Exploring Data"
 toc: true
-toc-title: Table of contents
-toc-location: left
+toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
 params:
   number: 2
   weight: '8%'

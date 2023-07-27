@@ -2,27 +2,22 @@
 title: Project Proposal
 toc: true
 toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
 params:
   number: 1
   weight: '9%'
   purpose: 'The purpose of the proposal is to clarify the specific research topic of interest for your team and to ensure that you are headed in a promising direction before spending hours analyzing data for your project.'
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  warning = FALSE,
-  message = FALSE,
-  fig.path = "figs/",
-  fig.width = 7.252,
-  fig.height = 4,
-  comment = "#>",
-  fig.retina = 3
-)
+```{r}
+#| label: setup
 
-source(here::here("R", "settings.R"))
+source(here::here("_common.R"))
 
-# Read in rubric data
-rubric <- read_csv(here::here('rubrics', 'proposal.csv'))
+rubric <- read_csv(here::here('rubrics', '1-proposal.csv'))
 maxPoints <- rubric %>%
     filter(rating == "Excellent") %>%
     summarise(max = sum(maxPoints)) %>%
@@ -75,7 +70,7 @@ Click the "knit" button to compile your `proposal.Rmd` file into a html web page
 
 ### `r maxPoints` Total Points
 
-```{r, echo=FALSE}
+```{r}
 rubric %>%
   mutate(description = paste0("<b>", points, '</b><br>', description)) %>%
   select(-points) %>%

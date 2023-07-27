@@ -2,6 +2,10 @@
 title: Final Report
 toc: true
 toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
 params:
   number: 3
   weight: '16%'

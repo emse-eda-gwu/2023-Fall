@@ -1,8 +1,11 @@
 ---
 title: "Mini Project 1: Data Cleaning"
 toc: true
-toc-title: On this page
-toc-location: left
+toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
 params:
   number: 1
   weight: '8%'

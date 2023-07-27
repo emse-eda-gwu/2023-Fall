@@ -1,10 +1,8 @@
-```{r echo=FALSE}
-library(tidyverse)
-
+```{r}
 due <- get_schedule() %>%
-  filter(mini_n == params$number) %>%
-  pull(mini_due_md)
-due <- paste0(due, " by 11:59pm")
+  filter(n_mini == params$number) %>%
+  pull(due_mini) %>%
+  paste0(" by 11:59pm")
 ```
 
 > **Due**: `r due`
