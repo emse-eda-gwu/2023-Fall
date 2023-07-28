@@ -108,7 +108,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     anchor-sections: true
     smooth-scroll: true

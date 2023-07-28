@@ -7,6 +7,7 @@ library(tidyverse)
 library(fontawesome)
 library(cowplot)
 library(kableExtra)
+library(lubridate)
 
 options(dplyr.width = Inf)
 options(knitr.kable.NA = '')
