@@ -114,6 +114,7 @@ format:
     smooth-scroll: true
     link-external-newwindow: true
     link-external-icon: false
+    include-in-header: "_includes/header.html"
 
 filters:
     - schedule.lua
