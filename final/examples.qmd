@@ -17,7 +17,7 @@ As inspiration for your final projects, check out these prior exploratory data a
 
 ::: {.g-col-4}
 
-<img src="https://eda.seas.gwu.edu/showcase/2022-Fall/thumbnails/dc-vehicle-crashes.gif" width=100%>
+<img src="https://eda.seas.gwu.edu/showcase/2022-Fall/dc-vehicle-crashes.gif" width=100%>
 
 :::
 
@@ -31,7 +31,7 @@ Projects from the Fall 2022 semester of this class.
 
 ::: {.g-col-4}
 
-<img src="https://eda.seas.gwu.edu/showcase/2021-Spring/thumbnails/poverty_emissions.png" width=100%>
+<img src="https://eda.seas.gwu.edu/showcase/2021-Spring/poverty_emissions.png" width=100%>
 
 :::
 
@@ -45,7 +45,7 @@ Projects from the Spring 2021 semester of this class.
 
 ::: {.g-col-4}
 
-<img src="https://eda.seas.gwu.edu/showcase/2020-Spring/thumbnails/virginia_presidential_voting.png" width=100%>
+<img src="https://eda.seas.gwu.edu/showcase/2020-Spring/virginia_presidential_voting.png" width=100%>
 
 :::
 
