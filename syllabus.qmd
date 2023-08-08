@@ -111,15 +111,16 @@ Final grades will be calculated as follows:
 
 Item                           | Weight | Notes
 -------------------------------|--------|-------------------------------------
-Weekly HW                      | 12 %   |
-Quizzes                        | 8 %    | 5 quizzes, lowest dropped
-Mini Project 1                 | 8 %    | Individual assignments
-Mini Project 2                 | 8 %    |
-Mini Project 3                 | 8 %    |
-Final Project: Proposal        | 9 %    | Teams of 2-3 students
-Final Project: Progress Report | 12 %   |
-Final Project: Report          | 16 %   |
-Final Project: Presentation    | 9 %    |
+Participation / Attendance | 5%     | (Yes, I take attendance)
+Reflections           | 12 %   | Weekly assignment (13 x 1%, lowest dropped)
+Quizzes                        | 10 %    | 5 quizzes, lowest dropped
+Mini Project 1                 | 10 %    | Individual assignments
+Mini Project 2                 | 10 %    |
+Mini Project 3                 | 10 %    |
+Final Project: Proposal        | 6 %    | Teams of 2-3 students
+Final Project: Progress Report | 6 %   |
+Final Project: Report          | 15 %   |
+Final Project: Presentation    | 6 %    |
 Final Interview                | 10 %   | Individual interview
 
 </div>
