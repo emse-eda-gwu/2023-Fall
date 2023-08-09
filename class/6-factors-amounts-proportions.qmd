@@ -1,7 +1,7 @@
 ---
-title: "Correlation"
+title: "Factors, Amounts, & Proportions"
 params:
-  class: "6-correlation"
+  class: "6-amounts-proportions"
 execute:
   echo: false
   warning: false

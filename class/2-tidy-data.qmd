@@ -1,7 +1,7 @@
 ---
-title: "Final Presentations"
+title: "Tidy Data"
 params:
-  class: "15-final-presentations"
+  class: "2-tidy-data"
 execute:
   echo: false
   warning: false

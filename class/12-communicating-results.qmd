@@ -1,7 +1,7 @@
 ---
-title: "Centrality & Variability"
+title: "Communicating Results"
 params:
-  class: "5-centrality-variability"
+  class: "12-communicating-results"
 execute:
   echo: false
   warning: false

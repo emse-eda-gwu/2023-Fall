@@ -1,7 +1,7 @@
 ---
-title: "Communicating Results"
+title: "Polishing Charts"
 params:
-  class: "15-communicating-results"
+  class: "9-polishing-charts"
 execute:
   echo: false
   warning: false

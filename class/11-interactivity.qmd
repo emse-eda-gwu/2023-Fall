@@ -1,7 +1,7 @@
 ---
-title: "Trends"
+title: "Interactivity"
 params:
-  class: "10-trends"
+  class: "11-interactivity"
 execute:
   echo: false
   warning: false

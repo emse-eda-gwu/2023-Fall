@@ -1,7 +1,7 @@
 ---
-title: "Tidy Data"
+title: "Maps"
 params:
-  class: "3-tidy-data"
+  class: "10-maps"
 execute:
   echo: false
   warning: false
