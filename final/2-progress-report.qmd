@@ -8,7 +8,7 @@ execute:
   message: false
 params:
   number: 2
-  weight: '12%'
+  weight: '6%'
   purpose: 'purpose'
 ---
 
