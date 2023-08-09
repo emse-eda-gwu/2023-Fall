@@ -107,12 +107,12 @@ Rather than have a final exam, each student will have a 10-minute interview by t
 
 Final grades will be calculated as follows:
 
-<div style="width:550px">
+<div style="width:650px">
 
 Item                           | Weight | Notes
 -------------------------------|--------|-------------------------------------
 Participation / Attendance | 5%     | (Yes, I take attendance)
-Reflections           | 12 %   | Weekly assignment (13 x 1%, lowest dropped)
+Reflections           | 12 %   | Weekly assignment, lowest dropped)
 Quizzes                        | 10 %    | 5 quizzes, lowest dropped
 Mini Project 1                 | 10 %    | Individual assignments
 Mini Project 2                 | 10 %    |
@@ -137,8 +137,10 @@ library(ggrepel)
 
 df <- data.frame(
     category = c(
-      'Weekly HW', 'Quizzes', 'Mini Projects', 'Final Project',  'Interview'),
-    percent = c(6, 12, 27, 45, 10)) %>%
+      'Participation', 'Weekly HW', 'Quizzes', 'Mini Projects', 
+      'Final Project',  'Interview'
+    ),
+    percent = c(5, 12, 10, 30, 33, 10)) %>%
     arrange(desc(percent)) %>%
     mutate(
       cumpercent = cumsum(percent),
@@ -146,15 +148,22 @@ df <- data.frame(
       category = fct_reorder(category, percent))
 
 ggplot(df) +
-    geom_col(aes(x = "", y = percent, fill = category),
-             width = 1.1, alpha = 0.8) +
-    geom_label(data = filter(df, category %in% c(
-               'Mini Projects', 'Final Project')),
-               aes(x = "", y = label_y, label = category)) +
-    geom_label_repel(data = filter(df, category %in% c(
-                     'Quizzes', 'Interview', 'Weekly HW')),
-                     aes(x = "", y = label_y, label = category),
-                     direction = 'y', label.padding = 0.25, segment.size = 0) +
+    geom_col(
+      aes(x = "", y = percent, fill = category),
+      width = 1.1, alpha = 0.8
+    ) +
+    geom_label(
+      data = filter(df, category %in% c(
+      'Mini Projects', 'Final Project')),
+      aes(x = "", y = label_y, label = category)
+    ) +
+    geom_label_repel(
+      data = filter(df, category %in% c(
+        'Participation', 'Quizzes', 'Interview', 'Weekly HW')
+      ),
+      aes(x = "", y = label_y, label = category),
+      direction = 'y', label.padding = 0.25, segment.size = 0
+    ) +
     coord_flip() +
     scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
     scale_fill_viridis(discrete = TRUE) +
