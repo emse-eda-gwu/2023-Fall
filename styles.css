@@ -1,9 +1,13 @@
+:root {
+  --color-highlight: #18bc9c;
+}
+
 /* Text */
 
 blockquote {
   background-color: #ecf0f1;
   padding: 20px;
-  border-color: #2296f3;
+  border-color: var(--color-highlight);
   border-radius: 5px;
 }
 blockquote h3 {
@@ -35,7 +39,7 @@ tr:last-child {
 }
 
 .btn-slides {
-  background-color: #2296f3;
+  background-color: var(--color-highlight);
   color: #fff;
   font-weight: bold;
   font-size: 16px;
