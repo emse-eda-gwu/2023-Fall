@@ -1,5 +1,5 @@
 ---
-title: "Centrality & Variability"
+title: "Visualizing Information"
 params:
   number: 4
 ---

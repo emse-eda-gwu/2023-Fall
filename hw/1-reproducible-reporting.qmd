@@ -1,7 +1,0 @@
----
-title: "Reproducible Reporting"
-params:
-  number: 1
----
-
-Coming soon!

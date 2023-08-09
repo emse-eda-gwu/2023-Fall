@@ -1,7 +1,0 @@
----
-title: "Visualizing Information"
-params:
-  number: 6
----
-
-Coming soon!

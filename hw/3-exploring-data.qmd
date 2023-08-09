@@ -1,5 +1,5 @@
 ---
-title: "Cleaning Data"
+title: "Exploring Data"
 params:
   number: 3
 ---
