@@ -1,7 +1,7 @@
 ---
-title: "Cleaning Data"
+title: "Visualizing Information"
 params:
-  class: "4-cleaning-data"
+  class: "5-visualizing-information"
 execute:
   echo: false
   warning: false

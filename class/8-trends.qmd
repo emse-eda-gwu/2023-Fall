@@ -1,7 +1,7 @@
 ---
-title: "Maps"
+title: "Trends"
 params:
-  class: "12-maps"
+  class: "8-trends"
 execute:
   echo: false
   warning: false

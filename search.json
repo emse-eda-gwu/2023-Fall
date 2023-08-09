@@ -343,51 +343,44 @@
     "text": "Due: Students will sign up for individual meetings during finals week (Dec 12 - 13).\nWeight: This assignment is worth 10% of your final grade.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\n\nThe instructor will hold a 10-minute one-on-one interview with each student. The interview will consist of questions about your final project as well as questions about core concepts covered during the course.\nSome suggestions:\n\nBring water to drink - it will calm you when you are nervous and your mouth dries up. You can also pause and think while you drink.\nDon’t answer right away - think a bit.\nAnswer the question asked. Don’t try to impress or I will ask more questions.\nDon’t say “I don’t know.” Try and I will help you.\n\n\nGrading Rubric\n\n100 Total Points\nYou will be asked 10 questions; for each question, you will be assigned points based on this scale:\n\n\n\nPoints\nDescription\n\n\n\n\n10\nAnswers immediately and correctly without hesitation\n\n\n9\nAnswers correctly after some initial struggles\n\n\n8\nAnswers mostly correct after some time\n\n\n7\nAnswers mostly correct after some time and some help\n\n\n6\nAnswers mostly correctly after considerable help\n\n\n5\nPoor or partial answer, even after considerable help\n\n\n0\nCannot answer even with considerable help"
   },
   {
-    "objectID": "class/8-amounts-proportions.html",
-    "href": "class/8-amounts-proportions.html",
-    "title": "Amounts & Proportions",
+    "objectID": "class/8-trends.html",
+    "href": "class/8-trends.html",
+    "title": "Trends",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/6-correlation.html",
-    "href": "class/6-correlation.html",
-    "title": "Correlation",
+    "objectID": "class/6-factors-amounts-proportions.html",
+    "href": "class/6-factors-amounts-proportions.html",
+    "title": "Factors, Amounts, & Proportions",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/4-cleaning-data.html",
-    "href": "class/4-cleaning-data.html",
-    "title": "Cleaning Data",
+    "objectID": "class/4-exploring-data.html",
+    "href": "class/4-exploring-data.html",
+    "title": "Exploring Data",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/2-reproducible-reporting.html",
-    "href": "class/2-reproducible-reporting.html",
-    "title": "Reproducible Reporting with Quarto",
+    "objectID": "class/2-tidy-data.html",
+    "href": "class/2-tidy-data.html",
+    "title": "Tidy Data",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/14-communicating-results.html",
-    "href": "class/14-communicating-results.html",
+    "objectID": "class/12-communicating-results.html",
+    "href": "class/12-communicating-results.html",
     "title": "Communicating Results",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/12-maps-workshop.html",
-    "href": "class/12-maps-workshop.html",
+    "objectID": "class/10-maps.html",
+    "href": "class/10-maps.html",
     "title": "Maps",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/10-trends.html",
-    "href": "class/10-trends.html",
-    "title": "Trends",
     "section": "",
     "text": "Coming soon!"
   },
@@ -413,51 +406,44 @@
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
   },
   {
-    "objectID": "class/11-polishing-charts.html",
-    "href": "class/11-polishing-charts.html",
-    "title": "Polishing Charts",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/13-interactivity.html",
-    "href": "class/13-interactivity.html",
+    "objectID": "class/11-interactivity.html",
+    "href": "class/11-interactivity.html",
     "title": "Interactivity",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/15-final-presentations.html",
-    "href": "class/15-final-presentations.html",
+    "objectID": "class/13-final-presentations.html",
+    "href": "class/13-final-presentations.html",
     "title": "Final Presentations",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/3-tidy-data.html",
-    "href": "class/3-tidy-data.html",
-    "title": "Tidy Data",
+    "objectID": "class/3-cleaning-data.html",
+    "href": "class/3-cleaning-data.html",
+    "title": "Cleaning Data",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/5-centrality-variability.html",
-    "href": "class/5-centrality-variability.html",
-    "title": "Centrality & Variability",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/7-visualizing-information.html",
-    "href": "class/7-visualizing-information.html",
+    "objectID": "class/5-visualizing-information.html",
+    "href": "class/5-visualizing-information.html",
     "title": "Visualizing Information",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/9-comparisons.html",
-    "href": "class/9-comparisons.html",
+    "objectID": "class/7-comparisons.html",
+    "href": "class/7-comparisons.html",
     "title": "Comparisons",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/9-polishing-charts.html",
+    "href": "class/9-polishing-charts.html",
+    "title": "Polishing Charts",
     "section": "",
     "text": "Coming soon!"
   },
