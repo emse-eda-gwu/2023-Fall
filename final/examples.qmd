@@ -23,7 +23,7 @@ As inspiration for your final projects, check out these prior exploratory data a
 
 ::: {.g-col-8}
 
-### [Spring 2021 Showcase](https://eda.seas.gwu.edu/showcase/2022-Fall.html)
+### [Fall 2022 Showcase](https://eda.seas.gwu.edu/showcase/2022-Fall.html)
 
 Projects from the Fall 2022 semester of this class.
 
@@ -58,8 +58,6 @@ Projects from the Spring 2020 semester of this class.
 :::
 
 :::
-
-
 
 # Other exploratory analyses
 
