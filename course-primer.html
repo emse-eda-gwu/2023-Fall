@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EMSE 4572 / 6572</title>
+<title>EMSE 4572 / 6572 - Course Primer</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,13 +66,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="">
-<meta property="og:image" content="https://eda.seas.gwu.edu/2023-Fall/images/logo.png">
+<meta property="og:title" content="EMSE 4572 / 6572 - Course Primer">
+<meta property="og:description" content="">
 <meta property="og:site-name" content="https://eda.seas.gwu.edu/">
 <meta property="og:locale" content="es_ES">
-<meta property="og:image:height" content="807">
-<meta property="og:image:width" content="700">
-<meta name="twitter:title" content="">
+<meta name="twitter:title" content="EMSE 4572 / 6572 - Course Primer">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://eda.seas.gwu.edu/2023-Fall/images/logo-square.png">
 <meta name="twitter:creator" content="@johnhelveston">
 <meta name="twitter:site" content="@johnhelveston">
@@ -91,7 +90,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      EMSE 4572 / 6572
+      </li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -118,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-house-door-fill" role="img">
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-house-door-fill" role="img">
 </i> 
  <span class="menu-text">Home</span></a>
   </div>
@@ -299,34 +300,38 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<section id="emse-4572-6572-exploratory-data-analysis-fall-2023" class="level1">
-<h1>EMSE 4572 / 6572<br>Exploratory Data Analysis<br>Fall 2023</h1>
-<div class="grid">
-<div class="g-col-3">
-<p><img src="images/logo.png" width="200"></p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Course Primer</h1>
 </div>
-<div class="g-col-9">
-<p><strong>Department</strong>: <a href="https://www.emse.seas.gwu.edu/">Engineering Management and Systems Engineering</a> @ <a href="https://www.gwu.edu/">GWU</a></p>
-<p><strong>Credits</strong>: 3</p>
-<p><strong>Description</strong>:</p>
-<p>This course provides students with a foundation in exploring data using the <a href="https://www.r-project.org/">R programming language</a>. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using <a href="https://quarto.org/">Quarto</a> (which is built on the ideas of <a href="https://bookdown.org/yihui/rmarkdown/">RMarkdown</a>). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.</p>
-<p><strong>Learning Objectives</strong>:</p>
-<p>Having successfully completed this course, students will be able to:</p>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="this-assignment-is-optional" class="level2">
+<h2 class="anchored" data-anchor-id="this-assignment-is-optional">This assignment is optional</h2>
+<p>Students should have taken <a href="https://p4a.seas.gwu.edu/">EMSE 4571 / 6571: Intro to Programming for Analytics</a> prior to taking this course.</p>
+<p>For those who did not, I <strong>strongly</strong> suggest you go through all the lessons in this primer course:</p>
+<blockquote class="blockquote">
+<p><a href="http://jhelvy.github.io/r4aPrimer/">R for Analytics Primer</a></p>
+</blockquote>
+<p>After completing these lessons, you should be able to:</p>
 <ul>
-<li>Write a clear, focused, concise, complex, and arguable research question.</li>
-<li>Import, manipulate, clean, visualize, and export data in R.</li>
-<li>Wrangle data from its original format into a fit-for-purpose format.</li>
-<li>Conduct a systematic exploratory data analysis (EDA) of different types of data.</li>
-<li>Apply fundamental principles of visualizing information for exploratory analysis and communication.</li>
-<li>Get data off the web and expose data, code, results on the web.</li>
-<li>Generate fully reproducible reports that contain code, equations, visualizations, and narrative text.</li>
+<li>Use RStudio to write basic R commands.</li>
+<li>Know the distinctions between different R operators and data types, including numeric, string, and logical data.</li>
+<li>Use <strong>tidyverse</strong> functions to wrangle and manipulate data in R.</li>
+<li>Use the <strong>ggplot2</strong> library to create plots in R.</li>
 </ul>
-<p><strong>Prerequisites</strong>:</p>
-<p>Students should have taken <a href="https://p4a.seas.gwu.edu/">EMSE 4571/6571: Intro to Programming for Analytics</a> or have experience working with data in at least one programming language. If you’re not sure whether you have the necessary prerequisite skills, you can try and get up to speed by completing <a href="./course-primer.html">this optional course primer</a> assignment <strong>before class starts</strong>. Once class starts, it may be difficult to keep up without this background, and it may be more beneficial to wait and take this course next year after taking Programming for Analytics.</p>
-</div>
-</div>
+<p>Also, it can be very helpful to see these skills applied in practice. Take a look at <a href="https://www.datacamp.com/community/tutorials/tidyverse-tutorial-r">this example</a> of using Tidyverse tools to explore and visualize data on survivors aboard the Titantic. It’s a good example of conducting an Exploratory Data Analysis to gain insights about a data set.</p>
 
 
 </section>
@@ -591,7 +596,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
  © 2023 John Paul Helveston <a href="LICENSE.html"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a><br><i class="far fa-calendar-alt"></i> Thursdays | <i class="far fa-clock"></i> 12:45PM - 3:15PM EST | <a href="https://acadtech.gwu.edu/main-classroom-search/monroe-hall-114"><i class="fa fa-map-marker-alt"></i> Monroe Hall 114</a><br><a href="https://www.jhelvy.com"><i class="fas fa-user"></i> Dr. John Paul Helveston</a> | <a href="mailto:jph@gwu.edu"><i class="fas fa-envelope"></i> jph@gwu.edu</a> | <a href="https://github.com/emse-eda-gwu/2023-Fall"><i class="fab fa-github"></i></a>
   </li>  
 </ul>
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/emse-eda-gwu/2023-Fall/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/emse-eda-gwu/2023-Fall/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/emse-eda-gwu/2023-Fall/edit/main/course-primer.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/emse-eda-gwu/2023-Fall/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
