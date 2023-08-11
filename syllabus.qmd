@@ -239,6 +239,16 @@ Beyond those, assignments are due by 11:59pm on the assigned due date unless spe
 
 If you need a special accommodation such as due to an illness, family emergency, or religious holidays, contact the instructor ahead of time.
 
+## Use of chatGPT and other AI tools
+
+Large language models (LLMs) are capable of producing exact solutions to some of the coding problems assigned in this class...sometimes. More often then not though, they produce code that contains errors or poor coding practices, and they often use different approaches then what is taught in class, which can be confusing.
+
+With this in mind, the use of AI tools is in general permitted, but with caveats. If you do AI tools on assignments in this class, you must include the prompt(s) you used as well as changed to made to them to get better results to receive full credit. I want to see how you are using them. **Be transparent** - that is all I ask.
+
+For writing assistance, LLMs are again permitted, but again I want to see how you used them. If you used an LLM to help you with any of the writing portions of your assignments, include a section called "Use of AI on this assignment" and describe which tool(s) we used and how they were used.
+
+Your goal in using tools like ChatGPT should be to see them as an assistant - a tool to help you accomplish the task - rather than as a solutions manual. Take the time to work through the code / text these tools generate and ensure that what they provide is accurate, and if not make the corrections to fix their mistakes.
+
 ## Cheating
 
 Cheating results in a penalty on the first offense, and failing the course on the second offense. Cheating on assignments can include:
@@ -256,14 +266,6 @@ Cheating on quizzes, assignments, or the final project can include:
 - Referring to any external resources while completing the assignment (phones, notes, etc.).
 - Copying part of an answer off of another student's paper, even if it is very small.
 - Using solutions provided by students who previously took the course.
-
-### Use of chatGPT and other AI tools
-
-Large language models (LLMs) are capable of producing exact solutions to some of the coding problems assigned in this class. So we all basically have a solutions manual available for free.
-
-With this in mind, the use of AI tools is in general permitted, but with caveats. If you do use AI tools on assignments in this class, you must include the prompt(s) you used as well as changed to made to them to get better results to receive full credit.
-
-Learn to use tools like ChatGPT as a learning assistant - a tool to help you accomplish the task - rather than just a solutions manual. One version of using it makes you a better and more efficient coder, the other robs you of that.
 
 ### Penalties
 
