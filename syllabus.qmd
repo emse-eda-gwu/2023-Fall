@@ -249,6 +249,8 @@ For writing assistance, LLMs are again permitted, but again I want to see how yo
 
 Your goal in using tools like ChatGPT should be to see them as an assistant - a tool to help you accomplish the task - rather than as a solutions manual. Take the time to work through the code / text these tools generate and ensure that what they provide is accurate, and if not make the corrections to fix their mistakes.
 
+> Curious how LLMs actually work? Check out [this article](https://www.understandingai.org/p/large-language-models-explained-with), which provides a simplified description of how they work (which itself is still quite complicated).
+
 ## Cheating
 
 Cheating results in a penalty on the first offense, and failing the course on the second offense. Cheating on assignments can include:
