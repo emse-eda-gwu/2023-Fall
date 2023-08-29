@@ -14,7 +14,7 @@ project:
     - "data/"
     - "content/"
     - "mini/"
-    - "final/"
+    - "project/"
     - "templates/"
 
 website:
@@ -62,17 +62,17 @@ website:
         icon: pencil-square
         contents:
           - text: Overview
-            href: final/0-overview.qmd
+            href: project/0-overview.qmd
           - text: Proposal
-            href: final/1-proposal.qmd
+            href: project/1-proposal.qmd
           - text: Progress Report 
-            href: final/2-progress-report.qmd
-          - text: Final Report 
-            href: final/3-final-report.qmd
-          - text: Final Presentation 
-            href: final/4-presentation.qmd
+            href: project/2-progress-report.qmd
+          - text: project Report
+            href: project/3-final-report.qmd
+          - text: project Presentation
+            href: project/4-presentation.qmd
           - text: Examples
-            href: final/examples.qmd
+            href: project/examples.qmd
       - text: Software
         icon: download
         href: software.qmd
