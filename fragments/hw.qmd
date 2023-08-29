@@ -18,7 +18,7 @@ hw_file <- paste0('hw', params$number, '.qmd')
 
 > **Due**: `r due`
 >
-> **Submission Instructions**: Create a zip file of all the files in your R project folder for this assignment, then submit your zip file on the corresponding assignment submission on Blackboard.
+> **Submission Instructions**: Render your .qmd file, then create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 >
 > **Weight**: This assignment is worth 1% of your final grade.
 >

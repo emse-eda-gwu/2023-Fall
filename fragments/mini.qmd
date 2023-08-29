@@ -1,4 +1,8 @@
 ```{r}
+#| include: false
+
+source(here::here("_common.R"))
+
 due <- get_schedule() %>%
   filter(n_mini == params$number) %>%
   pull(due_mini) %>%
@@ -6,6 +10,8 @@ due <- get_schedule() %>%
 ```
 
 > **Due**: `r due`
+>
+> **Submission Instructions**: Render your .qmd file, then create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 >
 > **Weight**: This assignment is worth `r params$weight` of your final grade.
 >
