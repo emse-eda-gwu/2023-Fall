@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EMSE 4572 / 6572 - Final Report</title>
+<title>EMSE 4572 / 6572 - Project Proposal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,15 +64,18 @@ ul.task-list li input[type="checkbox"] {
 <!-- fontawesome kit -->
 <script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
 
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="EMSE 4572 / 6572 - Final Report">
+<meta property="og:title" content="EMSE 4572 / 6572 - Project Proposal">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="https://eda.seas.gwu.edu/">
 <meta property="og:locale" content="es_ES">
-<meta name="twitter:title" content="EMSE 4572 / 6572 - Final Report">
+<meta name="twitter:title" content="EMSE 4572 / 6572 - Project Proposal">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://eda.seas.gwu.edu/2023-Fall/final/images/logo-square.png">
+<meta name="twitter:image" content="https://eda.seas.gwu.edu/2023-Fall/project/images/logo-square.png">
 <meta name="twitter:creator" content="@johnhelveston">
 <meta name="twitter:site" content="@johnhelveston">
 <meta name="twitter:card" content="summary">
@@ -88,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../final/0-overview.html">Final Project</a></li><li class="breadcrumb-item"><a href="../final/3-final-report.html">Final Report</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../project/0-overview.html">Final Project</a></li><li class="breadcrumb-item"><a href="../project/1-proposal.html">Proposal</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -176,37 +179,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../final/0-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="../project/0-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../final/1-proposal.html" class="sidebar-item-text sidebar-link">
+  <a href="../project/1-proposal.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Proposal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../final/2-progress-report.html" class="sidebar-item-text sidebar-link">
+  <a href="../project/2-progress-report.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Progress Report</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../final/3-final-report.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Final Report</span></a>
+  <a href="../project/3-final-report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">project Report</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../final/4-presentation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Final Presentation</span></a>
+  <a href="../project/4-presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">project Presentation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../final/examples.html" class="sidebar-item-text sidebar-link">
+  <a href="../project/examples.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Examples</span></a>
   </div>
 </li>
@@ -293,14 +296,28 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#get-organized" id="toc-get-organized" class="nav-link active" data-scroll-target="#get-organized">1. Get organized</a></li>
+  <li><a href="#write-a-research-question" id="toc-write-a-research-question" class="nav-link" data-scroll-target="#write-a-research-question">2. Write a research question</a></li>
+  <li><a href="#discuss-your-data-sources" id="toc-discuss-your-data-sources" class="nav-link" data-scroll-target="#discuss-your-data-sources">3. Discuss your data sources</a></li>
+  <li><a href="#describe-anticipated-results" id="toc-describe-anticipated-results" class="nav-link" data-scroll-target="#describe-anticipated-results">4. Describe anticipated results</a></li>
+  <li><a href="#knit-and-submit" id="toc-knit-and-submit" class="nav-link" data-scroll-target="#knit-and-submit">5. Knit and submit</a></li>
+  <li><a href="#grading-rubric" id="toc-grading-rubric" class="nav-link" data-scroll-target="#grading-rubric">Grading Rubric</a>
+  <ul class="collapse">
+  <li><a href="#total-points" id="toc-total-points" class="nav-link" data-scroll-target="#total-points">40 Total Points</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/emse-eda-gwu/2023-Fall/edit/main/project/1-proposal.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/emse-eda-gwu/2023-Fall/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Final Report</h1>
+<h1 class="title">Project Proposal</h1>
 </div>
 
 
@@ -315,9 +332,127 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Coming soon!</p>
+<blockquote class="blockquote">
+<p><strong>Due</strong>: Sep 24 by 11:59pm</p>
+<p><strong>Submission Instructions</strong>: Render your .qmd file, then create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard. <strong>Only one person from your team should submit the report</strong>.</p>
+<p><strong>Weight</strong>: This assignment is worth 6% of your final grade.</p>
+<p><strong>Purpose</strong>: The purpose of the proposal is to clarify the specific research topic of interest for your team and to ensure that you are headed in a promising direction before spending hours analyzing data for your project.</p>
+<p><strong>Assessment</strong>: Your submission will be assessed using the <a href="#grading-rubric">rubric</a> at the bottom of this page.</p>
+</blockquote>
+<p>Write a proposal of an exploratory data analysis that you plan to conduct for your final project. The instructors will review and grade your proposal and provide feedback upon returning from spring break. If your proposal is approved, you are done and can move on towards the next project task. In some cases, the instructors may ask you to submit a revised proposal, most likely by focusing / adjusting the proposal scope and / or research question. Below is a list of specific items your proposal should include.</p>
+<section id="get-organized" class="level2">
+<h2 class="anchored" data-anchor-id="get-organized">1. Get organized</h2>
+<p>Download and unzip <a href="../templates/project-template.zip">this template</a> for your proposal report. Open the <code>project.Rproj</code> file and write your proposal in the <code>report.Rmd</code> file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:</p>
+<ul>
+<li>Write your project title in the <code>title</code> field (and provide a subtitle if you wish, or delete the <code>subtitle</code> field).</li>
+<li>In the <code>author</code> field, list the names of all teammates, e.g.&nbsp;<code>author: Luke Skywalker, Leia Organa, and Han Solo</code>.</li>
+</ul>
+</section>
+<section id="write-a-research-question" class="level2">
+<h2 class="anchored" data-anchor-id="write-a-research-question">2. Write a research question</h2>
+<p>State a clear research question. Follow <a href="https://writingcenter.gmu.edu/guides/how-to-write-a-research-question">these guidelines</a>. Your question should be:</p>
+<ul>
+<li><strong>Clear</strong>: it provides enough specifics that your audience can easily understand its purpose without needing additional explanation.</li>
+<li><strong>Focused</strong>: it is narrow enough that it can be addressed thoroughly with the data available and within the limits of the final project report.</li>
+<li><strong>Concise</strong>: it is expressed in the fewest possible words.</li>
+<li><strong>Complex</strong>: it is not answerable with a simple “yes” or “no,” but rather requires synthesis and analysis of data.</li>
+<li><strong>Arguable</strong>: its potential answers are open to debate rather than accepted facts.</li>
+</ul>
+</section>
+<section id="discuss-your-data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="discuss-your-data-sources">3. Discuss your data sources</h2>
+<p>Discuss the data source(s) you plan to use for your analysis. Follow these guidelines:</p>
+<ul>
+<li>If you have already identified the source(s), describe them and include urls and / or references to the sources.</li>
+<li>If you have not identified a source yet, describe the data you <em>hope</em> to use, and give at least one plausible source that may have the data (regardless of whether the source makes it available or not).</li>
+<li>Discuss the validity of the source(s). For each data source, is the data the <em>original</em> data, or has it been pre-processed by someone else? How was the original data collected and by whom? If you do not yet have a source, discuss what concerns you have about a plausible source that might have the data.</li>
+</ul>
+</section>
+<section id="describe-anticipated-results" class="level2">
+<h2 class="anchored" data-anchor-id="describe-anticipated-results">4. Describe anticipated results</h2>
+<ul>
+<li>Choose two variables that you expect to find in your data that are relevant to your research question.</li>
+<li>Regardless of whether those variables actually exist, describe how you would <em>expect</em> each to be distributed (e.g.&nbsp;unimodal, multimodel, tightly-group, widely-spread, etc.). For example, you might expect the price of gasoline over a particular period to be rather tightly-grouped around a mean, whereas the stock price of a particular company might vary much more widely over the same period.</li>
+<li>Describe two relationships you expect to find among variables in your data (again, regardless of whether they actually exist in your data). For example, you might expect sales of hybrid vehicles to increase when gas prices increase; in this case, I am expecting that hybrid vehicle sales and gasoline prices are positively correlated.</li>
+<li>Describe at least two charts that you expect will help you visualize the relationships that you expect to find. For example, a scatterplot of gasoline prices and hybrid vehicle sales over a particular time period might be useful for visualizing the level of correlation between these two variables.</li>
+<li>Discuss how your expectations about the variables you chose will help inform you about your research question.</li>
+</ul>
+</section>
+<section id="knit-and-submit" class="level2">
+<h2 class="anchored" data-anchor-id="knit-and-submit">5. Knit and submit</h2>
+<p>Click the “knit” button to compile your <code>proposal.Rmd</code> file into a html web page, then create a zip file of everything in your R Project folder. Name your file <code>proposal.zip</code>, then go to your team Box folder and submit your zip file in the “submissions” folder. <strong>Only one person from your team should submit the report.</strong></p>
+</section>
+<section id="grading-rubric" class="level1">
+<h1>Grading Rubric</h1>
+<section id="total-points" class="level3">
+<h3 class="anchored" data-anchor-id="total-points">40 Total Points</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<table class="table table-striped table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Category</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Excellent</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Good</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Needs work</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Organization &amp; Formatting</td>
+<td style="text-align: left;"><strong>5</strong><br>
+All formatting guidelines are followed; YAML is correct with all team members listed.</td>
+<td style="text-align: left;"><strong>4</strong><br>
+Most formatting guidelines are followed; YAML is correct with all team members listed.</td>
+<td style="text-align: left;"><strong>3</strong><br>
+Several or all formatting guidelines not followed; YAML contains elements that aren't updated from the template.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Research Question</td>
+<td style="text-align: left;"><strong>10 / 9</strong><br>
+Research question is clear, focused, concise, complex, and arguable.</td>
+<td style="text-align: left;"><strong>8 / 7 / 6</strong><br>
+Research question is reasonably clear and focused, but may be too simple, too complex, or too verbose.</td>
+<td style="text-align: left;"><strong>5 / 4 / 3</strong><br>
+Research question is unclear and lacks focus; question is far too simple or overly complex.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Data Sources</td>
+<td style="text-align: left;"><strong>10 / 9</strong><br>
+Data sources or plausible data sources are clearly described; validity of and concerns about data are discussed.</td>
+<td style="text-align: left;"><strong>8 / 7 / 6</strong><br>
+Identified data sources or plausible data sources are not clearly described; validity of and concerns about data are minimally discussed.</td>
+<td style="text-align: left;"><strong>5 / 4 / 3</strong><br>
+Data sources are poorly described or missing; description of validity of and concerns about data are poor or missing.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Anticipated Results</td>
+<td style="text-align: left;"><strong>10 / 9</strong><br>
+Detailed description of: 1) two variables and their expected distribution; 2) two expected relationships; 3) two charts that help visualize expected relationships; and 4) how chosen variables will inform research questions.</td>
+<td style="text-align: left;"><strong>8 / 7 / 6</strong><br>
+Detailed description of only one expected variable, relationship, or chart; minimal description of two expected variables, relationships, or charts; minimal description of links between variables and research question.</td>
+<td style="text-align: left;"><strong>5 / 4 / 3</strong><br>
+Poor or missing descriptions of variables, relationships, or charts; poor or missing description between variables and research question.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Technical things</td>
+<td style="text-align: left;"><strong>5</strong><br>
+All code runs without errors; all files included in the submitted .zip file.</td>
+<td style="text-align: left;"><strong>4</strong><br>
+Code has only one or two error, otherwise runs; all files included in the submitted .zip file.</td>
+<td style="text-align: left;"><strong>3</strong><br>
+Code has multiple errors; submitted .zip file is missing components necessary to reproduce analysis.</td>
+</tr>
+</tbody>
+</table>
 
 
+</div>
+</div>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -579,7 +714,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
  © 2023 John Paul Helveston <a href="LICENSE.html"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a><br><i class="far fa-calendar-alt"></i> Thursdays | <i class="far fa-clock"></i> 12:45PM - 3:15PM EST | <a href="https://acadtech.gwu.edu/main-classroom-search/monroe-hall-114"><i class="fa fa-map-marker-alt"></i> Monroe Hall 114</a><br><a href="https://www.jhelvy.com"><i class="fas fa-user"></i> Dr. John Paul Helveston</a> | <a href="mailto:jph@gwu.edu"><i class="fas fa-envelope"></i> jph@gwu.edu</a> | <a href="https://github.com/emse-eda-gwu/2023-Fall"><i class="fab fa-github"></i></a>
   </li>  
 </ul>
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/emse-eda-gwu/2023-Fall/edit/main/final/3-final-report.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/emse-eda-gwu/2023-Fall/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
