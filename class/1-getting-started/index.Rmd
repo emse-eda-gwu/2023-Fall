@@ -662,18 +662,6 @@ countdown(
 
 ---
 
-# .center[Anatomy of a .qmd file]
-
-<br>
-
-# Header
-
-# Markdown text
-
-# R code
-
----
-
 class: middle, inverse 
 
 # .center[Quick demo]
@@ -683,6 +671,22 @@ class: middle, inverse
 # 1. Open `quarto_demo.qmd`
 
 # 2. Click "Render"
+
+<center>
+<img src="images/how-qmd-works.png" width=100%>
+</center>
+
+---
+
+# .center[Anatomy of a .qmd file]
+
+<br>
+
+# .red[Header]
+
+# Markdown text
+
+# R code
 
 ---
 
@@ -735,6 +739,14 @@ title: Your title
 author: Author name
 format: pdf 
 ---
+```
+
+If you don't have LaTeX on your computer, install tinytex in R:
+
+```{r}
+#| eval: false 
+
+tinytex::install_tinytex()
 ```
 
 ]
