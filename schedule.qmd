@@ -22,7 +22,7 @@ done <- schedule %>%
   rename(
       `Mini Projects` = Mini,
       `Final Projects` = Final,
-      `Weekly HW` = Assignments
+      `Weekly HW` = Assign
   ) %>%
   select(
       Week, Date = Date_md, Class, `Weekly HW`, `Mini Projects`,

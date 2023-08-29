@@ -2,6 +2,46 @@
 title: "Tidy Data"
 params:
   number: 1
+  purpose: 'The purpose of this assignment is to introduce yourself to the "tidy data" concept and to practice modifying data frames between long and wide formats in R.'
 ---
 
-Coming soon!
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+### 1. Software
+
+If you haven't yet, go to the [Course Software](../software.html) page and install all the software we'll need for this course. You'll need these tools for this assignment.
+
+### 2. Get Organized
+
+Download and edit [this template](`r url_template`) when working through this assignment.
+
+### 3. Readings & Exercises
+
+Follow these instructions:
+
+1. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
+2. Open the .Rproj file to open RStudio. 
+3. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the following readings / exercises:
+
+- **Getting Familiar with the Course**: Follow [Snoop's advice](https://www.youtube.com/watch?v=Tnlaokj1opA) and read the entire [Course Syllabus](../syllabus.html) (actually read the whole thing). Then review the [schedule](../schedule.html) and make sure to note important upcoming deadlines.
+- **Getting Familiar with Tidy Data**: Read [this tidyverse article](https://tidyr.tidyverse.org/articles/tidy-data.html) explaining the concept of tidy data. In your ``r hw_file``, copy some of the examples into a code chunk and run them to see the results of converting data between long and wide formats.
+- **Use AI to Practice Reshaping Messy Data**: Open [ChatGPT](https://chat.openai.com/) and start a chat to practice the concept of tidying data into long and wide formats. Ask the AI questions about what it gives you to make sure you understand the concept. Are you certain the AI is giving you good code? Here is an example prompt (feel free to experiment with other prompts): 
+
+> `I'm practicing the concept of tidy data in R. Provide me an example dataset in wide format and then show me R code for how to convert it to long format. Afterwards, do the opposite - show me an example of a dataset in long format and show me R code for how to convert it to wide format.  In each case, explain your reasoning first, then show me the code.`
+
+#### **Optional**
+
+[Chapter 6](https://r4ds.hadley.nz/data-tidy.html) in Hadley Wickham's R4DS book covers more detail on the concept of tidy data with even more examples. It's worth reading through for a more comprehensive understanding.
+
+### 4. Reflect 
+
+Reflect on what you've learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your ``r paste0('hw', params$number, '.qmd')`` file.
+
+Try filling out this template:
+
+> "I used to think ______, now I think ______ 🤔"
+
+### 5. Submit
+
+Instructions for how to submit your assignment are at the [top of this page]().

@@ -1,4 +1,8 @@
 ```{r}
+#| include: false
+
+source(here::here("_common.R"))
+
 due <- get_schedule() %>%
   mutate(due_assign = lead(date, 1) - 1) %>%
   filter(n_assign == params$number) %>%
@@ -6,11 +10,15 @@ due <- get_schedule() %>%
   paste0(" by 11:59pm")
 
 url_template <- paste0(
-  'https://eda.seas.gwu.edu/2022-Fall/templates/hw',
+  'https://eda.seas.gwu.edu/2023-Fall/templates/hw',
   params$number, '.zip')
+
+hw_file <- paste0('hw', params$number, '.qmd')
 ```
 
 > **Due**: `r due`
+>
+> **Submission Instructions**: Create a zip file of all the files in your R project folder for this assignment, then submit your zip file on the corresponding assignment submission on Blackboard.
 >
 > **Weight**: This assignment is worth 1% of your final grade.
 >
