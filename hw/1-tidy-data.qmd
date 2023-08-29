@@ -32,7 +32,8 @@ Follow these instructions:
 
 #### **Optional**
 
-[Chapter 6](https://r4ds.hadley.nz/data-tidy.html) in Hadley Wickham's R4DS book covers more detail on the concept of tidy data with even more examples. It's worth reading through for a more comprehensive understanding.
+- [Chapter 6](https://r4ds.hadley.nz/data-tidy.html) in Hadley Wickham's R4DS book covers more detail on the concept of tidy data with even more examples. It's worth reading through for a more comprehensive understanding.
+- [Chapter 29](https://r4ds.hadley.nz/quarto.html#code-chunks) in Hadley Wickham's R4DS book is a great introduction to [Quarto](https://quarto.org/). I highly recommend taking a look through it to get a better understanding of Quarto (we'll be using it the whole semester!).
 
 ### 4. Reflect 
 
