@@ -667,7 +667,7 @@ class: inverse
 
 2. Stand up, meet each other, (maybe form teams?...use [this sheet](https://docs.google.com/spreadsheets/d/1r1hSkC8oql3aurOLUEmYfGovqEL5FYc9puAdNw1guJk/edit?usp=sharing)) 
 
-<div class="countdown" id="timer_5a57594a" data-warn-when="30" data-update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;margin:5%;font-size:8em;">
+<div class="countdown" id="timer_8092609b" data-warn-when="30" data-update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;margin:5%;font-size:8em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -690,18 +690,6 @@ class: inverse, middle
 
 ---
 
-# .center[Anatomy of a .qmd file]
-
-&lt;br&gt;
-
-# Header
-
-# Markdown text
-
-# R code
-
----
-
 class: middle, inverse 
 
 # .center[Quick demo]
@@ -711,6 +699,22 @@ class: middle, inverse
 # 1. Open `quarto_demo.qmd`
 
 # 2. Click "Render"
+
+&lt;center&gt;
+&lt;img src="images/how-qmd-works.png" width=100%&gt;
+&lt;/center&gt;
+
+---
+
+# .center[Anatomy of a .qmd file]
+
+&lt;br&gt;
+
+# .red[Header]
+
+# Markdown text
+
+# R code
 
 ---
 
@@ -763,6 +767,13 @@ title: Your title
 author: Author name
 format: pdf 
 ---
+```
+
+If you don't have LaTeX on your computer, install tinytex in R:
+
+
+```r
+tinytex::install_tinytex()
 ```
 
 ]
@@ -1140,9 +1151,7 @@ Runs, but doesn't print anything
 ````markdown
 ```{r}
 #| label: setup
-#| echo: false
-#| message: false
-#| warning: false
+#| include: false
 
 knitr::opts_chunk$set(
     warning = FALSE,
@@ -1364,7 +1373,7 @@ glimpse(pv_cells)
 
 class: inverse
 
-<div class="countdown" id="timer_c0785eb1" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_7dd4e307" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1972,7 +1981,7 @@ lotr %&gt;%
 
 class: inverse
 
-<div class="countdown" id="timer_ab8e2347" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_9d1073cb" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2085,7 +2094,7 @@ mpg %&gt;%
 
 .rightcol[.blackborder[
 
-&lt;img src="figs/unnamed-chunk-55-1.png" width="504" /&gt;
+&lt;img src="figs/unnamed-chunk-56-1.png" width="504" /&gt;
 
 ]]
 
@@ -2107,7 +2116,7 @@ mpg %&gt;%
 
 .rightcol[.blackborder[
 
-&lt;img src="figs/unnamed-chunk-56-1.png" width="504" /&gt;
+&lt;img src="figs/unnamed-chunk-57-1.png" width="504" /&gt;
 
 ]]
 
@@ -2130,7 +2139,7 @@ mpg %&gt;%
 
 .rightcol[.blackborder[
 
-&lt;img src="figs/unnamed-chunk-57-1.png" width="504" /&gt;
+&lt;img src="figs/unnamed-chunk-58-1.png" width="504" /&gt;
 
 ]]
 
@@ -2158,7 +2167,7 @@ mpg %&gt;%
 
 .rightcol[.blackborder[
 
-&lt;img src="figs/unnamed-chunk-58-1.png" width="504" /&gt;
+&lt;img src="figs/unnamed-chunk-59-1.png" width="504" /&gt;
 
 ]]
 
@@ -2185,7 +2194,7 @@ mpg %&gt;%
 
 .rightcol[.blackborder[
 
-&lt;img src="figs/unnamed-chunk-59-1.png" width="504" /&gt;
+&lt;img src="figs/unnamed-chunk-60-1.png" width="504" /&gt;
 
 ]]
 
@@ -2205,7 +2214,7 @@ mpg %&gt;%
 * theme_bw()
 ```
 
-&lt;img src="figs/unnamed-chunk-60-1.png" width="432" /&gt;
+&lt;img src="figs/unnamed-chunk-61-1.png" width="432" /&gt;
 
 ]
 
@@ -2221,7 +2230,7 @@ mpg %&gt;%
 * theme_minimal()
 ```
 
-&lt;img src="figs/unnamed-chunk-61-1.png" width="432" /&gt;
+&lt;img src="figs/unnamed-chunk-62-1.png" width="432" /&gt;
 
 ]
 
@@ -2241,7 +2250,7 @@ mpg %&gt;%
 * theme_classic()
 ```
 
-&lt;img src="figs/unnamed-chunk-62-1.png" width="432" /&gt;
+&lt;img src="figs/unnamed-chunk-63-1.png" width="432" /&gt;
 
 ]
 
@@ -2257,7 +2266,7 @@ mpg %&gt;%
 * theme_void()
 ```
 
-&lt;img src="figs/unnamed-chunk-63-1.png" width="432" /&gt;
+&lt;img src="figs/unnamed-chunk-64-1.png" width="432" /&gt;
 
 ]
 
@@ -2267,15 +2276,15 @@ class: middle, inverse
 
 .leftcol[
 
-&lt;img src="figs/unnamed-chunk-64-1.png" width="522.144" /&gt;
-
 &lt;img src="figs/unnamed-chunk-65-1.png" width="522.144" /&gt;
+
+&lt;img src="figs/unnamed-chunk-66-1.png" width="522.144" /&gt;
 
 ]
 
 .rightcol[
 
-<div class="countdown" id="timer_604a51cc" data-warn-when="15" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_b91ccbb9" data-warn-when="15" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2286,7 +2295,7 @@ Open `practice.qmd`
 
 Use the `mpg` data frame and ggplot to create these charts
 
-&lt;img src="figs/unnamed-chunk-67-1.png" width="522.144" /&gt;
+&lt;img src="figs/unnamed-chunk-68-1.png" width="522.144" /&gt;
 ]
 
 ---
@@ -2303,7 +2312,7 @@ class: inverse
 
 .rightcol[
 
-&lt;img src="figs/unnamed-chunk-68-1.png" width="432" /&gt;
+&lt;img src="figs/unnamed-chunk-69-1.png" width="432" /&gt;
 
 ]
     </textarea>
