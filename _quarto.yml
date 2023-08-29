@@ -7,6 +7,7 @@ project:
   render:
     - "*.qmd"
     - "!fragments/"
+    - "!1-getting-started/"
   resources:
     - "class/"
     - "rubrics/"
