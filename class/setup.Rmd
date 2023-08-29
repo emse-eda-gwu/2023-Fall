@@ -1,11 +1,11 @@
 ```{r setup, include=FALSE}
 library(knitr)
 library(tidyverse)
+library(cowplot)
 library(fontawesome)
 library(kableExtra)
 library(countdown)
 library(metathis)
-library(here)
 
 options(
   htmltools.dir.version = FALSE,
