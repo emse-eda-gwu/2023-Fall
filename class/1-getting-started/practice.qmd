@@ -52,30 +52,25 @@ Write code to import the following data files from the "data" folder:
 
 Some quick practice viewing pieces of data frames.
 
-Data is `msleep` data frame, loaded with the ggplot package
-
 ```{r}
 # Extract rows and columns using df[row, col]
-msleep[1,] # First row
-msleep[,1] # First column
+lotr[1,] # First row
+lotr[,1] # First column
 
 # Extract whole columns using df$name
-msleep$name
-msleep$genus
+lotr$Race
+lotr$Film
 
 # Get the dimensions
-nrow(msleep)  # number of rows
-ncol(msleep)  # number of columns
-dim(msleep)   # numbers of rows, columns
-
-# View first few rows
-head(msleep)
-
-# View data types of each column
-glimpse(msleep)
+nrow(lotr)  # number of rows
+ncol(lotr)  # number of columns
+dim(lotr)   # numbers of rows, columns
 
 # View dataset in new tab
-view(msleep) # This is "read-only" so you can't corrupt the data :)
+view(lotr) # This is "read-only" so you can't corrupt the data :)
+
+# View data types of each column
+glimpse(lotr)
 ```
 
 ## Practice summarizing data frames
@@ -120,7 +115,7 @@ What is the shortest and longest air time for any one flight in the data frame?
 
 Read in the `data.csv` file in the "data" folder:
 
-```{r}
+```{r, eval=FALSE}
 data <- read_csv(here('data', 'data.csv'))
 ```
 
