@@ -1102,9 +1102,7 @@ cat('hello world!')
 ````markdown
 `r ''````{r}
 #| label: setup
-#| echo: false
-#| message: false
-#| warning: false
+#| include: false
 
 knitr::opts_chunk$set(
     warning = FALSE,

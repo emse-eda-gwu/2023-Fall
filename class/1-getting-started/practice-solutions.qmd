@@ -59,25 +59,30 @@ patents <- read_excel(usptoPath, sheet = "Figure 6-45", skip = 3)
 
 Some quick practice viewing pieces of data frames.
 
+Data is `msleep` data frame, loaded with the ggplot package
+
 ```{r}
 # Extract rows and columns using df[row, col]
-lotr[1,] # First row
-lotr[,1] # First column
+msleep[1,] # First row
+msleep[,1] # First column
 
 # Extract whole columns using df$name
-lotr$Race
-lotr$Film
+msleep$name
+msleep$genus
 
 # Get the dimensions
-nrow(lotr)  # number of rows
-ncol(lotr)  # number of columns
-dim(lotr)   # numbers of rows, columns
+nrow(msleep)  # number of rows
+ncol(msleep)  # number of columns
+dim(msleep)   # numbers of rows, columns
 
-# View dataset in new tab
-view(lotr) # This is "read-only" so you can't corrupt the data :)
+# View first few rows
+head(msleep)
 
 # View data types of each column
-glimpse(lotr)
+glimpse(msleep)
+
+# View dataset in new tab
+view(msleep) # This is "read-only" so you can't corrupt the data :)
 ```
 
 ## Practice summarizing data frames
@@ -123,7 +128,7 @@ min(data$air_time, na.rm = TRUE)
 
 Read in the `data.csv` file in the "data" folder:
 
-```{r, eval=FALSE}
+```{r}
 data <- read_csv(here('data', 'data.csv'))
 ```
 
