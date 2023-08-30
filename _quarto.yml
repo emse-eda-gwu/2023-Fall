@@ -67,9 +67,9 @@ website:
             href: project/1-proposal.qmd
           - text: Progress Report 
             href: project/2-progress-report.qmd
-          - text: project Report
+          - text: Final Report
             href: project/3-final-report.qmd
-          - text: project Presentation
+          - text: Final Presentation
             href: project/4-presentation.qmd
           - text: Examples
             href: project/examples.qmd

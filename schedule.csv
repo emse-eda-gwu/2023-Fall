@@ -1,4 +1,4 @@
-week,date,quiz,quiz_content,theme,n_class,stub_class,name_class,description_class,n_assign,stub_assign,name_assign,due_assign,n_mini,stub_mini,name_mini,due_mini,n_final,stub_final,name_final,due_final
+week,date,quiz,quiz_content,theme,n_class,stub_class,name_class,description_class,n_assign,stub_assign,name_assign,due_assign,n_mini,stub_mini,name_mini,due_mini,n_project,stub_project,name_project,due_project
 1,2023/08/30,,,Cleaning,1,getting-started,Getting Started,Class orientation; workflow; Quarto; importing data; data wrangling & plotting refresher,1,tidy-data,Tidy Data,2023/09/05,,,,,,,,
 2,2023/09/06,,,Cleaning,2,tidy-data,Tidy Data,Tidy data; reshaping data; data provenance; writing a research question,2,cleaning-data,Cleaning Data,2023/09/12,,,,,,,,
 3,2023/09/13,1,Weeks 1 - 2,Cleaning,3,cleaning-data,Cleaning Data,Joins; changing data types; dealing with messy Excel files,3,exploring-data,Exploring Data,2023/09/19,1,data-cleaning,Data Cleaning,2023/09/26,1,proposal,Proposal,2023/09/24

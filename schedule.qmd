@@ -21,7 +21,7 @@ names(schedule) <- str_to_title(names(schedule))
 done <- schedule %>%
   rename(
       `Mini Projects` = Mini,
-      `Final Projects` = Final,
+      `Final Projects` = Project,
       `Weekly HW` = Assign
   ) %>%
   select(
