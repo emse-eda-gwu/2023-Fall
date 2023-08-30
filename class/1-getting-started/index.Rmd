@@ -466,7 +466,7 @@ You should be able to:
 
 --
 
-## 3) `r fa("pen-ruler")` [Final Project](https://eda.seas.gwu.edu/2023-Fall/final/0-overview.html) 
+## 3) `r fa("pen-ruler")` [Final Project](https://eda.seas.gwu.edu/2023-Fall/project/0-overview.html) 
 
 .leftcol[
 
