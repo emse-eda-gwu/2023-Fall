@@ -300,7 +300,7 @@ Sometimes, students panic and copy code right before the deadline, then regret w
 
 ::: {.g-col-8}
 
-Once you have read this entire syllabus and viewed the [course schedule](schedule.qmd), please send me a picture of your favorite super hero in a direct message on Slack.
+Once you have read this entire syllabus and viewed the [course schedule](schedule.qmd), post a picture of your favorite super hero in the welcome channel on Slack.
 
 For real.
 
