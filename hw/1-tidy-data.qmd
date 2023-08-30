@@ -37,9 +37,9 @@ Follow these instructions:
 
 ### 4. Reflect 
 
-Reflect on what you've learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your ``r hw_file`` file.
+Reflect on what you've learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your ``r hw_file`` file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.
 
-Try filling out this template:
+If you're unsure where to start with a reflection, try filling out this template:
 
 > "I used to think ______, now I think ______ 🤔"
 
