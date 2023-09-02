@@ -8,4 +8,5 @@ execute:
   message: false
 ---
 
-Coming soon!
+```{r child = here::here("fragments", "class.qmd")}
+```
