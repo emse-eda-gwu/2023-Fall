@@ -15,6 +15,5 @@ zip::zip(
         'data',
         'practice.qmd',
         'practice-solutions.qmd',
-        'quarto_demo.qmd',
         paste0(lesson, ".Rproj"))
 )

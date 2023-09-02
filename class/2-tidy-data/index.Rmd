@@ -1,7 +1,7 @@
 ---
 title: "Tidy Data"
-subtitle: "EMSE 4572: Exploratory Data Analysis"
-date: September 07, 2022
+subtitle: "EMSE 4572/6572: Exploratory Data Analysis"
+date: September 06, 2022
 week: 2
 author: "John Paul Helveston"
 institute: "The George Washington University | Dept. of Engineering Management and Systems Engineering"
@@ -20,56 +20,13 @@ output:
       ratio: "16:9"
 ---
 
-```{r setup, include=FALSE}
-library(knitr)
-library(tidyverse)
+```{r setup, child="../setup.Rmd"}
+```
+
+```{r, include=FALSE}
 library(here)
-library(fontawesome)
-library(cowplot)
 library(ggrepel)
 library(readxl)
-library(countdown)
-library(metathis)
-options(
-    htmltools.dir.version = FALSE,
-    knitr.table.format = "html",
-    knitr.kable.NA = '',
-    dplyr.width = Inf,
-    width = 250
-)
-knitr::opts_chunk$set(
-    warning = FALSE,
-    message = FALSE,
-    fig.path = "figs/",
-    fig.width = 7.252,
-    fig.height = 4,
-    comment = "#>",
-    fig.retina = 3
-)
-xaringanExtra::use_tile_view()
-xaringanExtra::use_panelset()
-xaringanExtra::use_clipboard()
-xaringanExtra::use_share_again()
-xaringanExtra::style_share_again(share_buttons = "none")
-xaringanExtra::use_extra_styles(
-  hover_code_line = TRUE,
-  mute_unhighlighted_code = FALSE
-)
-# Set up website metadata
-meta() %>%
-  meta_general(
-    description = rmarkdown::metadata$subtitle,
-    generator = "xaringan and remark.js"
-  ) %>%
-  meta_name("github-repo" = "emse-eda-gwu/2022-Fall") %>%
-  meta_social(
-    title = rmarkdown::metadata$title,
-    url = "https://eda.seas.gwu.edu/2022-Fall/",
-    og_type = "website",
-    og_author = "John Paul Helveston",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@johnhelveston"
-  )
 
 # Read in data sets for class
 tb_cases <- read_csv(here('data', 'tb_cases.csv'))
@@ -84,26 +41,6 @@ pv_cells <- read_excel(
   mutate(Year = as.numeric(Year)) %>% 
   filter(!is.na(Year)) 
 ```
-
-class: middle, inverse
-
-.leftcol30[
-
-<center>
-<img src="https://raw.githubusercontent.com/emse-eda-gwu/2022-Fall/master/images/logo.png" width=250>
-</center>
-
-]
-
-.rightcol70[
-
-# Week `r rmarkdown::metadata$week`: .fancy[`r rmarkdown::metadata$title`]
-
-### `r fontawesome::fa(name = "building-columns", fill = "white")` `r rmarkdown::metadata$subtitle`
-### `r fontawesome::fa(name = "user", fill = "white")` `r rmarkdown::metadata$author`
-### `r fontawesome::fa(name = "calendar", fill = "white")` `r rmarkdown::metadata$date`
-
-]
 
 ---
 
@@ -433,7 +370,7 @@ countdown(
 
 # Your turn: Reshaping Data
 
-Open the `practice.Rmd` file. 
+Open the `practice.qmd` file. 
 
 Run the code chunk to read in the following two data files:
 
@@ -581,7 +518,7 @@ countdown(
 
 # Your turn: Tidy Data Wrangling
 
-Open the `practice.Rmd` file. 
+Open the `practice.qmd` file. 
 
 Run the code chunk to read in the following two data files:
 
@@ -691,16 +628,17 @@ Make a bar chart of total R&D spending by agency
 #| fig-show: hide
 
 fed_spend_wide %>%
-    pivot_longer( #<<
-        names_to = "department", #<<
-        values_to = "rd_budget_mil", #<<
-        cols = -year) %>% #<<
+  pivot_longer( #<<
+    names_to = "department", #<<
+    values_to = "rd_budget_mil", #<<
+    cols = -year  #<<
+  ) %>%
   ggplot() +
   geom_col(aes(x = rd_budget_mil, y = department)) +
   theme_bw() +
   labs(
-      x = "R&D Spending ($Millions)",
-      y = "Federal Agency"
+    x = "R&D Spending ($Millions)",
+    y = "Federal Agency"
   )
 ```
 
@@ -835,6 +773,7 @@ Whenever you download data, you should **at a minimum** record the following:
   - A dictionary for the data (e.g. a simple markdown table describing each variable).
 
 ---
+
 class: inverse
 
 ```{r, echo=FALSE}
@@ -920,10 +859,10 @@ Follow [these guidelines](https://writingcenter.gmu.edu/guides/how-to-write-a-re
 - [Genders in the Workforce](https://eda.seas.gwu.edu/showcase/2021-Spring/gender_pay_gap.html): How has the US gender wage gap changed over time for different occupations and age groups?
 - [NFL Suspensions](https://eda.seas.gwu.edu/showcase/2021-Spring/nfl_suspensions.html): What factors contribute to the severity of disciplinary actions towards NFL players from 2002-2014?
 
-**Other good examples**: See the [Example Projects Page](https://eda.seas.gwu.edu/2022-Fall/help/example-projects.html) page
+**Other good examples**: See the [Example Projects](https://eda.seas.gwu.edu/2023-Fall/project/examples.html) page
 
 ---
 
 class: inverse, middle, center
 
-# Use [this link](https://docs.google.com/spreadsheets/d/1JdgZWdnPPidLa809Tjos0nU7F4pgeogpsWPKzRxMzjo/edit?usp=sharing) to start forming teams
+# Use [this link](https://docs.google.com/spreadsheets/d/1r1hSkC8oql3aurOLUEmYfGovqEL5FYc9puAdNw1guJk/edit?usp=sharing) to form teams
