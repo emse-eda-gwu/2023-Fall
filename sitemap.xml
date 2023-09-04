@@ -2,186 +2,190 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/syllabus.html</loc>
-    <lastmod>2023-09-02T18:48:41.323Z</lastmod>
+    <lastmod>2023-09-04T12:56:52.957Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/schedule.html</loc>
-    <lastmod>2023-09-02T18:48:33.741Z</lastmod>
+    <lastmod>2023-09-04T12:56:44.452Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/project/examples.html</loc>
-    <lastmod>2023-09-02T18:48:28.615Z</lastmod>
+    <lastmod>2023-09-04T12:56:39.676Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/project/3-final-report.html</loc>
-    <lastmod>2023-09-02T18:48:26.756Z</lastmod>
+    <lastmod>2023-09-04T12:56:38.127Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/project/1-proposal.html</loc>
-    <lastmod>2023-09-02T18:48:25.283Z</lastmod>
+    <lastmod>2023-09-04T12:56:36.896Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/mini/3-redesign.html</loc>
-    <lastmod>2023-09-02T18:48:19.456Z</lastmod>
+    <lastmod>2023-09-04T12:56:31.104Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/mini/1-data-cleaning.html</loc>
-    <lastmod>2023-09-02T18:48:18.020Z</lastmod>
+    <lastmod>2023-09-04T12:56:29.796Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/9-maps.html</loc>
-    <lastmod>2023-09-02T18:48:15.642Z</lastmod>
+    <lastmod>2023-09-04T12:56:27.200Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/7-trends.html</loc>
-    <lastmod>2023-09-02T18:48:14.522Z</lastmod>
+    <lastmod>2023-09-04T12:56:26.074Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/5-factors-amounts-proportions.html</loc>
-    <lastmod>2023-09-02T18:48:13.132Z</lastmod>
+    <lastmod>2023-09-04T12:56:25.029Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/3-exploring-data.html</loc>
-    <lastmod>2023-09-02T18:48:11.809Z</lastmod>
+    <lastmod>2023-09-04T12:56:24.019Z</lastmod>
   </url>
   <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/hw/12-communicating-results.html</loc>
-    <lastmod>2023-09-02T18:48:10.561Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/hw/10-project-workshop.html</loc>
-    <lastmod>2023-09-02T18:48:09.266Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/finding-data.html</loc>
-    <lastmod>2023-09-02T18:48:04.231Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/interviews.html</loc>
-    <lastmod>2023-09-02T18:48:02.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/8-trends.html</loc>
-    <lastmod>2023-09-02T18:48:00.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/6-factors-amounts-proportions.html</loc>
-    <lastmod>2023-09-02T18:47:58.289Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/4-exploring-data.html</loc>
-    <lastmod>2023-09-02T18:47:54.932Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/2-tidy-data/practice.html</loc>
-    <lastmod>2023-09-02T18:47:53.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/2-tidy-data.html</loc>
-    <lastmod>2023-09-02T18:47:39.690Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/12-communicating-results.html</loc>
-    <lastmod>2023-09-02T18:47:34.990Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/10-maps.html</loc>
-    <lastmod>2023-09-02T18:47:30.880Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/about.html</loc>
-    <lastmod>2023-09-02T18:47:25.170Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/LICENSE.html</loc>
-    <lastmod>2023-09-02T18:47:17.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/1-getting-started.html</loc>
-    <lastmod>2023-09-02T18:47:29.461Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/11-interactivity.html</loc>
-    <lastmod>2023-09-02T18:47:33.282Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/13-final-presentations.html</loc>
-    <lastmod>2023-09-02T18:47:37.105Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/2-tidy-data/practice-solutions.html</loc>
-    <lastmod>2023-09-02T18:47:49.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/3-cleaning-data.html</loc>
-    <lastmod>2023-09-02T18:47:54.392Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/5-visualizing-information.html</loc>
-    <lastmod>2023-09-02T18:47:56.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/7-comparisons.html</loc>
-    <lastmod>2023-09-02T18:47:59.464Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/class/9-polishing-charts.html</loc>
-    <lastmod>2023-09-02T18:48:01.616Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/course-primer.html</loc>
-    <lastmod>2023-09-02T18:48:03.228Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eda.seas.gwu.edu/2023-Fall/hw/1-tidy-data.html</loc>
-    <lastmod>2023-09-02T18:48:08.492Z</lastmod>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/hw/2-cleaning-data-next.html</loc>
+    <lastmod>2023-09-04T12:56:22.908Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/11-interactivity.html</loc>
-    <lastmod>2023-09-02T18:48:10.066Z</lastmod>
+    <lastmod>2023-09-04T12:56:16.685Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/hw/1-tidy-data.html</loc>
+    <lastmod>2023-09-04T12:56:15.597Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/course-primer.html</loc>
+    <lastmod>2023-09-04T12:56:08.471Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/9-polishing-charts.html</loc>
+    <lastmod>2023-09-04T12:56:07.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/7-comparisons.html</loc>
+    <lastmod>2023-09-04T12:56:06.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/5-visualizing-information.html</loc>
+    <lastmod>2023-09-04T12:56:04.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/3-cleaning-data.html</loc>
+    <lastmod>2023-09-04T12:56:03.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/2-tidy-data/practice-solutions.html</loc>
+    <lastmod>2023-09-04T12:55:55.927Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/13-final-presentations.html</loc>
+    <lastmod>2023-09-04T12:55:44.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/11-interactivity.html</loc>
+    <lastmod>2023-09-04T12:55:42.946Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/1-getting-started.html</loc>
+    <lastmod>2023-09-04T12:55:41.610Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/LICENSE.html</loc>
+    <lastmod>2023-09-04T12:55:34.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/about.html</loc>
+    <lastmod>2023-09-04T12:55:39.321Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/10-maps.html</loc>
+    <lastmod>2023-09-04T12:55:42.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/12-communicating-results.html</loc>
+    <lastmod>2023-09-04T12:55:43.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/2-tidy-data.html</loc>
+    <lastmod>2023-09-04T12:55:45.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/2-tidy-data/practice.html</loc>
+    <lastmod>2023-09-04T12:56:03.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/4-exploring-data.html</loc>
+    <lastmod>2023-09-04T12:56:04.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/6-factors-amounts-proportions.html</loc>
+    <lastmod>2023-09-04T12:56:05.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/8-trends.html</loc>
+    <lastmod>2023-09-04T12:56:06.688Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/class/interviews.html</loc>
+    <lastmod>2023-09-04T12:56:07.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/finding-data.html</loc>
+    <lastmod>2023-09-04T12:56:09.245Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/hw/10-project-workshop.html</loc>
+    <lastmod>2023-09-04T12:56:16.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eda.seas.gwu.edu/2023-Fall/hw/12-communicating-results.html</loc>
+    <lastmod>2023-09-04T12:56:17.195Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/2-cleaning-data.html</loc>
-    <lastmod>2023-09-02T18:48:11.222Z</lastmod>
+    <lastmod>2023-09-04T12:56:23.482Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/4-visualizing-information.html</loc>
-    <lastmod>2023-09-02T18:48:12.370Z</lastmod>
+    <lastmod>2023-09-04T12:56:24.533Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/6-comparisons.html</loc>
-    <lastmod>2023-09-02T18:48:13.771Z</lastmod>
+    <lastmod>2023-09-04T12:56:25.546Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/hw/8-polishing-charts.html</loc>
-    <lastmod>2023-09-02T18:48:15.064Z</lastmod>
+    <lastmod>2023-09-04T12:56:26.656Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/index.html</loc>
-    <lastmod>2023-09-02T18:48:17.409Z</lastmod>
+    <lastmod>2023-09-04T12:56:29.243Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/mini/2-exploring-data.html</loc>
-    <lastmod>2023-09-02T18:48:18.602Z</lastmod>
+    <lastmod>2023-09-04T12:56:30.543Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/project/0-overview.html</loc>
-    <lastmod>2023-09-02T18:48:20.184Z</lastmod>
+    <lastmod>2023-09-04T12:56:31.791Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/project/2-progress-report.html</loc>
-    <lastmod>2023-09-02T18:48:25.995Z</lastmod>
+    <lastmod>2023-09-04T12:56:37.479Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/project/4-presentation.html</loc>
-    <lastmod>2023-09-02T18:48:27.504Z</lastmod>
+    <lastmod>2023-09-04T12:56:38.695Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/references.html</loc>
-    <lastmod>2023-09-02T18:48:29.659Z</lastmod>
+    <lastmod>2023-09-04T12:56:40.608Z</lastmod>
   </url>
   <url>
     <loc>https://eda.seas.gwu.edu/2023-Fall/software.html</loc>
-    <lastmod>2023-09-02T18:48:34.343Z</lastmod>
+    <lastmod>2023-09-04T12:56:45.200Z</lastmod>
   </url>
 </urlset>
