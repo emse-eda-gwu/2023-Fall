@@ -315,9 +315,69 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Coming soon!</p>
+<blockquote class="blockquote">
+<p><strong>Due</strong>: 2023-09-12 by 11:59pm</p>
+<p><strong>Weight</strong>: This assignment is worth 1% of your final grade.</p>
+<p><strong>Purpose</strong>: The purpose of this assignment is learn some techniques for dealing with messy data. Most of the time, the raw data you get is in the wrong format and variables are not properly coded, so you will need to “clean” the data before starting any analysis. Other times the data will be split into two or more data sets, and you will need to “join” them together into a single data frame.</p>
+<p><strong>Assessment</strong>: This assignment is graded using a check system:</p>
+<ul>
+<li>✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.</li>
+<li>✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.</li>
+<li>✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will <em>hopefully</em> not assign these often.</li>
+</ul>
+<p>Notice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is <strong>not enough</strong>. Write at least a paragraph and show me that you did the readings assigned.</p>
+</blockquote>
+<section id="get-organized" class="level3">
+<h3 class="anchored" data-anchor-id="get-organized">1. Get Organized</h3>
+<p>Download and edit <a href="https://eda.seas.gwu.edu/2023-Fall/templates/hw2.zip">this template</a> when working through this assignment.</p>
+</section>
+<section id="read-practice" class="level3">
+<h3 class="anchored" data-anchor-id="read-practice">2. Read &amp; Practice</h3>
+<p>Follow these instructions:</p>
+<ol type="1">
+<li>Unzip the template folder. <strong>Make sure you actually unzip it</strong>! (in Windows, right-click it and use “extract all”)</li>
+<li>Open the .Rproj file to open RStudio.</li>
+<li>Inside RStudio, open the <code>hw2.qmd</code> file, take notes, and write some example code as you go through the following readings / exercises:</li>
+</ol>
+<ul>
+<li><a href="https://stat545.com/join-cheatsheet.html">Stat 545 chapter 15 on joining two tables</a></li>
+<li><a href="https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/">Tips for Cleaning Messy Data in R</a></li>
+<li>Alison Hill had an excellent free course on DataCamp called <a href="https://learn.datacamp.com/courses/working-with-data-in-the-tidyverse">Working with Data in the Tidyverse</a>, but it was unfortunately archived. The content she covered though was made available as a single webpage version <a href="https://rpubs.com/cliex159/864632">here</a>. The whole course is quite useful for learning some data cleaning skills. In particular, I suggest going through parts 2 (“Tame your data”) and 4 (“Transform your data”) to be best-prepared for dealing with messy real-world data.</li>
+<li><strong>Use AI to Practice Reshaping Messy Data</strong>: Open <a href="https://chat.openai.com/">ChatGPT</a> and start a chat to practice the concept of tidying data into long and wide formats. Ask the AI questions about what it gives you to make sure you understand the concept. Are you certain the AI is giving you good code? Play around with it and see if chatting with the AI is helpful. Include the link to your chat in your submission if you have one. Here is an example prompt (feel free to experiment with other prompts):</li>
+</ul>
+<blockquote class="blockquote">
+<p><code>I'm practicing the concept of tidy data in R. Provide me an example dataset in wide format and then show me R code for how to convert it to long format. Afterwards, do the opposite - show me an example of a dataset in long format and show me R code for how to convert it to wide format.  In each case, explain your reasoning first, then show me the code.</code></p>
+</blockquote>
+<section id="optional" class="level4">
+<h4 class="anchored" data-anchor-id="optional"><strong>Optional</strong></h4>
+<ul>
+<li><a href="https://r4ds.hadley.nz/data-tidy.html">Chapter 6</a> in Hadley Wickham’s R4DS book covers more detail on the concept of tidy data with even more examples. It’s worth reading through for a more comprehensive understanding.</li>
+<li><a href="https://r4ds.hadley.nz/quarto.html#code-chunks">Chapter 29</a> in Hadley Wickham’s R4DS book is a great introduction to <a href="https://quarto.org/">Quarto</a>. I highly recommend taking a look through it to get a better understanding of Quarto (we’ll be using it the whole semester!).</li>
+</ul>
+</section>
+</section>
+<section id="reflect" class="level3">
+<h3 class="anchored" data-anchor-id="reflect">4. Reflect</h3>
+<p>Reflect on what you’ve learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your <code>hw2.qmd</code> file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.</p>
+<p>Some thoughts you may want to try in your reflection:</p>
+<ul>
+<li>“I used to think ______, now I think ______ 🤔”</li>
+<li>Discuss some of the key insights or things you found interesting in the readings or recent class periods.</li>
+<li>Write about the messiest data you’ve seen.</li>
+<li>Connect the course content to your own work or project you’re working on.</li>
+</ul>
+</section>
+<section id="submit" class="level3">
+<h3 class="anchored" data-anchor-id="submit">5. Submit</h3>
+<p>To submit your assignment, follow these instructions:</p>
+<ol type="1">
+<li>Render your .qmd file by either clicking the “Render” button in RStudio or running the command <code>quarto::quarto_render("hw2.qmd")</code> command.</li>
+<li>Open the rendered html file and make sure it looks good! Is all the formatting as you expected?</li>
+<li>Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
