@@ -45,4 +45,8 @@ If you're unsure where to start with a reflection, try filling out this template
 
 ### 5. Submit
 
-Instructions for how to submit your assignment are at the [top of this page]().
+To submit your assignment, follow these instructions:
+
+1. Render your .qmd file by either clicking the "Render" button in RStudio or running the command ``r paste0('quarto::quarto_render("', hw_file, '")')`` command.
+2. Open the rendered html file and make sure it looks good! Is all the formatting as you expected? 
+3. Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
