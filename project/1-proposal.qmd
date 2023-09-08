@@ -31,7 +31,7 @@ Write a proposal of an exploratory data analysis that you plan to conduct for yo
 
 ## 1. Get organized
 
-Download and unzip [this template](../templates/project-template.zip) for your proposal report. Open the `project.Rproj` file and write your proposal in the `report.Rmd` file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:
+Download and unzip [this template](../templates/project-template.zip) for your proposal report. Open the `project.Rproj` file and write your proposal in the `report.qmd` file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:
 
 - Write your project title in the `title` field (and provide a subtitle if you wish, or delete the `subtitle` field).
  - In the `author` field, list the names of all teammates, e.g. `author: Luke Skywalker, Leia Organa, and Han Solo`.
@@ -62,9 +62,21 @@ Discuss the data source(s) you plan to use for your analysis. Follow these guide
 - Describe at least two charts that you expect will help you visualize the relationships that you expect to find. For example, a scatterplot of gasoline prices and hybrid vehicle sales over a particular time period might be useful for visualizing the level of correlation between these two variables.
 - Discuss how your expectations about the variables you chose will help inform you about your research question.
 
-## 5. Knit and submit
+## 5. Attribution
 
-Click the "knit" button to compile your `proposal.Rmd` file into a html web page, then create a zip file of everything in your R Project folder. Name your file `proposal.zip`, then go to your team Box folder and submit your zip file in the "submissions" folder. **Only one person from your team should submit the report.**
+Include a short description of the specific contributions of each team member in your team. Here is an example:
+
+> - Student A wrote the initial proposal draft.
+> - Student B identified data sources.
+> - Student C helped organize project files and edited the final draft of the proposal.
+
+If all members contributed equally, you can just put the single sentence "All members contributed equally".
+
+Team members who do not make meaningful contributions to their projects will not receive the same grade as that of their team mates. If you are having any issues or disputes among team members, please contact Professor Helveston ASAP so we can find a resolution.
+
+## 6. Render and submit
+
+Instructions for how to submit your assignment are at the [top of this page](). 
 
 # Grading Rubric
 

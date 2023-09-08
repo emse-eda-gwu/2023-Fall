@@ -242,7 +242,7 @@
     "href": "project/1-proposal.html#get-organized",
     "title": "Project Proposal",
     "section": "1. Get organized",
-    "text": "1. Get organized\nDownload and unzip this template for your proposal report. Open the project.Rproj file and write your proposal in the report.Rmd file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:\n\nWrite your project title in the title field (and provide a subtitle if you wish, or delete the subtitle field).\nIn the author field, list the names of all teammates, e.g. author: Luke Skywalker, Leia Organa, and Han Solo."
+    "text": "1. Get organized\nDownload and unzip this template for your proposal report. Open the project.Rproj file and write your proposal in the report.qmd file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:\n\nWrite your project title in the title field (and provide a subtitle if you wish, or delete the subtitle field).\nIn the author field, list the names of all teammates, e.g. author: Luke Skywalker, Leia Organa, and Han Solo."
   },
   {
     "objectID": "project/1-proposal.html#write-a-research-question",
@@ -266,11 +266,18 @@
     "text": "4. Describe anticipated results\n\nChoose two variables that you expect to find in your data that are relevant to your research question.\nRegardless of whether those variables actually exist, describe how you would expect each to be distributed (e.g. unimodal, multimodel, tightly-group, widely-spread, etc.). For example, you might expect the price of gasoline over a particular period to be rather tightly-grouped around a mean, whereas the stock price of a particular company might vary much more widely over the same period.\nDescribe two relationships you expect to find among variables in your data (again, regardless of whether they actually exist in your data). For example, you might expect sales of hybrid vehicles to increase when gas prices increase; in this case, I am expecting that hybrid vehicle sales and gasoline prices are positively correlated.\nDescribe at least two charts that you expect will help you visualize the relationships that you expect to find. For example, a scatterplot of gasoline prices and hybrid vehicle sales over a particular time period might be useful for visualizing the level of correlation between these two variables.\nDiscuss how your expectations about the variables you chose will help inform you about your research question."
   },
   {
-    "objectID": "project/1-proposal.html#knit-and-submit",
-    "href": "project/1-proposal.html#knit-and-submit",
+    "objectID": "project/1-proposal.html#attribution",
+    "href": "project/1-proposal.html#attribution",
     "title": "Project Proposal",
-    "section": "5. Knit and submit",
-    "text": "5. Knit and submit\nClick the “knit” button to compile your proposal.Rmd file into a html web page, then create a zip file of everything in your R Project folder. Name your file proposal.zip, then go to your team Box folder and submit your zip file in the “submissions” folder. Only one person from your team should submit the report."
+    "section": "5. Attribution",
+    "text": "5. Attribution\nInclude a short description of the specific contributions of each team member in your team. Here is an example:\n\n\nStudent A wrote the initial proposal draft.\nStudent B identified data sources.\nStudent C helped organize project files and edited the final draft of the proposal.\n\n\nIf all members contributed equally, you can just put the single sentence “All members contributed equally”.\nTeam members who do not make meaningful contributions to their projects will not receive the same grade as that of their team mates. If you are having any issues or disputes among team members, please contact Professor Helveston ASAP so we can find a resolution."
+  },
+  {
+    "objectID": "project/1-proposal.html#render-and-submit",
+    "href": "project/1-proposal.html#render-and-submit",
+    "title": "Project Proposal",
+    "section": "6. Render and submit",
+    "text": "6. Render and submit\nInstructions for how to submit your assignment are at the top of this page."
   },
   {
     "objectID": "mini/3-redesign.html",
