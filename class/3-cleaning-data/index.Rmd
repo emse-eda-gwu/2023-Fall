@@ -884,8 +884,8 @@ countdown(
     minutes      = 15,
     warn_when    = 15,
     update_every = 1,
-    top          = 0,
-    right        = 0,
+    bottom       = 0,
+    left         = 0,
     font_size    = '2em'
 )
 ```
@@ -1446,7 +1446,7 @@ On what day of the week were you born?
 .leftcol60[
 
 ```{r}
-wday("2020-02-26", label = TRUE)
+wday("2023-09-13", label = TRUE)
 ```
 
 ]
@@ -1490,7 +1490,7 @@ class: inverse
 What do you think will happen if we do this?
 
 ```{r}
-date <- ymd("2022-02-28")
+date <- ymd("2023-02-28")
 day(date) <- 30
 ```
 
@@ -1581,8 +1581,8 @@ Example: Winners of Nathan's hot dog eating contest
 
 ## Stragies
 
-#### 1. Divide & conquer
-#### 2. Gather, separate, spread
+#### 1. divide & conquer
+#### 2. pivot long, separate, pivot wide
 
 ]
 
@@ -1711,7 +1711,7 @@ head(hot_dogs)
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol40[
 
@@ -1739,7 +1739,7 @@ glimpse(hot_dogs)
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol40[
 
@@ -1765,7 +1765,7 @@ hot_dogs <- hot_dogs %>%
         dogs_eaten.womens = dogs_eaten_6,
         country.mens      = country_4,
         country.womens    = country_7) %>%
-    gather(key = 'variable', value = 'value',  #<<
+    pivot_longer(names_to = 'variable', values_to = 'value',  #<<
            competitor.mens:country.womens)  #<<
 
 head(hot_dogs, 3)
@@ -1775,7 +1775,7 @@ head(hot_dogs, 3)
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol30[
 
@@ -1804,7 +1804,7 @@ head(hot_dogs)
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol30[
 
@@ -1878,7 +1878,7 @@ hot_dogs <- bind_rows(hot_dogs_m, hot_dogs_w) %>% #<<
 
 .rightcol[.code60[
 
-Gather, separate, spread
+Pivot long, separate, pivot wide
 
 ```{r, eval=FALSE}
 hot_dogs <- read_excel(
@@ -1897,13 +1897,13 @@ hot_dogs <- read_excel(
         country.mens      = country_4, #<<
         country.womens    = country_7) %>% #<<
     # Gather "joint" variables #<<
-    gather(key = 'variable', value = 'value', #<<
+    pivot_longer(names_to = 'variable', values_to = 'value', #<<
            competitor.mens:country.womens) %>%  #<<
     # Separate "joint" variables #<<
     separate(variable, into = c('variable', 'competition'), #<<
              sep = '\\.') %>%  #<<
     # Spread "joint" variables #<<
-    spread(key = variable, value = value) %>% #<<
+    pivot_wider(names_from = variable, values_from = value) %>% #<<
     # Finish cleaning
     mutate(
         new_record = str_detect(dogs_eaten, "\\*"),
@@ -2022,7 +2022,8 @@ Steps:
 
 ```{r}
 pc_sales <- pc_sales %>%
-    gather(key = 'year', value = 'num_cars', x2005:x2018) #<<
+    pivot_longer(names_to = 'year', values_to = 'num_cars', 
+                 cols = x2005:x2018) #<<
 
 head(pc_sales)
 ```
@@ -2119,7 +2120,9 @@ pc_sales <- read_excel(
   select(-c(x2:x4)) %>%       # Drop bad columns
   filter(! country %in% drop, # Drop bad rows
          ! is.na(country)) %>% 
-  gather(key = 'year', value = 'num_cars', x2005:x2018) %>%
+  pivot_longer(
+    names_to = 'year', values_to = 'num_cars', 
+    cols = x2005:x2018) %>%
   separate(year, into = c('drop', 'year'), sep = 'x',
            convert = TRUE) %>% 
   select(-drop)
@@ -2191,7 +2194,9 @@ pc_sales <- read_excel(
   select(-c(x2:x4)) %>%       # Drop bad columns
   filter(! country %in% drop, # Drop bad rows
          ! is.na(country)) %>% 
-  gather(key = 'year', value = 'num_cars', x2005:x2018) %>%
+  pivot_longer(
+    names_to = 'year', values_to = 'num_cars', 
+    cols = x2005:x2018) %>%
   separate(year, into = c('drop', 'year'), sep = 'x',
            convert = TRUE) %>% 
   select(-drop) %>% 
