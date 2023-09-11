@@ -576,7 +576,7 @@ band_members %&gt;%
 
 class: inverse
 
-<div class="countdown" id="timer_0c37a811" data-warn-when="15" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_c8ee7dad" data-warn-when="15" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1368,7 +1368,7 @@ msleep %&gt;%
 
 class: inverse
 
-<div class="countdown" id="timer_3287d985" data-warn-when="15" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_d5a5f115" data-warn-when="15" data-update-every="1" tabindex="0" style="bottom:0;left:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1408,7 +1408,7 @@ class: inverse
 
 # Quiz 1
 
-<div class="countdown" id="timer_de7cbad4" data-warn-when="30" data-update-every="1" tabindex="0" style="bottom:0;left:0;font-size:4em;">
+<div class="countdown" id="timer_02259427" data-warn-when="30" data-update-every="1" tabindex="0" style="bottom:0;left:0;font-size:4em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1801,9 +1801,12 @@ tb_rates
 
 ```r
 tb_rates %&gt;%
-  separate(rate, into = c("cases", "population"),
-           sep = "/", 
-*          convert = TRUE)
+  separate(
+      rate, 
+      into = c("cases", "population"),
+      sep = "/", 
+*     convert = TRUE
+  )
 ```
 
 ```
@@ -1850,8 +1853,11 @@ tb_rates
 
 ```r
 tb_rates %&gt;%
-* separate(year, into = c("century", "year"),
-*          sep = 2)
+  separate(
+      year, 
+*     into = c("century", "year"),
+*     sep = 2
+  )
 ```
 
 ```
@@ -2286,7 +2292,7 @@ On what day of the week were you born?
 
 
 ```r
-wday("2020-02-26", label = TRUE)
+wday("2023-09-13", label = TRUE)
 ```
 
 ```
@@ -2352,7 +2358,7 @@ What do you think will happen if we do this?
 
 
 ```r
-date &lt;- ymd("2022-02-28")
+date &lt;- ymd("2023-02-28")
 day(date) &lt;- 30
 ```
 
@@ -2364,7 +2370,7 @@ date
 ```
 
 ```
-#&gt; [1] "2022-03-02"
+#&gt; [1] "2023-03-02"
 ```
 
 ---
@@ -2405,7 +2411,7 @@ After:
 
 .rightcol[.font80[
 
-<div class="countdown" id="timer_4a8ae823" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="right:0;bottom:0;font-size:1.5em;position: relative; width: min-content;&#10;             display: block; margin-left: 300px;">
+<div class="countdown" id="timer_7ccbf108" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="right:0;bottom:0;font-size:1.5em;position: relative; width: min-content;&#10;             display: block; margin-left: 300px;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2445,8 +2451,8 @@ Example: Winners of Nathan's hot dog eating contest
 
 ## Stragies
 
-#### 1. Divide &amp; conquer
-#### 2. Gather, separate, spread
+#### 1. divide &amp; conquer
+#### 2. pivot long, separate, pivot wide
 
 ]
 
@@ -2614,7 +2620,7 @@ head(hot_dogs)
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol40[
 
@@ -2655,7 +2661,7 @@ glimpse(hot_dogs)
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol40[
 
@@ -2682,7 +2688,7 @@ hot_dogs &lt;- hot_dogs %&gt;%
         dogs_eaten.womens = dogs_eaten_6,
         country.mens      = country_4,
         country.womens    = country_7) %&gt;%
-*   gather(key = 'variable', value = 'value',
+*   pivot_longer(names_to = 'variable', values_to = 'value',
 *          competitor.mens:country.womens)
 
 head(hot_dogs, 3)
@@ -2690,18 +2696,18 @@ head(hot_dogs, 3)
 
 ```
 #&gt; # A tibble: 3 × 3
-#&gt;   year  variable        value                       
-#&gt;   &lt;chr&gt; &lt;chr&gt;           &lt;chr&gt;                       
-#&gt; 1 1980  competitor.mens Paul Siederman &amp; Joe Baldini
-#&gt; 2 1981  competitor.mens Thomas DeBerry              
-#&gt; 3 1982  competitor.mens Steven Abrams
+#&gt;   year  variable          value                       
+#&gt;   &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt;                       
+#&gt; 1 1980  competitor.mens   Paul Siederman &amp; Joe Baldini
+#&gt; 2 1980  competitor.womens &lt;NA&gt;                        
+#&gt; 3 1980  dogs_eaten.mens   9.1
 ```
 
 ]
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol30[
 
@@ -2732,18 +2738,18 @@ head(hot_dogs)
 #&gt;   year  variable   competition value                       
 #&gt;   &lt;chr&gt; &lt;chr&gt;      &lt;chr&gt;       &lt;chr&gt;                       
 #&gt; 1 1980  competitor mens        Paul Siederman &amp; Joe Baldini
-#&gt; 2 1981  competitor mens        Thomas DeBerry              
-#&gt; 3 1982  competitor mens        Steven Abrams               
-#&gt; 4 1983  competitor mens        Luis Llamas                 
-#&gt; 5 1984  competitor mens        Birgit Felden               
-#&gt; 6 1985  competitor mens        Oscar Rodriguez
+#&gt; 2 1980  competitor womens      &lt;NA&gt;                        
+#&gt; 3 1980  dogs_eaten mens        9.1                         
+#&gt; 4 1980  dogs_eaten womens      &lt;NA&gt;                        
+#&gt; 5 1980  country    mens        United States               
+#&gt; 6 1980  country    womens      &lt;NA&gt;
 ```
 
 ]
 
 ---
 
-## Strategy 2: gather, separate, spread
+## Strategy 2: pivot long, separate, pivot wide
 
 .leftcol30[
 
@@ -2830,7 +2836,7 @@ hot_dogs &lt;- read_excel(
 
 .rightcol[.code60[
 
-Gather, separate, spread
+Pivot long, separate, pivot wide
 
 
 ```r
@@ -2850,13 +2856,13 @@ hot_dogs &lt;- read_excel(
 *       country.mens      = country_4,
 *       country.womens    = country_7) %&gt;%
 *   # Gather "joint" variables
-*   gather(key = 'variable', value = 'value',
+*   pivot_longer(names_to = 'variable', values_to = 'value',
 *          competitor.mens:country.womens) %&gt;%
 *   # Separate "joint" variables
 *   separate(variable, into = c('variable', 'competition'),
 *            sep = '\\.') %&gt;%
 *   # Spread "joint" variables
-*   spread(key = variable, value = value) %&gt;%
+*   pivot_wider(names_from = variable, values_from = value) %&gt;%
     # Finish cleaning
     mutate(
         new_record = str_detect(dogs_eaten, "\\*"),
@@ -3013,7 +3019,8 @@ Steps:
 
 ```r
 pc_sales &lt;- pc_sales %&gt;%
-*   gather(key = 'year', value = 'num_cars', x2005:x2018)
+    pivot_longer(names_to = 'year', values_to = 'num_cars', 
+*                cols = x2005:x2018)
 
 head(pc_sales)
 ```
@@ -3023,11 +3030,11 @@ head(pc_sales)
 #&gt;   country year  num_cars
 #&gt;   &lt;chr&gt;   &lt;chr&gt;    &lt;dbl&gt;
 #&gt; 1 AUSTRIA x2005   307915
-#&gt; 2 BELGIUM x2005   480088
-#&gt; 3 DENMARK x2005   148819
-#&gt; 4 FINLAND x2005   148161
-#&gt; 5 FRANCE  x2005  2118042
-#&gt; 6 GERMANY x2005  3319259
+#&gt; 2 AUSTRIA x2006   308594
+#&gt; 3 AUSTRIA x2007   298182
+#&gt; 4 AUSTRIA x2008   293697
+#&gt; 5 AUSTRIA x2009   319403
+#&gt; 6 AUSTRIA x2010   328563
 ```
 
 ]
@@ -3065,11 +3072,11 @@ head(pc_sales)
 #&gt;   country drop   year num_cars
 #&gt;   &lt;chr&gt;   &lt;lgl&gt; &lt;int&gt;    &lt;dbl&gt;
 #&gt; 1 AUSTRIA NA     2005   307915
-#&gt; 2 BELGIUM NA     2005   480088
-#&gt; 3 DENMARK NA     2005   148819
-#&gt; 4 FINLAND NA     2005   148161
-#&gt; 5 FRANCE  NA     2005  2118042
-#&gt; 6 GERMANY NA     2005  3319259
+#&gt; 2 AUSTRIA NA     2006   308594
+#&gt; 3 AUSTRIA NA     2007   298182
+#&gt; 4 AUSTRIA NA     2008   293697
+#&gt; 5 AUSTRIA NA     2009   319403
+#&gt; 6 AUSTRIA NA     2010   328563
 ```
 
 ]
@@ -3109,11 +3116,11 @@ head(pc_sales)
 #&gt;   country  year num_cars
 #&gt;   &lt;chr&gt;   &lt;int&gt;    &lt;dbl&gt;
 #&gt; 1 Austria  2005   307915
-#&gt; 2 Belgium  2005   480088
-#&gt; 3 Denmark  2005   148819
-#&gt; 4 Finland  2005   148161
-#&gt; 5 France   2005  2118042
-#&gt; 6 Germany  2005  3319259
+#&gt; 2 Austria  2006   308594
+#&gt; 3 Austria  2007   298182
+#&gt; 4 Austria  2008   293697
+#&gt; 5 Austria  2009   319403
+#&gt; 6 Austria  2010   328563
 ```
 
 ]
@@ -3149,7 +3156,9 @@ pc_sales &lt;- read_excel(
   select(-c(x2:x4)) %&gt;%       # Drop bad columns
   filter(! country %in% drop, # Drop bad rows
          ! is.na(country)) %&gt;% 
-  gather(key = 'year', value = 'num_cars', x2005:x2018) %&gt;%
+  pivot_longer(
+    names_to = 'year', values_to = 'num_cars', 
+    cols = x2005:x2018) %&gt;%
   separate(year, into = c('drop', 'year'), sep = 'x',
            convert = TRUE) %&gt;% 
   select(-drop)
@@ -3162,8 +3171,8 @@ head(pc_sales, 3)
 #&gt;   country  year num_cars
 #&gt;   &lt;chr&gt;   &lt;int&gt;    &lt;dbl&gt;
 #&gt; 1 AUSTRIA  2005   307915
-#&gt; 2 BELGIUM  2005   480088
-#&gt; 3 DENMARK  2005   148819
+#&gt; 2 AUSTRIA  2006   308594
+#&gt; 3 AUSTRIA  2007   298182
 ```
 
 ]
@@ -3217,11 +3226,11 @@ head(pc_sales)
 #&gt;   country  year num_cars region subregion             
 #&gt;   &lt;chr&gt;   &lt;int&gt;    &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;                 
 #&gt; 1 AUSTRIA  2005   307915 EUROPE EU 15 countries + EFTA
-#&gt; 2 BELGIUM  2005   480088 EUROPE EU 15 countries + EFTA
-#&gt; 3 DENMARK  2005   148819 EUROPE EU 15 countries + EFTA
-#&gt; 4 FINLAND  2005   148161 EUROPE EU 15 countries + EFTA
-#&gt; 5 FRANCE   2005  2118042 EUROPE EU 15 countries + EFTA
-#&gt; 6 GERMANY  2005  3319259 EUROPE EU 15 countries + EFTA
+#&gt; 2 AUSTRIA  2006   308594 EUROPE EU 15 countries + EFTA
+#&gt; 3 AUSTRIA  2007   298182 EUROPE EU 15 countries + EFTA
+#&gt; 4 AUSTRIA  2008   293697 EUROPE EU 15 countries + EFTA
+#&gt; 5 AUSTRIA  2009   319403 EUROPE EU 15 countries + EFTA
+#&gt; 6 AUSTRIA  2010   328563 EUROPE EU 15 countries + EFTA
 ```
 
 ]
@@ -3257,7 +3266,9 @@ pc_sales &lt;- read_excel(
   select(-c(x2:x4)) %&gt;%       # Drop bad columns
   filter(! country %in% drop, # Drop bad rows
          ! is.na(country)) %&gt;% 
-  gather(key = 'year', value = 'num_cars', x2005:x2018) %&gt;%
+  pivot_longer(
+    names_to = 'year', values_to = 'num_cars', 
+    cols = x2005:x2018) %&gt;%
   separate(year, into = c('drop', 'year'), sep = 'x',
            convert = TRUE) %&gt;% 
   select(-drop) %&gt;% 
@@ -3275,11 +3286,11 @@ head(pc_sales)
 #&gt;   country  year num_cars region subregion             
 #&gt;   &lt;chr&gt;   &lt;int&gt;    &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;                 
 #&gt; 1 Austria  2005   307915 Europe Eu 15 Countries + Efta
-#&gt; 2 Belgium  2005   480088 Europe Eu 15 Countries + Efta
-#&gt; 3 Denmark  2005   148819 Europe Eu 15 Countries + Efta
-#&gt; 4 Finland  2005   148161 Europe Eu 15 Countries + Efta
-#&gt; 5 France   2005  2118042 Europe Eu 15 Countries + Efta
-#&gt; 6 Germany  2005  3319259 Europe Eu 15 Countries + Efta
+#&gt; 2 Austria  2006   308594 Europe Eu 15 Countries + Efta
+#&gt; 3 Austria  2007   298182 Europe Eu 15 Countries + Efta
+#&gt; 4 Austria  2008   293697 Europe Eu 15 Countries + Efta
+#&gt; 5 Austria  2009   319403 Europe Eu 15 Countries + Efta
+#&gt; 6 Austria  2010   328563 Europe Eu 15 Countries + Efta
 ```
 
 ]]
