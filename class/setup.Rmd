@@ -6,6 +6,10 @@ library(fontawesome)
 library(kableExtra)
 library(countdown)
 library(metathis)
+library(ggrepel)
+library(readxl)
+library(lubridate)
+library(janitor)
 
 options(
   htmltools.dir.version = FALSE,
