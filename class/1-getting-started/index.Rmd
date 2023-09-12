@@ -1872,6 +1872,7 @@ mpg %>%
   geom_point(aes(color = class)) + 
   geom_smooth(se = FALSE)
 ```
+
 ]
 
 ---
