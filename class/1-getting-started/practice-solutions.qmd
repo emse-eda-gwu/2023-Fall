@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 subtitle: "EMSE 4572/6572: Exploratory Data Analysis"
-date: August 30, 2022
+date: August 30, 2023
 format: html
 toc: true
 ---

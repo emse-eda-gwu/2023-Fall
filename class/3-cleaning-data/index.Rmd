@@ -1,6 +1,6 @@
 ---
 title: "Cleaning Data"
-subtitle: "EMSE 4572: Exploratory Data Analysis"
+subtitle: "EMSE 4572/6572: Exploratory Data Analysis"
 date: September 13, 2023
 week: 3
 author: "John Paul Helveston"

@@ -1,7 +1,7 @@
 ---
 title: "Tidy Data"
 subtitle: "EMSE 4572/6572: Exploratory Data Analysis"
-date: September 06, 2022
+date: September 06, 2023
 week: 2
 author: "John Paul Helveston"
 institute: "The George Washington University | Dept. of Engineering Management and Systems Engineering"

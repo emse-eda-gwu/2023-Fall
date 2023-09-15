@@ -3,7 +3,6 @@ title: "Mini Project 1: Data Cleaning"
 toc: true
 toc-location: right
 execute:
-  echo: false
   warning: false
   message: false
 params:
@@ -109,7 +108,7 @@ Our data now have a tidy structure, but the values under the `year` column is a 
 
 # 8. Drop rows that aren't countries
 
-This step is probably the messiest step. The `country` column contains a mix of countries and whole regions (e.g. `"EUROPE"`). We only want countries, so we need to use `filter()` to drop rows that contain regions. I've done you a favor by listing all of the regions in the data as a vector below - you can copy-paste it to use in filtering out these rows:
+This is probably the messiest step. The `country` column contains a mix of countries and whole regions (e.g. `"EUROPE"`). We only want countries, so we need to use `filter()` to drop rows that contain regions. I've done you a favor by listing all of the regions in the data as a vector below - you can copy-paste it to use in filtering out these rows:
 
 ```{r}
 regions <- c(
@@ -141,7 +140,9 @@ Save your cleaned data frame to your `data` folder as a CSV file. Name the file 
 
 # 11. Render and proofread your report
 
-Click the "Render" button to compile your `.qmd` file into a html web page. Then open the `report.html` file in a web browser and proofread your report. Does all of the formatting look correct? Make sure there are no errors in the rendered file before submitting it.
+Click the "Render" button to compile your `.qmd` file into a html web page. Then open the `report.html` file in a web browser and proofread your report.
+
+Does all of the formatting look correct? **Make sure there are no errors in the rendered file before submitting it.**
 
 # 12. Submit
 
