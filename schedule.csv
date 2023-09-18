@@ -3,7 +3,7 @@ week,date,quiz,quiz_content,theme,n_class,stub_class,name_class,description_clas
 2,2023/09/06,,,Cleaning,2,tidy-data,Tidy Data,Tidy data; reshaping data; data provenance; writing a research question,2,cleaning-data,Cleaning Data,2023/09/12,,,,,,,,
 3,2023/09/13,1,Weeks 1 - 2,Cleaning,3,cleaning-data,Cleaning Data,Joins; changing data types; dealing with messy Excel files,3,exploring-data,Exploring Data,2023/09/19,1,data-cleaning,Data Cleaning,2023/09/26,1,proposal,Proposal,2023/09/24
 4,2023/09/20,,,Exploring,4,exploring-data,Exploring Data,Data types & scales; centrality & variability; correlation,4,visualizing-information,Visualizing Information,2023/10/03,,,,,,,,
-5,2023/09/27,,,,,,"Team Meetings, Proposal Feedback",,,,,,,,,,,,,
+5,2023/09/27,,,,,,Project Workshop: Team Meetings & Proposal Feedback,,,,,,,,,,,,,
 6,2023/10/04,2,Week 4,Visualizing,5,visualizing-information,Visualizing Information,"Psychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices",5,factors-amounts-proportions,"Factors, Amounts, & Proportions",2023/10/10,2,exploring-data,Exploring Data,2023/10/17,,,,
 7,2023/10/11,,,Visualizing,6,factors-amounts-proportions,"Factors, Amounts, & Proportions","Manipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole",6,comparisons,Comparisons,2023/10/17,,,,,,,,
 8,2023/10/18,3,Weeks 6 - 7,Visualizing,7,comparisons,Comparisons,Facets; reference lines; dumbbells; slopes; distributions,7,trends,Trends,2023/10/24,,,,,2,progress-report,Progress Report,2023/10/29
