@@ -536,7 +536,56 @@
     "href": "project/2-progress-report.html",
     "title": "Progress Report",
     "section": "",
-    "text": "Coming soon!"
+    "text": "Due: Oct 29 by 11:59pm\nSubmission Instructions: Render your .qmd file, then create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard. Only one person from your team should submit the report.\nWeight: This assignment is worth 6% of your final grade.\nPurpose: purpose\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\nWrite a report summarizing progress you have made towards your project thus far, including summary statistics of your data and preliminary charts. You should have already identified data source(s) for your project and begun exploring the data. Your report should be written in a narrative format (i.e. using coherent paragraphs rather than a series of bullet points). You may use headings where appropriate to break up your report into sections. Below is a list of specific items your progress report should include."
+  },
+  {
+    "objectID": "project/2-progress-report.html#get-organized",
+    "href": "project/2-progress-report.html#get-organized",
+    "title": "Progress Report",
+    "section": "1. Get organized",
+    "text": "1. Get organized\nDownload and unzip this template for your proposal report. Open the project.Rproj file and write your progress report in the report.qmd file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:\n\nWrite your project title in the title field (and provide a subtitle if you wish, or delete the subtitle field).\nIn the author field, list the names of all teammates, e.g. author: Luke Skywalker, Leia Organa, and Han Solo.\n\n\nYou should also put the data you are working with for your project in the appropriate folders."
+  },
+  {
+    "objectID": "project/2-progress-report.html#write-your-research-question",
+    "href": "project/2-progress-report.html#write-your-research-question",
+    "title": "Progress Report",
+    "section": "2. Write your research question",
+    "text": "2. Write your research question\nThis can (and almost certainly should) be a revised research question from your proposal.\nAgain, follow these guidelines."
+  },
+  {
+    "objectID": "project/2-progress-report.html#discuss-your-data-sources",
+    "href": "project/2-progress-report.html#discuss-your-data-sources",
+    "title": "Progress Report",
+    "section": "3. Discuss your data sources",
+    "text": "3. Discuss your data sources\nDiscuss the data source(s) you are using for your analysis. For each data source:\n\nDescribe it and include urls or references to the original sources as well as links to any pre-processed or formatted data you are using. These are not always the same. For example, for Mini Project 2, the original source was the Transit Costs Project whereas the data file used was posted on this GitHub repo.\nDiscuss the validity of your data:\n\nIs the data you are using from the original source, or has it been pre-processed?\nHow was the original data collected and by whom?\nAre there perhaps any missing data that might not have been observed?\nCould the data be biased in some way?\n\nFinally, provide a data dictionary for each data file you are using in an appendix at the end of your report. The dictionary should contain a table of each variable name along with a brief description of the variable."
+  },
+  {
+    "objectID": "project/2-progress-report.html#evaluate-your-proposal-expectations",
+    "href": "project/2-progress-report.html#evaluate-your-proposal-expectations",
+    "title": "Progress Report",
+    "section": "4. Evaluate your proposal expectations",
+    "text": "4. Evaluate your proposal expectations\n\nDo you find support for your original proposal expectation about how one variable might be distributed? Show it by looking at summaries of the variable. If that variable doesn’t exist in your data, discuss another key variable instead and how it is distributed.\nDo you find support for the expected relationships you wrote about in your proposal? If those variables don’t exist in your data, discuss one key relationship that you have identified between two or more variables."
+  },
+  {
+    "objectID": "project/2-progress-report.html#include-at-least-two-preliminary-charts",
+    "href": "project/2-progress-report.html#include-at-least-two-preliminary-charts",
+    "title": "Progress Report",
+    "section": "5. Include at least two preliminary charts",
+    "text": "5. Include at least two preliminary charts\n\nYour charts should either support or oppose your research question(s), or they should illustrate what else you might need to address your research question.\nThe preliminary charts must be different in nature. For example, it would not be appropriate to make two bar charts that are otherwise the same except for having a different y axis.\nYou may choose whatever chart types you wish, but your choices should highlight the point you want to make or should clearly show the relationship you want to emphasize. Consider these resources when choosing your charts.\nYour charts cannot be simple counts summarizing just one variable in your data. You should specify what relationship you are looking for in your charts and whether or not you see evidence of that relationship.\nYour charts should follow the design principles we have covered in class. They do not have to be fully “polished” yet, but at a minimum they should be accurate (i.e. not misleading) and they should not include distracting non-data ink."
+  },
+  {
+    "objectID": "project/2-progress-report.html#attribution",
+    "href": "project/2-progress-report.html#attribution",
+    "title": "Progress Report",
+    "section": "6. Attribution",
+    "text": "6. Attribution\nInclude a short description of the specific contributions of each team member in your team. If all members contributed equally, you can just put the single sentence “All members contributed equally”.\nTeam members who do not make meaningful contributions to their projects will not receive the same grade as that of their team mates. If you are having any issues or disputes among team members, please contact Professor Helveston ASAP so we can find a resolution."
+  },
+  {
+    "objectID": "project/2-progress-report.html#render-and-submit",
+    "href": "project/2-progress-report.html#render-and-submit",
+    "title": "Progress Report",
+    "section": "7. Render and submit",
+    "text": "7. Render and submit\nInstructions for how to submit your assignment are at the top of this page."
   },
   {
     "objectID": "project/4-presentation.html",
