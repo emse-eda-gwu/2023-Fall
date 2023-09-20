@@ -96,6 +96,95 @@ ggplot(mtcars) +
 
 ---
 
+.leftcol[
+
+# Exploratory Analysis
+
+<br>
+
+### Goal: **Form** hypotheses.
+### Improves quality of **questions**.
+### _(what we do in THIS class)_
+
+]
+
+--
+
+.rightcol[
+
+# Confirmatory Analysis
+
+<br>
+
+### Goal: **Test** hypotheses.
+### Improves quality of **answers**.
+### _(what you do in a stats class)_
+
+]
+
+---
+
+.leftcol[
+
+# Exploratory Analysis
+
+<br>
+
+RQ: Do people bike more when the weather is nice?
+
+<center>
+<img src="images/biking.png" width=ru0%>
+</center>
+
+]
+
+--
+
+.rightcol[
+
+# Confirmatory Analysis
+
+<br>
+
+Let's build a model to predict bike usage based on weather.
+
+]
+
+---
+
+class: center, inverse
+
+# Don't be Icarus
+
+<center>
+<img src="images/icarus.jpg" width=800>
+</center>
+
+---
+
+class: inverse, middle
+
+## "Far better an approximate answer to the _right_ question, which is often vague, than an exact answer to the _wrong_ question, which can always be made precise."
+## — [John Tukey](https://en.wikipedia.org/wiki/John_Tukey)
+
+---
+
+class: center
+background-color: #FFFFFF
+
+**EDA is an iterative process to help you<br>_understand_ your data and ask better questions**
+
+<center>
+<img src="images/eda.png" width=700>
+</center>
+
+---
+
+```{r child="topics/2.Rmd"}
+```
+
+---
+
 class: inverse, center, middle
 
 # 24,901
@@ -301,7 +390,7 @@ class: center, middle
 
 ---
 
-```{r child="topics/2.Rmd"}
+```{r child="topics/3.Rmd"}
 ```
 
 ---
@@ -320,7 +409,7 @@ class: inverse, middle
 
 --
 
-### A single number representing the _middle_ of a set of numbers
+### .center[A single number representing the _middle_ of a set of numbers]
 
 <br>
 
@@ -600,7 +689,7 @@ countdown(
 
 ---
 
-```{r child="topics/3.Rmd"}
+```{r child="topics/4.Rmd"}
 ```
 
 ---
@@ -617,6 +706,7 @@ class: center
 
 ---
 
+background-color: #fff
 class: center
 
 # Anscombe's Quartet
@@ -626,6 +716,31 @@ class: center
 </center>
 
 .left[.footer-small[Stephen Few (2009, pg. 6)]]
+
+---
+
+background-color: #fff
+class: center
+
+.leftcol60[
+
+# Anscombe's Quartet
+
+<center>
+<img src="figs/anscombe-quartet.png" width=600>
+</center>
+
+
+]
+
+.rightcol40[
+
+<br>
+<center>
+<img src="https://eda.seas.gwu.edu/2023-Fall/images/logo.png" width=100%>
+</center>
+
+]
 
 ---
 
@@ -870,7 +985,7 @@ ggplot(wildlife_impacts) +
 ## Histogram
 
 - Skewness
-- # of Modes
+- Modes
 
 ```{r, ref.label="wildlife-speed-hist", echo=FALSE, fig.width=7, fig.height=3.7, fig.align='center'}
 ```
@@ -946,7 +1061,7 @@ countdown(
 
 ---
 
-```{r child="topics/4.Rmd"}
+```{r child="topics/5.Rmd"}
 ```
 
 ---
@@ -1393,7 +1508,7 @@ spearman <- cor(x, y, method = "spearman", use = "complete.obs")
 
 ---
 
-```{r child="topics/5.Rmd"}
+```{r child="topics/6.Rmd"}
 ```
 
 ---
@@ -1716,92 +1831,8 @@ Using the `penguins` data frame:
 
 ---
 
-```{r child="topics/6.Rmd"}
+```{r child="topics/7.Rmd"}
 ```
-
----
-
-.leftcol[
-
-# Exploratory Analysis
-
-<br>
-
-### Goal: **Form** hypotheses.
-### Improves quality of **questions**.
-### _(what we do in THIS class)_
-
-]
-
---
-
-.rightcol[
-
-# Confirmatory Analysis
-
-<br>
-
-### Goal: **Test** hypotheses.
-### Improves quality of **answers**.
-### _(what you do in a stats class)_
-
-]
-
----
-
-.leftcol[
-
-# Exploratory Analysis
-
-<br>
-
-RQ: Do people bike more when the weather is nice?
-
-<center>
-<img src="images/biking.png" width=ru0%>
-</center>
-
-]
-
---
-
-.rightcol[
-
-# Confirmatory Analysis
-
-<br>
-
-Let's build a model to predict bike usage based on weather.
-
-]
-
----
-
-class: center, inverse
-
-# Don't be Icarus
-
-<center>
-<img src="images/icarus.jpg" width=800>
-</center>
-
----
-
-class: inverse, middle
-
-## "Far better an approximate answer to the _right_ question, which is often vague, than an exact answer to the _wrong_ question, which can always be made precise."
-## — John Tukey
-
----
-
-class: center
-background-color: #FFFFFF
-
-**EDA is an iterative process to help you<br>_understand_ your data and ask better questions**
-
-<center>
-<img src="images/eda.png" width=700>
-</center>
 
 ---
 
