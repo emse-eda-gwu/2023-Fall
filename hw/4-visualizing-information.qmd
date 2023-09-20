@@ -8,15 +8,15 @@ params:
 ```{r child = here::here("fragments", "hw.qmd")}
 ```
 
-> "Data visualization is part art and part science. The challenge is to get the art right without getting the science wrong and vice versa."
->
-> -- Claus O. Wilke in [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/introduction.html)
-
 ### 1. Get Organized
 
 Download and edit [this template](`r url_template`) when working through this assignment.
 
 ### 2. Read & Practice
+
+> "Data visualization is part art and part science. The challenge is to get the art right without getting the science wrong and vice versa."
+>
+> -- Claus O. Wilke in [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/introduction.html)
 
 Follow these instructions:
 
