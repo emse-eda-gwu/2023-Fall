@@ -3,12 +3,21 @@ class: inverse, middle
 
 # Week `r rmarkdown::metadata$week`: .fancy[`r rmarkdown::metadata$title`]
 
-### 1. Data Types
-### 2. Centrality & Variability
-### 3. Visualizing Centrality & Variability
+.leftcol[
+
+### 1. Exploring Data
+### 2. Data Types
+### 3. Centrality & Variability
+### 4. Visualizing Centrality & Variability
+
+]
+
+.rightcol[
 
 ### BREAK
 
-### 4. Correlation
-### 5. Visualizing Correlation
-### 6. .orange[Exploring Data]
+### 5. Correlation
+### 6. .orange[Visualizing Correlation]
+### 7. Visualizing Relationships
+
+]
