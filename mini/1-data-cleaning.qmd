@@ -40,7 +40,7 @@ maxPoints <- rubric %>%
 
 # Background
 
-For this assignment, you'll be cleaning up a data set from the [International Organization of Motor Vehicle Manufacturers (OICA)](https://www.oica.net/). Your job for this assignment is to clean up a relatively messy data file that contains sales of passenger cars by country in the years 2019, 2020, and 2021. Your final product should be a tidy (long format) data frame with three columns: `country`, `year`, and `sales`. It should look like this:
+For this assignment, you'll be cleaning up a data set from the [International Organization of Motor Vehicle Manufacturers (OICA)](https://www.oica.net/). Your job for this assignment is to clean up a relatively messy data file that contains sales of passenger cars by country in the years 2019, 2020, 2021, and 2022 (note: the provided example only includes up to 2021, but the OICA recently added 2022 numbers). Your final product should be a tidy (long format) data frame with three columns: `country`, `year`, and `sales`. It should look like this:
 
 ```{r}
 #| eval: false
@@ -124,7 +124,8 @@ regions <- c(
     "ASEAN",
     "ALL COUNTRIES/REGIONS",
     "OTHER COUNTRIES/REGIONS",
-    "TOTAL OICA MEMBERS"
+    "TOTAL OICA MEMBERS",
+    "* including LCV& HCV"
 )
 ```
 
