@@ -1,7 +1,7 @@
 ---
-title: "Visualizing Information"
+title: "Comparisons"
 params:
-  class: "5-visualizing-information"
+  class: "8-comparisons"
 execute:
   echo: false
   warning: false

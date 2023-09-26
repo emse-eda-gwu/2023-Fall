@@ -1,7 +1,7 @@
 ---
-title: "Maps"
+title: "Factors, Amounts, & Proportions"
 params:
-  class: "10-maps"
+  class: "7-amounts-proportions"
 execute:
   echo: false
   warning: false

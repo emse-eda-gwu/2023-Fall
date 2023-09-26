@@ -2,7 +2,7 @@
 title: "Visualizing Information"
 subtitle: "EMSE 4572/6572: Exploratory Data Analysis"
 date: October 04, 2023
-week: 5
+week: 6
 author: "John Paul Helveston"
 institute: "The George Washington University | Dept. of Engineering Management and Systems Engineering"
 output:

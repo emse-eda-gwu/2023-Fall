@@ -1,7 +1,7 @@
 ---
-title: "Polishing Charts"
+title: "Maps"
 params:
-  class: "9-polishing-charts"
+  class: "11-maps"
 execute:
   echo: false
   warning: false

@@ -1,7 +1,7 @@
 ---
-title: "Communicating Results"
+title: "Final Presentations"
 params:
-  class: "12-communicating-results"
+  class: "15-final-presentations"
 execute:
   echo: false
   warning: false
