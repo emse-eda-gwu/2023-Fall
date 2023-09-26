@@ -1,0 +1,11 @@
+---
+title: "Trends"
+params:
+  class: "9-trends"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+Coming soon!
