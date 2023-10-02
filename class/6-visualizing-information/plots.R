@@ -15,7 +15,8 @@ library(ggrepel)
 library(MASS)
 library(viridis)
 library(ggforce)
-library(jhelvyr)
+library(jph)
+
 set.seed(42)
 
 # Climate change barcode ------------------------------------------------------
@@ -173,7 +174,7 @@ backgroundChecks <- data.frame(
     mutate(percent = 100*(count / sum(count))) %>%
     ggplot(aes(x = supportPolicy, y = percent, fill = gunOwner)) +
     geom_col(position = 'stack', width = 0.7) +
-    scale_fill_manual(values = jColors('extended', c('red', 'blue'))) +
+    scale_fill_manual(values = c('orange', 'dodgerblue')) +
     scale_y_continuous(limits = c(0, 100),
                        expand = expansion(mult = c(0, 0.05))) +
     theme_minimal_hgrid() +
