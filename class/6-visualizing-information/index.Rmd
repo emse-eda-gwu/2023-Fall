@@ -107,6 +107,7 @@ background-size: cover
 
 ---
 
+name: refs
 class: middle
 
 .rightcol80[
@@ -2235,22 +2236,13 @@ class: center, middle
 
 ---
 
-class: middle
-
-.rightcol80[
-# References:
-
-# - [Data Viz "Cheat Sheet"](https://github.com/emse-eda-gwu/2022-Fall/raw/main/content/cheatsheet-dataviz.pdf)
-
-# - [Data Viz Reference Page](https://eda.seas.gwu.edu/2022-Fall/help/visualizing-data.html)
-
-]
+template: refs
 
 ---
 
 class: inverse
 
-# Your turn - go [here](https://docs.google.com/presentation/d/1dtLEzy9G4VoyOvqhkxHH7j9HrytM8bpvrXbr8Wdd_5I/edit?usp=sharing)
+# Your turn - go [here](https://docs.google.com/presentation/d/1C06PEq7CilstUqfjEaUGoFHPwvf-PJhBv77gLQXQcrw/edit?usp=sharing)
 
 For your "bad" visualization:
 
