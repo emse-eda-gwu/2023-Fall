@@ -15,7 +15,8 @@ library(ggrepel)
 library(MASS)
 library(viridis)
 library(ggforce)
-library(jhelvyr)
+library(jph)
+
 set.seed(42)
 
 # Climate change barcode ------------------------------------------------------
