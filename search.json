@@ -312,7 +312,21 @@
     "href": "hw/5-factors-amounts-proportions.html",
     "title": "Factors, Amounts, & Proportions",
     "section": "",
-    "text": "Coming soon!"
+    "text": "Due: 2023-10-10 by 11:59pm\nWeight: This assignment is worth 1% of your final grade.\nPurpose: learn some of the technical details of how to write code to create “good” information visualizations that follow the design principles we discussed last week. We will focus on graphing amounts and proportions.\nAssessment: This assignment is graded using a check system:\n\n✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.\n✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.\n✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will hopefully not assign these often.\n\nNotice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is not enough. Write at least a paragraph and show me that you did the readings assigned."
+  },
+  {
+    "objectID": "hw/5-factors-amounts-proportions.html#design-principles",
+    "href": "hw/5-factors-amounts-proportions.html#design-principles",
+    "title": "Factors, Amounts, & Proportions",
+    "section": "Design principles",
+    "text": "Design principles\nThe design principles discussed in the following readings repeat many of the concepts we saw last week, except focused on the particular subset of charts for this week:\n\nWilke: 6 - Visualizing amounts\nWilke: 10 - Visualizing proportions\nSquare pie chart beats out the rest in perception study\nWhen Are 100% Stacked Bar Graphs Useful?"
+  },
+  {
+    "objectID": "hw/5-factors-amounts-proportions.html#coding-techniques",
+    "href": "hw/5-factors-amounts-proportions.html#coding-techniques",
+    "title": "Factors, Amounts, & Proportions",
+    "section": "Coding techniques",
+    "text": "Coding techniques\nThe readings below discuss two important components that we will run into a lot in making charts: factors & facets. Factors are categorical variables, but dealing with them in R can be somewhat messy. Fortunately, we have the forcats package to help us tackle these! Facets, on the other hand, are rather straight forward to implement and offer a handy technique for creating charts when you have many different variables to consider at once.\nWhen you go through these, take notes in your hw5.Rmd file of examples or concepts that you come across:\n\nR4DS: 15 - Factors\nR4DS: 3.5 - Facets"
   },
   {
     "objectID": "hw/3-exploring-data.html",
@@ -361,7 +375,7 @@
     "href": "class/6-visualizing-information.html",
     "title": "Visualizing Information",
     "section": "",
-    "text": "Coming soon!"
+    "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
   },
   {
     "objectID": "class/4-exploring-data.html",

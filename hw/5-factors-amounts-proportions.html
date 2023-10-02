@@ -315,9 +315,76 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Coming soon!</p>
+<blockquote class="blockquote">
+<p><strong>Due</strong>: 2023-10-10 by 11:59pm</p>
+<p><strong>Weight</strong>: This assignment is worth 1% of your final grade.</p>
+<p><strong>Purpose</strong>: learn some of the technical details of how to write code to create “good” information visualizations that follow the design principles we discussed last week. We will focus on graphing <strong>amounts</strong> and <strong>proportions</strong>.</p>
+<p><strong>Assessment</strong>: This assignment is graded using a check system:</p>
+<ul>
+<li>✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.</li>
+<li>✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.</li>
+<li>✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will <em>hopefully</em> not assign these often.</li>
+</ul>
+<p>Notice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is <strong>not enough</strong>. Write at least a paragraph and show me that you did the readings assigned.</p>
+</blockquote>
+<section id="get-organized" class="level1">
+<h1>1. Get Organized</h1>
+<p>Download and edit <a href="https://eda.seas.gwu.edu/2023-Fall/templates/hw5.zip">this template</a> when working through this assignment.</p>
+</section>
+<section id="readings" class="level1">
+<h1>2. Readings</h1>
+<p>The readings listed below are broken into two groups:</p>
+<ol type="1">
+<li>Design principles</li>
+<li>Coding techniques to implement those principles</li>
+</ol>
+<section id="design-principles" class="level2">
+<h2 class="anchored" data-anchor-id="design-principles">Design principles</h2>
+<p>The design principles discussed in the following readings repeat many of the concepts we saw last week, except focused on the particular subset of charts for this week:</p>
+<ul>
+<li>Wilke: <a href="https://serialmentor.com/dataviz/visualizing-amounts.html">6 - Visualizing amounts</a></li>
+<li>Wilke: <a href="https://serialmentor.com/dataviz/visualizing-proportions.html">10 - Visualizing proportions</a></li>
+<li><a href="https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009">Square pie chart beats out the rest in perception study</a></li>
+<li><a href="https://www.perceptualedge.com/blog/?p=2239">When Are 100% Stacked Bar Graphs Useful?</a></li>
+</ul>
+</section>
+<section id="coding-techniques" class="level2">
+<h2 class="anchored" data-anchor-id="coding-techniques">Coding techniques</h2>
+<p>The readings below discuss two important components that we will run into a lot in making charts: <strong>factors &amp; facets</strong>. Factors are categorical variables, but dealing with them in R can be somewhat messy. Fortunately, we have the <a href="https://forcats.tidyverse.org/">forcats</a> package to help us tackle these! Facets, on the other hand, are rather straight forward to implement and offer a handy technique for creating charts when you have many different variables to consider at once.</p>
+<p>When you go through these, take notes in your <code>hw5.Rmd</code> file of examples or concepts that you come across:</p>
+<ul>
+<li>R4DS: <a href="https://r4ds.had.co.nz/factors.html">15 - Factors</a></li>
+<li>R4DS: <a href="https://r4ds.had.co.nz/data-visualisation.html#facets">3.5 - Facets</a></li>
+</ul>
+</section>
+</section>
+<section id="practice-coding" class="level1">
+<h1>3. Practice Coding</h1>
+<p>To get a little extra practice developing better charts with ggplot2, go to the “Finding Data” page and on the <a href="../help/finding-data.html#packages">Packages</a> section choose a package that you find interesting. Install the package, then in a code chunk load the package with <code>library(packageName)</code>. You can examine the data sets loaded with the package using <code>data(package = "packageName")</code>. Choose a data frame then make a plot illustrating a relationship in the data. Below your code chunk with your visualization, explain in a few sentences what the chart you made shows.</p>
+</section>
+<section id="reflect" class="level1">
+<h1>4. Reflect</h1>
+<p>Reflect on what you’ve learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing?</p>
+<p>Write at least a paragraph in your <code>hw5.qmd</code> file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.</p>
+<p>Some thoughts you may want to try in your reflection:</p>
+<ul>
+<li>Write about one of the best (or worst) data visualizations you’ve seen.</li>
+<li>“I used to think ______, now I think ______ 🤔”</li>
+<li>Discuss some of the key insights or things you found interesting in the readings or recent class periods.</li>
+<li>Connect the course content to your own work or project you’re working on.</li>
+</ul>
+</section>
+<section id="submit" class="level1">
+<h1>5. Submit</h1>
+<p>To submit your assignment, follow these instructions:</p>
+<ol type="1">
+<li>Render your .qmd file by either clicking the “Render” button in RStudio or running the command <code>quarto::quarto_render("hw5.qmd")</code> command.</li>
+<li>Open the rendered html file and make sure it looks good! Is all the formatting as you expected?</li>
+<li>Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
