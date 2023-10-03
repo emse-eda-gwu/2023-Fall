@@ -147,7 +147,7 @@ Does all of the formatting look correct? **Make sure there are no errors in the 
 
 # 12. Submit
 
-Instructions for how to submit your assignment are at the [top of this page](). 
+Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 
 # BONUS: Make a summary visualization (+5%)
 
