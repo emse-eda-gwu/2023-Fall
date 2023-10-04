@@ -91,6 +91,10 @@ Does all of the formatting look correct? **Make sure there are no errors in the 
 
 Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 
+# Bonus (+3%)
+
+One logical relationship you might expect in this data is a strong correlation between the length of a transit line and it's cost. But if we plot a scatterplot of `length` and `real_cost` (making sure to convert `real_cost` to a number), the correlation doesn't look too strong. That's because length and cost don't scale together in linear space - they scale in log-linear space! That is, the _log_ of these variables correlate much more strongly than the variables themselves. To get the bonus credit, make a plot that shows this relationship (hint: read about [log-log plots](https://en.wikipedia.org/wiki/Log%E2%80%93log_plot)).
+
 # Grading Rubric
 
 ### `r maxPoints` Total Points
