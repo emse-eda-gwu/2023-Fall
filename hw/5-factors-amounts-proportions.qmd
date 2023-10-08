@@ -39,7 +39,7 @@ When you go through these, take notes in your ``r paste0('hw', params$number, '.
 
 # 3. Practice Coding
 
-To get a little extra practice developing better charts with ggplot2, go to the "Finding Data" page and on the [Packages](../help/finding-data.html#packages) section choose a package that you find interesting. Install the package, then in a code chunk load the package with `library(packageName)`. You can examine the data sets loaded with the package using `data(package = "packageName")`. Choose a data frame then make a plot illustrating a relationship in the data. Below your code chunk with your visualization, explain in a few sentences what the chart you made shows.
+To get a little extra practice developing better charts with ggplot2, go to the "Finding Data" page and on the [Packages](../finding-data.html#packages) section choose a package that you find interesting. Install the package, then in a code chunk load the package with `library(packageName)`. You can examine the data sets loaded with the package using `data(package = "packageName")`. Choose a data frame then make a plot illustrating a relationship in the data. Below your code chunk with your visualization, explain in a few sentences what the chart you made shows.
 
 # 4. Reflect
 
