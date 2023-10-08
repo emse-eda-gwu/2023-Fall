@@ -326,7 +326,7 @@
     "href": "hw/5-factors-amounts-proportions.html#coding-techniques",
     "title": "Factors, Amounts, & Proportions",
     "section": "Coding techniques",
-    "text": "Coding techniques\nThe readings below discuss two important components that we will run into a lot in making charts: factors & facets. Factors are categorical variables, but dealing with them in R can be somewhat messy. Fortunately, we have the forcats package to help us tackle these! Facets, on the other hand, are rather straight forward to implement and offer a handy technique for creating charts when you have many different variables to consider at once.\nWhen you go through these, take notes in your hw5.Rmd file of examples or concepts that you come across:\n\nR4DS: 15 - Factors\nR4DS: 3.5 - Facets"
+    "text": "Coding techniques\nThe readings below discuss two important components that we will run into a lot in making charts: factors & facets. Factors are categorical variables, but dealing with them in R can be somewhat messy. Fortunately, we have the forcats package to help us tackle these! Facets, on the other hand, are rather straight forward to implement and offer a handy technique for creating charts when you have many different variables to consider at once.\n\nR4DS: 15 - Factors\nR4DS: 3.5 - Facets"
   },
   {
     "objectID": "hw/3-exploring-data.html",
