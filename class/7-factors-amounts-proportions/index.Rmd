@@ -43,134 +43,12 @@ milk_summary_2017 <- milk_production %>%
 
 ---
 
-class: center, middle, inverse
-
-# .fancy[.blue[Tip of the week]]
-
-# The `fcuk` package
-
----
-
-## The `fcuk` package
-
-.leftcol75[
-
-Error message **without** the `fcuk` package:
-
-```{r eval=FALSE}
-maen(c(1, 2, 3, 4, 5))
-```
-
-```
-Error in maen(c(1, 2, 3, 4, 5)) : could not find function "maen"
-```
-
-]
-
-.rightcol25[
-
-<center>
-<img src="images/fcuk-hex-thinkr.png" width="300">
-</center>
-
-]
-
----
-
-## The `fcuk` package
-
-.leftcol75[
-
-Error message **without** the `fcuk` package:
-
-```{r eval=FALSE}
-maen(c(1, 2, 3, 4, 5))
-```
-
-```
-Error in maen(c(1, 2, 3, 4, 5)) : could not find function "maen"
-```
-
-Error message **with** the `fcuk` package:
-
-```{r eval=FALSE}
-library(fcuk)
-
-maen(c(1, 2, 3, 4, 5))
-```
-
-```
-Error in maen(c(1, 2, 3, 4, 5)) : could not find function "maen"
-
-Did you mean : mean or rename ?
-```
-
-]
-
-.rightcol25[
-
-<center>
-<img src="images/fcuk-hex-thinkr.png" width="300">
-</center>
-
-]
-
----
-
-## The `fcuk` package
-
-.leftcol75[
-
-Install:
-
-```{r, eval=FALSE}
-install.packages("fcuk")
-```
-
-Automatically load:
-
-```{r eval=FALSE}
-fcuk::add_fcuk_to_rprofile()
-```
-
-]
-
-.rightcol25[
-
-<center>
-<img src="images/fcuk-hex-thinkr.png" width="300">
-</center>
-
-]
-
----
-
-class: inverse, middle, center
-
-# Tidy data review
-
----
-
-# Tidy data
-
-Tidy data follows the following three rules:
-
-- Each **variable** has its own **column**
-- Each **observation** has its own **row**
-- Each **value** has its own **cell**
-
-<center>
-<img src="images/tidy-data.png" width = "850">
-</center>
-
----
-
 class: inverse, middle
 
 # Next projects due:
 
-## - [Mini project 2](https://eda.seas.gwu.edu/2022-Fall/project-mini/2-exploring-data.html): Exploring Data (Due 10/18)
-## - [Project progress report](https://eda.seas.gwu.edu/2022-Fall/project-final/2-progress-report.html) (Due 11/01)
+## - [Mini project 2](https://eda.seas.gwu.edu/2023-Fall/mini/2-exploring-data.html): Exploring Data (Due 10/17)
+## - [Project Progress Report](https://eda.seas.gwu.edu/2023-Fall/project/2-progress-report.html) (Due 10/29)
 
 ---
 
@@ -191,7 +69,7 @@ wildlife_impacts <- read_csv(here('data', 'wildlife_impacts.csv'))
 The [{waffle} package](https://github.com/hrbrmstr/waffle)
 
 ```{r, eval=FALSE}
-install.packages("waffle", repos = "https://cinc.rud.is")
+install.packages("waffle")
 ```
 
 ---
@@ -283,9 +161,8 @@ federal_spending %>%
   summarise(
     rd_budget_bil = sum(rd_budget_mil) / 10^3) %>%
   mutate(
-    department = fct_reorder( #<<
-        department, rd_budget_bil)) %>%  #<<
-
+    department = fct_reorder(department, rd_budget_bil)  #<<
+  ) %>%
 # Make the chart
   ggplot() +
   geom_col(
