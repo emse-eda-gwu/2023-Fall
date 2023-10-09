@@ -38,28 +38,6 @@ milk_production   <- read_csv(here('data', 'milk_production.csv'))
 wildlife_impacts  <- read_csv(here('data', 'wildlife_impacts.csv'))
 ```
 
-# Tidy data review
-
-```{r}
-# Tidy the data
-fed_spending_long <- fed_spending_wide %>%
-    gather(key = "department", value = "rd_budget_mil", DHS:VA)
-
-milk_prod_long <- milk_prod_wide %>%
-    gather(key = "region", value = "milk_production", Appalachian:Pacific)
-```
-
-```{r}
-# Visualize variability
-fed_spending_long %>%
-    ggplot() +
-    geom_histogram(aes(x = rd_budget_mil))
-
-milk_prod_long %>%
-    ggplot() +
-    geom_histogram(aes(x = milk_production))
-```
-
 # Practice manipulating factors
 
 Use the `wildlife_impacts` data to create the following plot
