@@ -8,21 +8,20 @@ params:
 ```{r child = here::here("fragments", "hw.qmd")}
 ```
 
-### 1. Software
+# 1. Software
 
 If you haven't yet, go to the [Course Software](../software.html) page and install all the software we'll need for this course. You'll need these tools for this assignment.
 
-### 2. Get Organized
-
-Download and edit [this template](`r url_template`) when working through this assignment.
-
-### 3. Readings & Exercises
+# 2. Get Organized
 
 Follow these instructions:
 
-1. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
-2. Open the .Rproj file to open RStudio. 
-3. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the following readings / exercises:
+1. Download and edit [this template](`r url_template`).
+2. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
+3. Open the .Rproj file to open RStudio.
+4. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the readings / exercises below.
+
+# 3. Readings & Exercises
 
 - **Getting Familiar with the Course**: Follow [Snoop's advice](https://www.youtube.com/watch?v=Tnlaokj1opA) and read the entire [Course Syllabus](../syllabus.html) (actually read the whole thing). Then review the [schedule](../schedule.html) and make sure to note important upcoming deadlines.
 - **Getting Familiar with Tidy Data**: Read [this tidyverse article](https://tidyr.tidyverse.org/articles/tidy-data.html) explaining the concept of tidy data. In your ``r hw_file``, copy some of the examples into a code chunk and run them to see the results of converting data between long and wide formats.
@@ -35,7 +34,7 @@ Follow these instructions:
 - [Chapter 6](https://r4ds.hadley.nz/data-tidy.html) in Hadley Wickham's R4DS book covers more detail on the concept of tidy data with even more examples. It's worth reading through for a more comprehensive understanding.
 - [Chapter 29](https://r4ds.hadley.nz/quarto.html#code-chunks) in Hadley Wickham's R4DS book is a great introduction to [Quarto](https://quarto.org/). I highly recommend taking a look through it to get a better understanding of Quarto (we'll be using it the whole semester!).
 
-### 4. Reflect 
+# 4. Reflect
 
 Reflect on what you've learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your ``r hw_file`` file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.
 
@@ -43,7 +42,7 @@ If you're unsure where to start with a reflection, try filling out this template
 
 > "I used to think ______, now I think ______ 🤔"
 
-### 5. Submit
+# 5. Submit
 
 To submit your assignment, follow these instructions:
 

@@ -8,30 +8,29 @@ params:
 ```{r child = here::here("fragments", "hw.qmd")}
 ```
 
-### 1. Get Organized
+# 1. Get Organized
 
-Download and edit [this template](`r url_template`) when working through this assignment.
+Follow these instructions:
 
-### 2. Read & Practice
+1. Download and edit [this template](`r url_template`).
+2. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
+3. Open the .Rproj file to open RStudio.
+4. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the readings / exercises below.
+
+# 2. Read & Practice
 
 > "Data visualization is part art and part science. The challenge is to get the art right without getting the science wrong and vice versa."
 >
 > -- Claus O. Wilke in [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/introduction.html)
 
-Follow these instructions:
-
-1. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
-2. Open the .Rproj file to open RStudio.
-3. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the readings / exercises below.
-
-#### Readings on visualizing information
+### Readings on visualizing information
 
 These two chapters cover a lot of excellent examples of what makes a chart "good" and "bad"---the focus of what we'll talk about in class next week:
 
 - [Healy 1: Look at Data](http://socviz.co/lookatdata.html#lookatdata): What makes figures good and bad
 - [Wilke 1: Introduction](https://serialmentor.com/dataviz/introduction.html): Definitions of "ugly", "bad", and "wrong" figures
 
-#### Video on the psychology of data viz
+### Video on the psychology of data viz
 
 Watch [this 40-minute video](https://www.youtube.com/watch?v=fSgEeI2Xpdc) titled "How humans see data", by John Rauser. He discusses how we can exploit our understanding of human psychology to design effective charts (I'll cover much of the same information in the video in class next week).
 
@@ -39,11 +38,11 @@ Watch [this 40-minute video](https://www.youtube.com/watch?v=fSgEeI2Xpdc) titled
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fSgEeI2Xpdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-#### Make a figure
+# 3. Make a chart
 
 Go to the [Data to Viz](https://www.data-to-viz.com/) website and find a visualization that you find interesting. Then click on "R Graph Gallery" to view an example of how to make that types of chart in R using ggplot. In a code chunk, replicate that code and see if you can get it to run on your machine.
 
-### 3. Reflect
+# 4. Reflect
 
 Reflect on what you've learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing?
 
@@ -56,7 +55,7 @@ Some thoughts you may want to try in your reflection:
 - Discuss some of the key insights or things you found interesting in the readings or recent class periods.
 - Connect the course content to your own work or project you're working on.
 
-### 4. Submit
+# 5. Submit
 
 To submit your assignment, follow these instructions:
 

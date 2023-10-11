@@ -10,15 +10,14 @@ params:
 
 # 1. Get Organized
 
-Download and edit [this template](`r url_template`) when working through this assignment.
-
-# 2. Readings
-
 Follow these instructions:
 
-1. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
-2. Open the .Rproj file to open RStudio.
-3. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the readings / exercises below.
+1. Download and edit [this template](`r url_template`).
+2. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
+3. Open the .Rproj file to open RStudio.
+4. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the readings / exercises below.
+
+# 2. Readings
 
 The readings listed below are broken into two groups:
 

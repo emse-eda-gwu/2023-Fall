@@ -8,17 +8,16 @@ params:
 ```{r child = here::here("fragments", "hw.qmd")}
 ```
 
-### 1. Get Organized
-
-Download and edit [this template](`r url_template`) when working through this assignment.
-
-### 2. Read & Practice
+# 1. Get Organized
 
 Follow these instructions:
 
-1. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
-2. Open the .Rproj file to open RStudio.
-3. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the following readings / exercises:
+1. Download and edit [this template](`r url_template`).
+2. Unzip the template folder. **Make sure you actually unzip it**! (in Windows, right-click it and use "extract all")
+3. Open the .Rproj file to open RStudio.
+4. Inside RStudio, open the ``r hw_file`` file, take notes, and write some example code as you go through the readings / exercises below.
+
+# 2. Read & Practice
 
 - [Stat 545 chapter 15 on joining two tables](https://stat545.com/join-cheatsheet.html)
 - [Tips for Cleaning Messy Data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/)
@@ -27,7 +26,7 @@ Follow these instructions:
 
 > `I'm practicing the concept of joining data frames in R. Provide me an example of two datasets that have a common column and then show me R code for how to join them using the tidyverse. Afterwards, show several more slightly more complicated examples where the column names don't align, etc. In each case, explain your reasoning first, then show me the code.`
 
-### 4. Reflect
+# 3. Reflect
 
 Reflect on what you've learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your ``r hw_file`` file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.
 
@@ -38,7 +37,7 @@ Some thoughts you may want to try in your reflection:
 - Write about the messiest data you've seen.
 - Connect the course content to your own work or project you're working on.
 
-### 5. Submit
+# 4. Submit
 
 To submit your assignment, follow these instructions:
 
