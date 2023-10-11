@@ -315,9 +315,71 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Coming soon!</p>
+<blockquote class="blockquote">
+<p><strong>Due</strong>: 2023-10-17 by 11:59pm</p>
+<p><strong>Weight</strong>: This assignment is worth 1% of your final grade.</p>
+<p><strong>Purpose</strong>: The purpose of this assignment is to learn some of the technical details of how to create charts for <strong>comparing values</strong> to one another and / or to a benchmark.</p>
+<p><strong>Assessment</strong>: This assignment is graded using a check system:</p>
+<ul>
+<li>✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.</li>
+<li>✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.</li>
+<li>✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will <em>hopefully</em> not assign these often.</li>
+</ul>
+<p>Notice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is <strong>not enough</strong>. Write at least a paragraph and show me that you did the readings assigned.</p>
+</blockquote>
+<section id="get-organized" class="level1">
+<h1>1. Get Organized</h1>
+<p>Follow these instructions:</p>
+<ol type="1">
+<li>Download and edit <a href="https://eda.seas.gwu.edu/2023-Fall/templates/hw6.zip">this template</a>.</li>
+<li>Unzip the template folder. <strong>Make sure you actually unzip it</strong>! (in Windows, right-click it and use “extract all”)</li>
+<li>Open the .Rproj file to open RStudio.</li>
+<li>Inside RStudio, open the <code>hw6.qmd</code> file, take notes, and write some example code as you go through the readings / exercises below.</li>
+</ol>
+</section>
+<section id="readings" class="level1">
+<h1>2. Readings</h1>
+<blockquote class="blockquote">
+<p>“At the heart of quantitative reasoning is a single question: Compared to what?”</p>
+<p>– Edward Tufte</p>
+</blockquote>
+<p>Most of the readings this week have code in them that illustrate how to create each chart type, and I encourage you to try and reproduce a few of the examples provided in R yourself. You may also want to take a look at the <a href="http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html">top 50 ggplots</a>, which contains examples with ggplot code to create 50 common visualizations.</p>
+<ul>
+<li><a href="http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Slope%20Chart">Slope charts</a></li>
+<li><a href="https://themockup.blog/posts/2020-11-29-bullet-chart-variants-in-r/">Bullet charts</a></li>
+<li><a href="http://uc-r.github.io/cleveland-dot-plots">Dumbell charts</a></li>
+<li>Wilke: <a href="https://serialmentor.com/dataviz/histograms-density-plots.html">7 - Visualizing distributions</a></li>
+<li>Wilke: <a href="https://serialmentor.com/dataviz/boxplots-violins.html">9 - Visualizing many distributions at once</a></li>
+<li><a href="http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf">Dual-Scaled Axes in Graphs - Are They Ever the Best Solution?</a></li>
+</ul>
+</section>
+<section id="make-a-chart" class="level1">
+<h1>3. Make a Chart</h1>
+<p>Once you’ve read through everything, add a code chunk in your <code>hw6.qmd</code> file that creates one of the charts you saw in one of the readings. <strong>Cite the source</strong> of the chart. The goal is to try and reproduce the chart as closely as possible to how it looks in the reading. While it is okay to copy-paste code directly into your reflection, try to write the code yourself. Practicing the coding yourself is key to mastering these skills. You may need to modify the figure dimensions in the chunk settings.</p>
+</section>
+<section id="reflect" class="level1">
+<h1>4. Reflect</h1>
+<p>Reflect on what you’ve learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing?</p>
+<p>Write at least a paragraph in your <code>hw6.qmd</code> file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.</p>
+<p>Some thoughts you may want to try in your reflection:</p>
+<ul>
+<li>Write about one of the best (or worst) data visualizations you’ve seen.</li>
+<li>“I used to think ______, now I think ______ 🤔”</li>
+<li>Discuss some of the key insights or things you found interesting in the readings or recent class periods.</li>
+<li>Connect the course content to your own work or project you’re working on.</li>
+</ul>
+</section>
+<section id="submit" class="level1">
+<h1>5. Submit</h1>
+<p>To submit your assignment, follow these instructions:</p>
+<ol type="1">
+<li>Render your .qmd file by either clicking the “Render” button in RStudio or running the command <code>quarto::quarto_render("hw6.qmd")</code> command.</li>
+<li>Open the rendered html file and make sure it looks good! Is all the formatting as you expected?</li>
+<li>Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
