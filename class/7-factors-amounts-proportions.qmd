@@ -1,7 +1,7 @@
 ---
 title: "Factors, Amounts, & Proportions"
 params:
-  class: "7-amounts-proportions"
+  class: "7-factors-amounts-proportions"
 execute:
   echo: false
   warning: false
