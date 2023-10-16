@@ -1525,38 +1525,21 @@ internet_regions %>%
 
 ---
 
-class: inverse
-
-# Quiz 3
+class: inverse, center
 
 ```{r, echo=FALSE}
 countdown(
-    minutes = 10,
-    warn_when = 30,
-    update_every = 1,
-    bottom = 0,
-    left = 0,
-    font_size = '4em'
-)
+  minutes = 5,
+  warn_when = 30,
+  update_every = 1,
+  left = 0, right = 0, top = 1, bottom = 0,
+  margin = "5%",
+  font_size = "8em")
 ```
 
-.leftcol[
+# Break!
 
-### Download the template from the #class channel
-
-### Make sure you unzip it!
-
-### When done, submit your `quiz3.qmd` on Blackboard
-
-]
-
-.rightcol[
-
-<center>
-<img src="https://github.com/emse-p4a-gwu/2022-Spring/raw/main/images/quiz_doge.png" width="400">
-</center>
-
-]
+## Stand up, Move around, Stretch!
 
 ---
 

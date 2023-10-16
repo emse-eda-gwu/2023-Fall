@@ -6,6 +6,6 @@ class: inverse, middle
 ## 1. Comparing to a reference
 ## 2. .orange[Comparing variables]
 
-## Quiz 3
+## BREAK
 
 ## 3. Comparing distributions
