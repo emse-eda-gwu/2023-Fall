@@ -23,6 +23,8 @@ knitr::opts_chunk$set(
 
 library(ggrepel)
 library(ggridges)
+library(tidyverse)
+library(here)
 
 # Read in the data
 gapminder        <- read_csv(here('data', 'gapminder.csv'))
