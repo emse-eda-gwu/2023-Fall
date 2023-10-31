@@ -10,4 +10,4 @@ class: inverse, middle
 
 ### 3. .orange[Colors]
 ### 4. Fonts
-### 5. Rmd tricks
+### 5. qmd tricks

@@ -4,12 +4,15 @@ class: inverse
 ## Your turn
 
 .leftcol40[
+
 Use the `wildlife_costs` data frame to create the following chart.
 
 Hint: Use the **lubridate** package to create dates for the x axis values, e.g. `ymd("2021-03-24")`
+
 ]
 
 .rightcol60[
+
 ```{r wildlife_costs_annotated, echo=FALSE, fig.height=6, fig.width=8, fig.align='center'}
 label1 <- "On Jan. 15, 2009,
 US Airways Flight 1549
