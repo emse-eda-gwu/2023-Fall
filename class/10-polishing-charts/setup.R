@@ -1,5 +1,6 @@
 library(hrbrthemes)
 library(here)
+library(viridis)
 
 # Read in data
 wildlife_impacts <- read_csv(here::here('data', 'wildlife_impacts.csv'))

@@ -2746,18 +2746,13 @@ output:
 
 .rightcol[
 
-### [rmdformats package](https://github.com/juba/rmdformats)
-
-```{r, eval=FALSE}
-install.packages("rmdformats")
-```
-
-```
-title: "your title"
-output: rmdformats::<template name>
-```
+list of options
 
 ]
+
+---
+
+https://quarto.org/docs/extensions/listing-formats.html
 
 ---
 
