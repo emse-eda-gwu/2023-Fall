@@ -91,7 +91,11 @@ milk_summary_dumbbell <- milk_production %>%
 
 Adjust the scales in the code chunk provided to match the chart on the slides.
 
-```{r, fig.height=5, fig.width=7, fig.align='center'}
+```{r}
+#| fig.height: 5
+#| fig.width: 7
+#| fig.align: 'center'
+
 ggplot(wildlife_costs) +
   geom_point(aes(x = incident_date, y = cost)) +
   theme_minimal_grid(font_size = 16) +
@@ -100,7 +104,8 @@ ggplot(wildlife_costs) +
     y = 'Cost of incident repairs ($ millions)',
     title = 'Repair costs of aircraft impacts with wildlife',
     subtitle = 'Top 4 airlines',
-    caption = 'Source: https://wildlife.faa.gov/home')
+    caption = 'Source: https://wildlife.faa.gov/home'
+  )
 ```
 
 # 2. Annotations
@@ -117,7 +122,13 @@ Hints:
     - `y = 1300`
     - `yend = 200`
 
-```{r lotr_bars, echo=FALSE, fig.height=6, fig.width=7.5, fig.align='center'}
+```{r}
+#| label: lotr_bars
+#| echo: FALSE
+#| fig.height: 6
+#| fig.width: 7.5
+#| fig.align: 'center'
+
 label <- "Across 3 films,
 only 16 words were
 spoken by a
@@ -146,7 +157,11 @@ Make 3 different versions of this chart:
 
 Base chart:
 
-```{r, fig.width=7, fig.height=5, fig.align='center'}
+```{r}
+#| fig.width: 7
+#| fig.height: 5
+#| fig.align: 'center'
+
 base_plot <- ggplot(wildlife_impacts_2016) +
   geom_point(
     aes(x = speed, y = height, color = phase_of_flt),
@@ -163,19 +178,31 @@ base_plot
 
 Same chart but with the `"RdYlBu"` ColorBrewer palette:
 
-```{r, fig.width=7, fig.height=5, fig.align='center'}
+```{r}
+#| fig.width: 7
+#| fig.height: 5
+#| fig.align: 'center'
+
 # Write code here
 ```
 
 Same chart but with the `"inferno"` palette from the **viridis** library:
 
-```{r, fig.width=7, fig.height=5, fig.align='center'}
+```{r}
+#| fig.width: 7
+#| fig.height: 5
+#| fig.align: 'center'
+
 # Write code here
 ```
 
 Same chart but with a custom color palette:
 
-```{r, fig.width=7, fig.height=5, fig.align='center'}
+```{r}
+#| fig.width: 7
+#| fig.height: 5
+#| fig.align: 'center'
+
 # Write code here
 ```
 
@@ -194,7 +221,11 @@ Hint: Use `annotate()` to insert the year labels at the top:
   - 1970: `x = 9`, `y = 10.5`
   - 2017: `x = 40`, `y = 10.5`
 
-```{r, fig.height=6, fig.width=7, fig.align='center'}
+```{r}
+#| fig.width: 7
+#| fig.height: 6
+#| fig.align: 'center'
+
 milk_summary_dumbbell %>%
   ggplot(aes(x = milk_produced, y = state)) +
   geom_line(
@@ -225,9 +256,6 @@ milk_summary_dumbbell %>%
 
 
 
-
-
-
 # Other things I showed in class
 
 ## Preview colors
@@ -249,13 +277,17 @@ https://ggplot2tor.com/scales
 
 Install
 
-```{r, eval=FALSE}
+```{r}
+#| eval: false
+
 remotes::install_github("mattcowgill/ggannotate")
 ```
 
 Example
 
-```{r, eval=FALSE}
+```{r}
+#| eval: false
+
 library(ggannotate)
 
 plot <- ggplot(mpg) +
@@ -277,13 +309,17 @@ https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhje
 
 Install
 
-```{r, eval=FALSE}
+```{r}
+#| eval: false
+
 # remotes::install_github("clauswilke/colorblindr")
 ```
 
 Example
 
-```{r, eval=FALSE}
+```{r}
+#| eval: false
+
 library(colorblindr)
 
 mpg_plot <- ggplot(mtcars, aes(x = mpg, y = hp)) +
@@ -304,34 +340,99 @@ cvd_grid(mpg_plot)
 - **Inauguration palette**: https://github.com/ciannabp/inauguration
 - **PNWColors**: https://github.com/jakelawlor/PNWColors
 
-## **rmdformats package**
+**Pimp my RMD**: https://holtzy.github.io/Pimp-my-rmd/
 
-https://github.com/juba/rmdformats
+# Annotation examples of the Federal Spending data from class
 
-Install
+Create the summary data frame first:
 
-```{r, eval=FALSE}
-install.packages("rmdformats")
+```{r}
+federal_spending_summary <- federal_spending %>%
+    mutate(department = fct_other(
+        department, keep = 'DOD')) %>%
+    group_by(department, year) %>%
+    summarise(rd_budget = sum(rd_budget) / 10^3) %>%
+    ungroup() %>%
+    mutate(department = fct_relevel(
+        department, c('Other', 'DOD')))
 ```
 
-Example YAML:
+Baseline chart:
 
+```{r}
+#| label: fed_spending
+#| fig.height: 5
+#| fig.width: 7
+#| fig.align: 'center'
+
+dod_spending <- ggplot(federal_spending_summary) +
+  geom_area(
+    aes(x = year, y = rd_budget, fill = department)) +
+  scale_y_continuous(
+    expand = expand_scale(mult = c(0, 0.05))) +
+  scale_fill_manual(values = c('grey', 'sienna')) +
+  theme_minimal_hgrid() +
+  labs(
+    x = NULL,
+    y = 'R&D Budget ($ Billions)',
+    title = 'Federal R&D spending, 1976 - 2017',
+    subtitle = 'Source: AAAS Historical Trends')
+
+dod_spending
 ```
----
-title: "My document"
-date: "`r Sys.Date()`"
-author: John Doe
-output:
-  rmdformats::downcute:
-    self_contained: true
-    thumbnails: true
-    lightbox: true
-    gallery: false
-    highlight: tango
----
+
+Annotations with `annotate()`:
+
+```{r}
+#| label: fed_spending_annotate
+#| fig.height: 5
+#| fig.width: 7
+#| fig.align: 'center'
+
+dod_spending +
+    annotate(geom = 'text', x = 1995, y = 85,
+             label = 'Other', size = 6, color = 'black') +
+    annotate(geom = 'text', x = 1995, y = 25,
+             label = 'DOD', size = 6, color = 'white') +
+    theme(legend.position = 'none')
 ```
 
-## Tips & tricks for Rmd files
+Annotations with `geom_text()`:
 
-- **Pimp my RMD**: https://holtzy.github.io/Pimp-my-rmd/
+```{r}
+#| label: fed_spending_geom_text
+#| fig.height: 5
+#| fig.width: 7
+#| fig.align: 'center'
 
+dod_spending +
+    geom_text(
+      data = data.frame(x = 1995, y = 85, label = 'Other'),
+      aes(x = x, y = y, label = label),
+      size = 6, color = 'black') +
+    geom_text(
+      data = data.frame(x = 1995, y = 25, label = 'DOD'),
+      aes(x = x, y = y, label = label),
+      size = 6, color = 'white') +
+    theme(legend.position = 'none')
+```
+
+Annotations with `geom_label()`:
+
+```{r}
+#| label: fed_spending_geom_label
+#| fig.height: 5
+#| fig.width: 7
+#| fig.align: 'center'
+
+dod_spending +
+    geom_label(
+      data = data.frame(x = 1995, y = 85, label = 'Other'),
+      aes(x = x, y = y, label = label),
+      size = 6, color = 'black') +
+    geom_label(
+      data = data.frame(x = 1995, y = 25, label = 'DOD'),
+      aes(x = x, y = y, label = label),
+      size = 6, color = 'black') +
+    theme(legend.position = 'none')
+```
