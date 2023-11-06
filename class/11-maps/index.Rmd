@@ -1,7 +1,7 @@
 ---
 title: "Maps"
 subtitle: "EMSE 4572: Exploratory Data Analysis"
-date: November 09, 2022
+date: November 08, 2022
 week: 11
 author: "John Paul Helveston"
 institute: "The George Washington University | Dept. of Engineering Management and Systems Engineering"
@@ -20,77 +20,14 @@ output:
       ratio: "16:9"
 ---
 
-```{r setup, include=FALSE}
-source('setup.R')
-
-options(
-  htmltools.dir.version = FALSE,
-  knitr.table.format = "html",
-  knitr.kable.NA = '',
-  dplyr.width = Inf,
-  width = 250
-)
-
-knitr::opts_chunk$set(
-  cache = FALSE,
-  warning = FALSE,
-  message = FALSE,
-  fig.path = "figs/",
-  fig.width = 7.252,
-  fig.height = 4,
-  comment = "#>",
-  fig.retina = 3
-)
-
-# Setup xaringanExtra options
-xaringanExtra::use_xaringan_extra(c(
-  "tile_view", "panelset", "clipboard", "share_again"))
-xaringanExtra::style_share_again(share_buttons = "none")
-xaringanExtra::use_extra_styles(
-  hover_code_line = TRUE,
-  mute_unhighlighted_code = FALSE
-)
-xaringanExtra::use_freezeframe(responsive = FALSE)
-
-# Set up website metadata
-meta() %>%
-  meta_general(
-    description = rmarkdown::metadata$subtitle,
-    generator = "xaringan and remark.js"
-  ) %>%
-  meta_name("github-repo" = "emse-eda-gwu/2022-Fall") %>%
-  meta_social(
-    title = rmarkdown::metadata$title,
-    url = "https://eda.seas.gwu.edu/2022-Fall/",
-    og_type = "website",
-    og_author = "John Paul Helveston",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@johnhelveston"
-  )
-
-# Set global theme
-theme_set(theme_minimal(base_size = 18))
+```{r setup, child="../setup.Rmd"}
 ```
 
-class: middle, inverse
+```{r}
+#| include: false
 
-.leftcol30[
-
-<center>
-<img src="https://raw.githubusercontent.com/emse-eda-gwu/2022-Fall/master/images/logo.png" width=250>
-</center>
-
-]
-
-.rightcol70[
-
-# Week `r rmarkdown::metadata$week`: .fancy[`r rmarkdown::metadata$title`]
-
-### `r fontawesome::fa(name = "building-columns", fill = "white")` `r rmarkdown::metadata$subtitle`
-### `r fontawesome::fa(name = "user", fill = "white")` `r rmarkdown::metadata$author`
-### `r fontawesome::fa(name = "calendar", fill = "white")` `r rmarkdown::metadata$date`
-
-]
+source('setup.R')
+```
 
 ---
 
@@ -102,6 +39,7 @@ us_coffee_shops <- read_csv(here::here('data', 'us_coffee_shops.csv'))
 ```
 
 ## New packages:
+
 ```{r, eval=FALSE}
 install.packages('maps')
 install.packages('mapproj')
@@ -111,6 +49,41 @@ install.packages('rnaturalearth')
 devtools::install_github("ropensci/rnaturalearthhires")
 devtools::install_github("ropensci/rnaturalearthdata")
 ```
+
+---
+
+class: inverse
+
+# Quiz 4
+
+```{r, echo=FALSE}
+countdown(
+    minutes = 10,
+    warn_when = 30,
+    update_every = 1,
+    bottom = 0,
+    left = 0,
+    font_size = '4em'
+)
+```
+
+.leftcol[
+
+### Download the template from the #class channel
+
+### Make sure you unzip it!
+
+### When done, submit your `quiz4.qmd` on Blackboard
+
+]
+
+.rightcol[
+
+<center>
+<img src="https://github.com/emse-p4a-gwu/2022-Spring/raw/main/images/quiz_doge.png" width="400">
+</center>
+
+]
 
 ---
 
@@ -179,8 +152,10 @@ Make the plot with `geom_polygon()`
 
 ```{r, eval=FALSE}
 ggplot(world) +
-    geom_polygon(aes(x = long, y = lat, group = group), #<<
-                 fill = "grey90", color = "grey60")
+  geom_polygon( #<<
+    aes(x = long, y = lat, group = group), #<<
+    fill = "grey90", color = "grey60"
+  )
 ```
 
 ]]
@@ -212,8 +187,10 @@ Make the plot with `geom_polygon()`
 
 ```{r, eval=FALSE}
 ggplot(us_states) +
-    geom_polygon(aes(x = long, y = lat, group = group), #<<
-                 fill = "grey90", color = "grey60")
+  geom_polygon( #<<
+    aes(x = long, y = lat, group = group), #<<
+    fill = "grey90", color = "grey60"
+  )
 ```
 
 ]]
@@ -241,7 +218,8 @@ library(rnaturalearthdata)
 
 world <- ne_countries( #<<
   scale = "medium", #<<
-  returnclass = "sf") #<<
+  returnclass = "sf"  #<<
+) #<<
 
 world %>%
     select(name, geometry) %>%
@@ -258,8 +236,11 @@ world %>%
 library(rnaturalearth) #<<
 library(rnaturalearthdata) #<<
 
-world <- ne_countries(scale = "medium", #<<
-                      returnclass = "sf") #<<
+world <- ne_countries(
+  scale = "medium", #<<
+  returnclass = "sf"  #<<
+) #<<
+
 world %>%
     select(name, geometry) %>%
     head()
@@ -281,7 +262,8 @@ library(rnaturalearthdata)
 
 world <- ne_countries(
   scale = "medium",
-  returnclass = "sf")
+  returnclass = "sf"
+)
 ```
 
 Make the plot with `geom_sf()`
@@ -290,7 +272,7 @@ Make the plot with `geom_sf()`
 library(sf)
 
 ggplot(data = world) +
-    geom_sf(fill = "grey90", color = "grey60") #<<
+  geom_sf(fill = "grey90", color = "grey60") #<<
 ```
 
 ]]
@@ -311,13 +293,15 @@ ggplot(data = world) +
 .leftcol[.code70[
 
 Get the "US States" shape file
+
 ```{r}
 library(rnaturalearth)
 library(rnaturalearthdata)
 
-us_states <- ne_states( #<<
-    country = 'united states of america', #<<
-    returnclass = 'sf')
+us_states <- ne_states( 
+  country = 'united states of america', 
+  returnclass = 'sf'
+)
 ```
 
 ]]
@@ -335,8 +319,9 @@ library(rnaturalearth)
 library(rnaturalearthdata)
 
 us_states <- ne_states(
-    country = 'united states of america',
-    returnclass = 'sf')
+  country = 'united states of america',
+  returnclass = 'sf'
+)
 ```
 
 Make the plot with `geom_sf()`
@@ -372,8 +357,9 @@ library(rnaturalearth)
 library(rnaturalearthdata)
 
 us_states_cont <- ne_states(
-    country = 'united states of america',
-    returnclass = 'sf') %>%
+      country = 'united states of america',
+      returnclass = 'sf'
+    ) %>%
     filter(! name %in% c('Alaska', 'Hawaii')) #<<
 ```
 
@@ -383,7 +369,7 @@ Make the plot with `geom_sf()`
 library(sf)
 
 ggplot(data = us_states_cont) +
-    geom_sf(fill = "grey90", color = "grey60") #<<
+  geom_sf(fill = "grey90", color = "grey60") #<<
 ```
 
 ]]
@@ -464,14 +450,14 @@ Read in the "World" shape file
 library(sf)
 
 world <- st_read(here::here( #<<
-    'data', 'natural_earth_countries',
-    'ne_50m_admin_0_countries.shp')) %>%
-    clean_names()
+  'data', 'natural_earth_countries',
+  'ne_50m_admin_0_countries.shp')) %>%
+  clean_names()
 ```
 
 ```{r, eval=FALSE}
 ggplot(data = world) +
-    geom_sf(fill = "grey90", color = "grey60") #<<
+  geom_sf(fill = "grey90", color = "grey60") #<<
 ```
 
 ]]
@@ -497,12 +483,12 @@ Read in the "Central Park" shape file [[source]](https://github.com/malcolmbarre
 library(sf)
 
 central_park <- st_read(here::here(
-    'data', 'central_park', 'CentralPark.shp'))
+  'data', 'central_park', 'CentralPark.shp'))
 ```
 
 ```{r, eval=FALSE}
 ggplot(data = central_park) +
-    geom_sf(color = 'grey75')
+  geom_sf(color = 'grey75')
 ```
 
 ]]
@@ -853,8 +839,10 @@ ggplot(us_states) +
     limits = c(0, 40)) +
   theme_void(base_size = 15) +
   theme(legend.position = 'bottom') +
-  labs(fill = 'Milk produced\n(billions lbs)',
-       title = 'Milk Production by State in 2017')
+  labs(
+    fill = 'Milk produced\n(billions lbs)',
+    title = 'Milk Production by State in 2017'
+  )
 ```
 
 ]]
@@ -883,8 +871,10 @@ ggplot(us_states) +
     limits = c(0, 40)) +
   theme_void(base_size = 15) +
   theme(legend.position = 'bottom') +
-  labs(fill = 'Milk produced\n(billions lbs)',
-       title = 'Milk Production by State in 2017')
+  labs(
+    fill = 'Milk produced\n(billions lbs)',
+    title = 'Milk Production by State in 2017'
+  )
 ```
 
 ]]
@@ -1006,8 +996,10 @@ us_coffee_shops  <- read_csv(here::here(
 
 # Only keep data in continental US
 us_coffee_shops <- us_coffee_shops %>%
-    filter(lat > 22,    lat < 50,
-           long > -150, long < -66)
+    filter(
+      lat > 22,    lat < 50,
+      long > -150, long < -66
+    )
 ```
 
 ]]
@@ -1036,7 +1028,8 @@ ggplot() +
   geom_point( #<<
     data = us_coffee_shops, #<<
     aes(x = long, y = lat, color = name), #<<
-    size = 0.3) +  #<<
+    size = 0.3   #<<
+  ) +  #<<
   theme_void(base_size = 15) +
   theme(legend.position = 'bottom') +
   guides(color = guide_legend(
@@ -1044,8 +1037,10 @@ ggplot() +
     title.position = "top",
     # Increase legend point size
     override.aes = list(size = 3))) +
-  labs(color = 'Coffee shop',
-       title = 'Coffee Shops in the US')
+  labs(
+    color = 'Coffee shop',
+    title = 'Coffee Shops in the US'
+  )
 ```
 
 ]]
@@ -1112,37 +1107,6 @@ countdown(
 <center>
 <img src="images/state_borders.png" width=700>
 </center>
-
----
-
-class: inverse
-
-# Quiz 4
-
-```{r, echo=FALSE}
-countdown(
-    minutes = 10,
-    warn_when = 30,
-    update_every = 1,
-    bottom = 0,
-    left = 0,
-    font_size = '4em'
-)
-```
-
-.leftcol[
-
-### Link is in the #class channel
-
-]
-
-.rightcol[
-
-<center>
-<img src="https://github.com/emse-p4a-gwu/2022-Spring/raw/main/images/quiz_doge.png" width="400">
-</center>
-
-]
 
 ---
 
@@ -1362,8 +1326,10 @@ ggplot(us_states) +
     limits = c(0, 40)) +
   theme_void(base_size = 15) +
   theme(legend.position = 'bottom') +
-  labs(fill = 'Milk produced\n(billions lbs)',
-       title = 'Milk Production by State in 2017')
+  labs(
+    fill = 'Milk produced\n(billions lbs)',
+    title = 'Milk Production by State in 2017'
+  )
 ```
 
 ]]
@@ -1402,8 +1368,10 @@ ggplot(us_states) +
     limits = c(0, 40)) +
   theme_void(base_size = 15) +
   theme(legend.position = 'bottom') +
-  labs(fill = 'Milk produced\n(billions lbs)',
-       title = 'Milk Production by State in 2017') +
+  labs(
+    fill = 'Milk produced\n(billions lbs)',
+    title = 'Milk Production by State in 2017'
+  ) +
   coord_sf(crs = "ESRI:102003") #<<
 ```
 
@@ -1448,8 +1416,10 @@ ggplot() +
     title.position = "top",
     # Increase legend point size
     override.aes = list(size = 3))) +
-  labs(color = 'Coffee shop',
-       title = 'Coffee Shops in the US')
+  labs(
+    color = 'Coffee shop',
+    title = 'Coffee Shops in the US'
+  )
 ```
 
 ]]
@@ -1491,8 +1461,10 @@ ggplot() +
     title.position = "top",
     # Increase legend point size
     override.aes = list(size = 3))) +
-  labs(color = 'Coffee shop',
-       title = 'Coffee Shops in the US') +
+  labs(
+    color = 'Coffee shop',
+    title = 'Coffee Shops in the US'
+  ) +
   coord_sf(crs = "ESRI:102003") #<<
 ```
 
@@ -1563,8 +1535,10 @@ ggplot() +
     title.position = "top",
     # Increase legend point size
     override.aes = list(size = 3))) +
-  labs(fill = 'Coffee shop',
-       title = 'Coffee Shops in the US')
+  labs(
+    fill = 'Coffee shop',
+    title = 'Coffee Shops in the US'
+  )
 ```
 
 ]]
@@ -1599,8 +1573,10 @@ ggplot() +
     title.position = "top",
     # Increase legend point size
     override.aes = list(size = 3))) +
-  labs(fill = 'Coffee shop',
-       title = 'Coffee Shops in the US') +
+  labs(
+    fill = 'Coffee shop',
+    title = 'Coffee Shops in the US'
+  ) +
   coord_sf(crs = "ESRI:102003") #<<
 ```
 
@@ -1638,8 +1614,10 @@ ggplot() +
     title.position = "top",
     # Increase legend point size
     override.aes = list(size = 3))) +
-  labs(fill = 'Coffee shop',
-       title = 'Coffee Shops in the US') +
+  labs(
+    fill = 'Coffee shop',
+    title = 'Coffee Shops in the US'
+  ) +
   coord_sf(crs = "ESRI:102004") #<<
 ```
 
