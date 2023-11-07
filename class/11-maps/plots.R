@@ -69,6 +69,21 @@ sf_us_cont <- ggplot(data = us_states_cont) +
 ggsave(here::here('images', 'plots', 'sf_us_cont.png'),
        sf_us_cont, width = 6, height = 3.7)
 
+# US with Hawaii and Alaska
+
+library(tigris)
+
+us_sf <- tigris::states(class = "sf", cb = TRUE) %>%
+    shift_geometry() %>%
+    filter(GEOID < 60)
+
+us_sf %>%
+    ggplot() +
+    geom_sf()
+
+ggsave(here::here('images', 'plots', 'sf_us_alhi.png'),
+       width = 6, height = 3.7)
+
 # US Counties
 library(maps)
 

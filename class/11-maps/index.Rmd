@@ -206,6 +206,24 @@ ggplot(us_states) +
 
 ---
 
+.leftcol80[
+
+<center>
+<img src="images/monsters-sf.jpg" width=100%>
+</center>
+
+]
+
+.rightcol20[
+
+Simple Features package: {sf}
+
+Art by<br>[Allison Horst](https://allisonhorst.com/)
+
+]
+
+---
+
 ### Simple Features (sf) maps
 
 .leftcol40[.code70[
@@ -379,6 +397,41 @@ ggplot(data = us_states_cont) +
 <br>
 <center>
 <img src="images/plots/sf_us_cont.png">
+<center>
+
+]
+
+---
+
+## Inset Hawaii and Alaska
+
+.leftcol60[.code70[
+
+Get the shape file from {tigris} package
+
+```{r}
+library(tigris)
+
+us_sf <- tigris::states(class = "sf", cb = TRUE) %>%
+    shift_geometry() %>%
+    filter(GEOID < 60)
+```
+
+Make the plot with `geom_sf()`
+
+```{r, eval=FALSE}
+us_sf %>%
+    ggplot() +
+    geom_sf()
+```
+
+]]
+
+.rightcol40[
+
+<br>
+<center>
+<img src="images/plots/sf_us_alhi.png">
 <center>
 
 ]
@@ -564,13 +617,40 @@ class: inverse, center, middle
 ---
 
 class: center, middle
-background-color: #FFF
+
+.leftcol70[
 
 <center>
 <img src="images/xkcd_heatmap.png" width=550>
 </center>
 
 .left[https://xkcd.com/1138/]
+
+]
+
+.rightcol30[
+
+# Not all maps are useful...
+
+]
+
+---
+
+.leftcol70[
+
+<center>
+<img src="images/tea-map.jpeg" width=600>
+</center>
+
+.left[https://twitter.com/pwang/status/1387228573896003585]
+
+]
+
+.rightcol30[
+
+# ...but some maps are
+
+]
 
 ---
 
@@ -1680,6 +1760,14 @@ Mercator Projection
 <center>
 
 ]
+
+---
+
+# Remember: Mini Project 3 Due 11/21
+
+## (That's 2 weeks)
+
+### https://eda.seas.gwu.edu/2023-Fall/mini/3-redesign.html
 
 ---
 
