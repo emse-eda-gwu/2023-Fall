@@ -8,7 +8,7 @@ execute:
   message: false
 params:
   number: 2
-  weight: '8%'
+  weight: '10%'
   purpose: "When you get a data file to analyze, one of the first things you'll want to do is _explore_ it. But that's often easier said than done. The purpose of this assignment is to give you a chance to practice some of the techniques we've discussed in class for exploring a data set."
 ---
 
