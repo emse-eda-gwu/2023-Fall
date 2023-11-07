@@ -95,7 +95,7 @@ class: inverse
 
 # Quiz 4
 
-<div class="countdown" id="timer_2cc4920f" data-warn-when="30" data-update-every="1" tabindex="0" style="bottom:0;left:0;font-size:4em;">
+<div class="countdown" id="timer_108dc81f" data-warn-when="30" data-update-every="1" tabindex="0" style="bottom:0;left:0;font-size:4em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -269,6 +269,24 @@ ggplot(us_states) +
 &lt;center&gt;
 &lt;img src="images/plots/polygon_us.png"&gt;
 &lt;center&gt;
+
+]
+
+---
+
+.leftcol80[
+
+&lt;center&gt;
+&lt;img src="images/monsters-sf.jpg" width=100%&gt;
+&lt;/center&gt;
+
+]
+
+.rightcol20[
+
+Simple Features package: {sf}
+
+Art by&lt;br&gt;[Allison Horst](https://allisonhorst.com/)
 
 ]
 
@@ -463,6 +481,43 @@ ggplot(data = us_states_cont) +
 
 ---
 
+## Inset Hawaii and Alaska
+
+.leftcol60[.code70[
+
+Get the shape file from {tigris} package
+
+
+```r
+library(tigris)
+
+us_sf &lt;- tigris::states(class = "sf", cb = TRUE) %&gt;%
+    shift_geometry() %&gt;%
+    filter(GEOID &lt; 60)
+```
+
+Make the plot with `geom_sf()`
+
+
+```r
+us_sf %&gt;%
+    ggplot() +
+    geom_sf()
+```
+
+]]
+
+.rightcol40[
+
+&lt;br&gt;
+&lt;center&gt;
+&lt;img src="images/plots/sf_us_alhi.png"&gt;
+&lt;center&gt;
+
+]
+
+---
+
 ## The `maps` package
 
 .leftcol60[.code70[
@@ -617,7 +672,7 @@ ggplot(data = central_park) +
 
 class: inverse
 
-<div class="countdown" id="timer_95b55fa4" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_88ae1429" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -680,13 +735,40 @@ class: inverse, center, middle
 ---
 
 class: center, middle
-background-color: #FFF
+
+.leftcol70[
 
 &lt;center&gt;
 &lt;img src="images/xkcd_heatmap.png" width=550&gt;
 &lt;/center&gt;
 
 .left[https://xkcd.com/1138/]
+
+]
+
+.rightcol30[
+
+# Not all maps are useful...
+
+]
+
+---
+
+.leftcol70[
+
+&lt;center&gt;
+&lt;img src="images/tea-map.jpeg" width=600&gt;
+&lt;/center&gt;
+
+.left[https://twitter.com/pwang/status/1387228573896003585]
+
+]
+
+.rightcol30[
+
+# ...but some maps are
+
+]
 
 ---
 
@@ -1210,7 +1292,7 @@ ggplot() +
 
 class: inverse
 
-<div class="countdown" id="timer_c20f967a" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_1a2c6019" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1238,7 +1320,7 @@ Hint: The color is mapped to the `primary_fur_color` variable
 
 class: inverse, center
 
-<div class="countdown" id="timer_72d7d753" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_6f6a0fa0" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1823,7 +1905,7 @@ LCC Projection
 
 class: inverse
 
-<div class="countdown" id="timer_18caa6d8" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;left:0;font-size:2em;">
+<div class="countdown" id="timer_6b63581d" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;left:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1864,6 +1946,14 @@ Mercator Projection
 
 ---
 
+# Remember: Mini Project 3 Due 11/21
+
+## (That's 2 weeks)
+
+### https://eda.seas.gwu.edu/2023-Fall/mini/3-redesign.html
+
+---
+
 class: inverse, middle, center
 
 # Extra practice
@@ -1874,7 +1964,7 @@ class: inverse
 
 ## Your turn
 
-<div class="countdown" id="timer_d8246a13" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_53aa767b" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
