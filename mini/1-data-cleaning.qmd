@@ -139,15 +139,13 @@ Use the `arrange()` function to sort the rows by year and country.
 
 Save your cleaned data frame to your `data` folder as a CSV file. Name the file `my_clean_data.csv`.
 
-# 11. Render and proofread your report
+# 11. Render and submit
 
 Click the "Render" button to compile your `.qmd` file into a html web page. Then open the `report.html` file in a web browser and proofread your report.
 
 Does all of the formatting look correct? **Make sure there are no errors in the rendered file before submitting it.**
 
-# 12. Submit
-
-Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
+Once you've proofread your report, create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 
 # BONUS: Make a summary visualization (+5%)
 

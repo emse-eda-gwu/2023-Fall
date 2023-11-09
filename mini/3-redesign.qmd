@@ -121,15 +121,13 @@ Write a summary of your analysis process. I'm specifically looking for a discuss
 - Discuss the improvements your first revised chart makes compared to the original chart.
 - Discuss what message your second chart conveys and what design choices you made to highlight that message.
 
-# 8. Render and proofread your report
+# 8. Render and submit
 
 Click the "Render" button to compile your `.qmd` file into a html web page. Then open the `report.html` file in a web browser and proofread your report.
 
 Does all of the formatting look correct? **Make sure there are no errors in the rendered file before submitting it.**
 
-# 9. Submit
-
-Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
+Once you've proofread your report, create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 
 # Grading Rubric
 

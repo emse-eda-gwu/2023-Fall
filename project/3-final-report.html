@@ -335,11 +335,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#get-organized" id="toc-get-organized" class="nav-link active" data-scroll-target="#get-organized">1. Get organized</a></li>
-  <li><a href="#state-your-research-question" id="toc-state-your-research-question" class="nav-link" data-scroll-target="#state-your-research-question">2. State your research question</a></li>
-  <li><a href="#discuss-your-data-sources" id="toc-discuss-your-data-sources" class="nav-link" data-scroll-target="#discuss-your-data-sources">3. Discuss your data sources</a></li>
-  <li><a href="#describe-your-results-with-text-and-charts" id="toc-describe-your-results-with-text-and-charts" class="nav-link" data-scroll-target="#describe-your-results-with-text-and-charts">4. Describe your results with text and charts</a></li>
-  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">5. Attribution</a></li>
-  <li><a href="#render-and-submit" id="toc-render-and-submit" class="nav-link" data-scroll-target="#render-and-submit">7. Render and submit</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">2. Introduction</a></li>
+  <li><a href="#state-your-research-question" id="toc-state-your-research-question" class="nav-link" data-scroll-target="#state-your-research-question">3. State your research question</a></li>
+  <li><a href="#discuss-your-data-sources" id="toc-discuss-your-data-sources" class="nav-link" data-scroll-target="#discuss-your-data-sources">4. Discuss your data sources</a></li>
+  <li><a href="#describe-your-results-with-text-and-charts" id="toc-describe-your-results-with-text-and-charts" class="nav-link" data-scroll-target="#describe-your-results-with-text-and-charts">5. Describe your results with text and charts</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">6. Conclusions</a></li>
+  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">7. Attribution</a></li>
+  <li><a href="#render-and-submit" id="toc-render-and-submit" class="nav-link" data-scroll-target="#render-and-submit">8. Render and submit</a></li>
   <li><a href="#grading-rubric" id="toc-grading-rubric" class="nav-link" data-scroll-target="#grading-rubric">Grading Rubric</a>
   <ul class="collapse">
   <li><a href="#total-points" id="toc-total-points" class="nav-link" data-scroll-target="#total-points">70 Total Points</a></li>
@@ -369,14 +371,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <blockquote class="blockquote">
 <p><strong>Due</strong>: Dec 10 by 11:59pm</p>
-<p><strong>Submission Instructions</strong>: Render your .qmd file, then create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard. <strong>Only one person from your team should submit the report</strong>.</p>
 <p><strong>Weight</strong>: This assignment is worth 15% of your final grade.</p>
 <p><strong>Purpose</strong>: purpose</p>
 <p><strong>Assessment</strong>: Your submission will be assessed using the <a href="#grading-rubric">rubric</a> at the bottom of this page.</p>
 </blockquote>
 <p>Your final report should be a fully reproducible html webpage. It should include text, data, code, and plots. Your report should be written in a narrative format (i.e.&nbsp;using coherent paragraphs rather than a series of bullet points). You may use headings where appropriate to break up your report into sections. There is no length requirement - your report should be sufficiently detailed to address the requirements listed below and sufficiently concise such that it is expressed in the fewest necessary words. It is also perfectly acceptable for large portions of your final report to be identical to sections in your progress report, albeit all results should be “polished” and publication ready. Below is a list of specific items your report should include.</p>
-<section id="get-organized" class="level2">
-<h2 class="anchored" data-anchor-id="get-organized">1. Get organized</h2>
+<section id="get-organized" class="level1">
+<h1>1. Get organized</h1>
 <ol type="1">
 <li><p>Download and unzip <a href="../templates/project-template.zip">this template</a> for your proposal report. Open the <code>project.Rproj</code> file and write your progress report in the <code>report.qmd</code> file. The template comes with some text and code explaining how to use it - <strong>you should delete the template code and text as it is only for explanatory purposes</strong>. Be sure to adjust the content in the YAML:</p>
 <ul>
@@ -386,46 +387,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Put the data you are working with for your project in the appropriate folders. Even if you are reading in data directly from a website (e.g.&nbsp;<code>data &lt;- read_csv("www.somewhere.com/data.csv)</code>), be sure to download a local copy of the data and put it in the appropriate data folder.</p></li>
 <li><p>At the bottom of your report, add an Appendix section that includes data dictionaries for the key data sets used in your analysis as well as a copy of all of the code used in your report, which can be automatically generated with a single chunk like this:</p></li>
 </ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r ref.label=knitr::all_labels()}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: true</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="state-your-research-question" class="level2">
-<h2 class="anchored" data-anchor-id="state-your-research-question">2. State your research question</h2>
-<p>Clearly state your research question and motivate why it is important / why the reader should care about it. You should follow <a href="https://writingcenter.gmu.edu/guides/how-to-write-a-research-question">these guidelines</a>.</p>
+<section id="introduction" class="level1">
+<h1>2. Introduction</h1>
+<p>Write an introduction section to describe the topic of your project to a general audience. Address a motivation for why the research question(s) you address in your project are interesting or important (why should the reader care about this?), and summarize key findings from your analyses.</p>
 </section>
-<section id="discuss-your-data-sources" class="level2">
-<h2 class="anchored" data-anchor-id="discuss-your-data-sources">3. Discuss your data sources</h2>
+<section id="state-your-research-question" class="level1">
+<h1>3. State your research question</h1>
+<p>Clearly state your research question. You may want to write one more general question and then list several sub-questions that address more specific points. You should follow <a href="https://writingcenter.gmu.edu/guides/how-to-write-a-research-question">these guidelines</a>.</p>
+</section>
+<section id="discuss-your-data-sources" class="level1">
+<h1>4. Discuss your data sources</h1>
 <p>Discuss the data source(s) you are using for your analysis. For each data source:</p>
 <ul>
-<li><p>Describe it and include urls or references to the original sources as well as links to any pre-processed or formatted data you are using. These are not always the same. For example, in the <a href="a-mini-project-1.html">Mini Project 1 assignment</a>, the original source was the <a href="https://transitcosts.com/">Transit Costs Project</a> whereas the data file used was posted on <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-01-05">this GitHub repo</a>.</p></li>
-<li><p>Discuss the validity of your data:</p>
+<li><p>Describe it and include urls or references to the original sources as well as links to any pre-processed or formatted data you are using. These are not always the same. For example, in the <a href="../mini/1-data-cleaning.html">Mini Project 1 assignment</a>, the original source was the <a href="https://transitcosts.com/">Transit Costs Project</a> whereas the data file used was posted on <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-01-05">this GitHub repo</a>.</p></li>
+<li><p>Discuss details about how/when/where/why the data were collected. Do not make statements about whether you feel the data is “valid” but rather describe as much detail as you can about the data and let the readers make that assessment for themselves. Be sure to include:</p>
 <ul>
 <li>Is the data you are using from the <em>original</em> source, or has it been pre-processed?</li>
 <li>How was the original data collected and by whom?</li>
 <li>Are there perhaps any missing data that might not have been observed?</li>
-<li>Could the data be biased in some way?</li>
+<li>Are there any potential biases in the data?</li>
 </ul></li>
 <li><p>Finally, provide a data dictionary for each data file you are using in an appendix at the end of your report. The dictionary should contain a table of each variable name along with a brief description of the variable.</p></li>
 </ul>
 </section>
-<section id="describe-your-results-with-text-and-charts" class="level2">
-<h2 class="anchored" data-anchor-id="describe-your-results-with-text-and-charts">4. Describe your results with text and charts</h2>
+<section id="describe-your-results-with-text-and-charts" class="level1">
+<h1>5. Describe your results with text and charts</h1>
 <ul>
-<li>Display polished charts that either support or oppose your research question or illustrate what else you might need to address your research question.</li>
-<li>Your charts should be “polished” with appropriate labels and follow the design principles we have covered in class.</li>
-<li>Your plot type choices should highlight the main point(s) you want to make or clearly show the relationship you want to emphasize.</li>
-<li>Around your charts, write narrative text explaining what the chart shows and its significance towards addressing your research question. This should read as a continuous story rather than as a reply to each of the requirements described here.</li>
 <li>Your analysis must include at <strong>least three polished charts / animations</strong>, though you can of course include more. Alternatively, you can build an interactive shiny app with at least two dynamic charts. If you build a shiny app, include a link to your app and screenshots of key charts from your app in your final report.</li>
+<li>Display polished charts that either support or oppose your research question(s) or illustrate what else you might need to address your research question(s). It’s possible that your data / analyses only lead to another, more detailed question that you’re unable to fully address with the data you have - that’s okay! But we can still learn something along the way.</li>
+<li>Your charts should be “polished” with appropriate labels / annotations and follow the design principles we have covered in class.</li>
+<li>The chart types used should highlight the main point(s) you want to make or clearly show the relationship you want to emphasize. That is, make sure to use chart types that effectively communicate key insights.</li>
+<li>Around your charts, write narrative text explaining what the chart shows and its significance towards addressing your research question(s). This should read as a continuous story rather than as a reply to each of the requirements described here.</li>
 </ul>
 </section>
-<section id="attribution" class="level2">
-<h2 class="anchored" data-anchor-id="attribution">5. Attribution</h2>
-<p>Include a short description of the specific contributions of each team member in your team. If all members contributed equally, you can just put the single sentence “All members contributed equally”.</p>
-<p>Team members who do not make meaningful contributions to their projects will not receive the same grade as that of their team mates. If you are having any issues or disputes among team members, please contact Professor Helveston ASAP so we can find a resolution.</p>
+<section id="conclusions" class="level1">
+<h1>6. Conclusions</h1>
+<p>Summarize in a paragraph or two your main findings from your analysis. What have we learned, and what else could we do next to go further on this topic? Are there other data sources that would really help extend your analyses?</p>
 </section>
-<section id="render-and-submit" class="level2">
-<h2 class="anchored" data-anchor-id="render-and-submit">7. Render and submit</h2>
-<p>Instructions for how to submit your assignment are at the <a href="">top of this page</a>.</p>
+<section id="attribution" class="level1">
+<h1>7. Attribution</h1>
+<p>Include a short description of the specific contributions of each team member in your team. If all members contributed equally, you can just put the single sentence “All members contributed equally”. Team members who do not make meaningful contributions to their projects will not receive the same grade as that of their team mates.</p>
+</section>
+<section id="render-and-submit" class="level1">
+<h1>8. Render and submit</h1>
+<p>Click the “Render” button to compile your <code>.qmd</code> file into a html web page. Then open the <code>report.html</code> file in a web browser and proofread your report.</p>
+<p>Does all of the formatting look correct? <strong>Make sure there are no errors in the rendered file before submitting it.</strong></p>
+<p>Once you’ve proofread your report, create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.</p>
 </section>
 <section id="grading-rubric" class="level1">
 <h1>Grading Rubric</h1>
