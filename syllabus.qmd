@@ -95,7 +95,7 @@ Students will be responsible for two types of assignments throughout the semeste
 
 Throughout the semester, students will work in teams of 2-3 students towards a final project of an exploratory data analysis. At the end of the semester, each student will submit a report of their analysis in the form of an html web page and create a 5 to 10-minute video presentation of their results. To make the overall project more manageable, it will be broken down into several separate "milestone" deliverables due throughout the semester, including a proposal, progress report, presentation video, and final report.
 
-View the [final project overview](project-final/0-overview.qmd) page for more details.
+View the [final project overview](project/0-overview.qmd) page for more details.
 
 ## Final Interview
 
