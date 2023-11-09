@@ -28,7 +28,6 @@ install.packages(c(
     'reactable',
     'reactablefmtr',
     'remotes',
-    'rgeos',
     'rmarkdown',
     'rmdformats',
     'rnaturalearth',

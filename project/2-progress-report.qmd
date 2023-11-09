@@ -29,7 +29,7 @@ maxPoints <- rubric %>%
 
 Write a report summarizing progress you have made towards your project thus far, including summary statistics of your data and preliminary charts. You should have already identified data source(s) for your project and begun exploring the data. Your report should be written in a narrative format (i.e. using coherent paragraphs rather than a series of bullet points). You may use headings where appropriate to break up your report into sections. Below is a list of specific items your progress report should include.
 
-## 1. Get organized
+# 1. Get organized
 
 Download and unzip [this template](../templates/project-template.zip) for your proposal report. Open the `project.Rproj` file and write your progress report in the `report.qmd` file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:
 
@@ -38,13 +38,13 @@ Download and unzip [this template](../templates/project-template.zip) for your p
 
 > **You should also put the data you are working with for your project in the appropriate folders**.
 
-## 2. Write your research question
+# 2. Write your research question
 
 This can (and almost certainly should) be a revised research question from your proposal.
 
 Again, follow [these guidelines](https://writingcenter.gmu.edu/guides/how-to-write-a-research-question).
 
-## 3. Discuss your data sources
+# 3. Discuss your data sources
 
 Discuss the data source(s) you are using for your analysis. For each data source:
 
@@ -58,12 +58,12 @@ Discuss the data source(s) you are using for your analysis. For each data source
 
 - Finally, provide a data dictionary for each data file you are using in an appendix at the end of your report. The dictionary should contain a table of each variable name along with a brief description of the variable.
 
-## 4. Evaluate your proposal expectations
+# 4. Evaluate your proposal expectations
 
 - Do you find support for your original proposal expectation about how one variable might be distributed? Show it by looking at summaries of the variable. If that variable doesn't exist in your data, discuss another key variable instead and how it is distributed.
 - Do you find support for the expected relationships you wrote about in your proposal? If those variables don't exist in your data, discuss one key relationship that you have identified between two or more variables.
 
-## 5. Include at least two preliminary charts
+# 5. Include at least two preliminary charts
 
 - Your charts should either support or oppose your research question(s), or they should illustrate what else you might need to address your research question.
 - The preliminary charts must be different in nature. For example, it would not be appropriate to make two bar charts that are otherwise the same except for having a different y axis. 
@@ -71,15 +71,19 @@ Discuss the data source(s) you are using for your analysis. For each data source
 - Your charts cannot be simple counts summarizing just one variable in your data. You should specify what relationship you are looking for in your charts and whether or not you see evidence of that relationship.
 - Your charts should follow the design principles we have covered in class. They do not have to be fully "polished" yet, but at a minimum they should be accurate (i.e. not misleading) and they should not include distracting non-data ink.
 
-## 6. Attribution
+# 6. Attribution
 
 Include a short description of the specific contributions of each team member in your team. If all members contributed equally, you can just put the single sentence "All members contributed equally".
 
 Team members who do not make meaningful contributions to their projects will not receive the same grade as that of their team mates. If you are having any issues or disputes among team members, please contact Professor Helveston ASAP so we can find a resolution.
 
-## 7. Render and submit
+# 7. Render and submit
 
-Instructions for how to submit your assignment are at the [top of this page](). 
+Click the "Render" button to compile your `.qmd` file into a html web page. Then open the `report.html` file in a web browser and proofread your report.
+
+Does all of the formatting look correct? **Make sure there are no errors in the rendered file before submitting it.**
+
+Once you've proofread your report, create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 
 # Grading Rubric
 

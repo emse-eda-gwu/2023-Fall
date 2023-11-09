@@ -29,14 +29,14 @@ maxPoints <- rubric %>%
 
 Write a proposal of an exploratory data analysis that you plan to conduct for your final project. The instructors will review and grade your proposal and provide feedback upon returning from spring break. If your proposal is approved, you are done and can move on towards the next project task. In some cases, the instructors may ask you to submit a revised proposal, most likely by focusing / adjusting the proposal scope and / or research question. Below is a list of specific items your proposal should include.
 
-## 1. Get organized
+# 1. Get organized
 
 Download and unzip [this template](../templates/project-template.zip) for your proposal report. Open the `project.Rproj` file and write your proposal in the `report.qmd` file. The template comes with some text and code explaining how to use it - should should delete this code as it is only for explanatory purposes. Be sure to adjust the content in the YAML:
 
 - Write your project title in the `title` field (and provide a subtitle if you wish, or delete the `subtitle` field).
  - In the `author` field, list the names of all teammates, e.g. `author: Luke Skywalker, Leia Organa, and Han Solo`.
 
-## 2. Write a research question
+# 2. Write a research question
 
 State a clear research question. Follow [these guidelines](https://writingcenter.gmu.edu/guides/how-to-write-a-research-question). Your question should be:
 
@@ -46,7 +46,7 @@ State a clear research question. Follow [these guidelines](https://writingcenter
 - **Complex**: it is not answerable with a simple "yes" or "no," but rather requires synthesis and analysis of data.
 - **Arguable**: its potential answers are open to debate rather than accepted facts.
 
-## 3. Discuss your data sources
+# 3. Discuss your data sources
 
 Discuss the data source(s) you plan to use for your analysis. Follow these guidelines:
 
@@ -54,7 +54,7 @@ Discuss the data source(s) you plan to use for your analysis. Follow these guide
 - If you have not identified a source yet, describe the data you _hope_ to use, and give at least one plausible source that may have the data (regardless of whether the source makes it available or not).
 - Discuss the validity of the source(s). For each data source, is the data the _original_ data, or has it been pre-processed by someone else? How was the original data collected and by whom? If you do not yet have a source, discuss what concerns you have about a plausible source that might have the data.
 
-## 4. Describe anticipated results
+# 4. Describe anticipated results
 
 - Choose two variables that you expect to find in your data that are relevant to your research question.
 - Regardless of whether those variables actually exist, describe how you would _expect_ each to be distributed (e.g. unimodal, multimodel, tightly-group, widely-spread, etc.). For example, you might expect the price of gasoline over a particular period to be rather tightly-grouped around a mean, whereas the stock price of a particular company might vary much more widely over the same period.
@@ -62,7 +62,7 @@ Discuss the data source(s) you plan to use for your analysis. Follow these guide
 - Describe at least two charts that you expect will help you visualize the relationships that you expect to find. For example, a scatterplot of gasoline prices and hybrid vehicle sales over a particular time period might be useful for visualizing the level of correlation between these two variables.
 - Discuss how your expectations about the variables you chose will help inform you about your research question.
 
-## 5. Attribution
+# 5. Attribution
 
 Include a short description of the specific contributions of each team member in your team. Here is an example:
 
@@ -74,9 +74,13 @@ If all members contributed equally, you can just put the single sentence "All me
 
 Team members who do not make meaningful contributions to their projects will not receive the same grade as that of their team mates. If you are having any issues or disputes among team members, please contact Professor Helveston ASAP so we can find a resolution.
 
-## 6. Render and submit
+# 6. Render and submit
 
-Instructions for how to submit your assignment are at the [top of this page](). 
+Click the "Render" button to compile your `.qmd` file into a html web page. Then open the `report.html` file in a web browser and proofread your report.
+
+Does all of the formatting look correct? **Make sure there are no errors in the rendered file before submitting it.**
+
+Once you've proofread your report, create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 
 # Grading Rubric
 
