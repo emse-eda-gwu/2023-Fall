@@ -85,6 +85,8 @@ Does all of the formatting look correct? **Make sure there are no errors in the 
 
 Once you've proofread your report, create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.
 
+**Only one person from your team should submit.**
+
 # Grading Rubric
 
 ### `r maxPoints` Total Points
