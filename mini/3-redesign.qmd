@@ -68,7 +68,7 @@ With that in mind, here's what you need to do for this analysis:
 
 # 2. Load the data
 
-Use [this link](http://eda.seas.gwu.edu/2023-Fall/mini/US_State_Wind_Energy_Facts_2018.xlsx) to download the `US_State_Wind_Energy_Facts_2018.xlsx` file and put it in your `data_raw` folder. Here is some information on the data:
+Use [this link](https://github.com/emse-eda-gwu/2023-Fall/raw/main/mini/US_State_Wind_Energy_Facts_2018.xlsx) to download the `US_State_Wind_Energy_Facts_2018.xlsx` file and put it in your `data_raw` folder. Here is some information on the data:
 
 **Description**: Data on which US states produce the most wind energy.
 
