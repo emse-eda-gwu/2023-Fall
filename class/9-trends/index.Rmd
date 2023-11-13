@@ -1,6 +1,6 @@
 ---
 title: "Trends"
-subtitle: "EMSE 4572: Exploratory Data Analysis"
+subtitle: "EMSE 4572 / 6572: Exploratory Data Analysis"
 date: October 25, 2023
 week: 9
 author: "John Paul Helveston"

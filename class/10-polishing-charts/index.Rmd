@@ -1,6 +1,6 @@
 ---
 title: "Polishing Charts"
-subtitle: "EMSE 4572: Exploratory Data Analysis"
+subtitle: "EMSE 4572 / 6572: Exploratory Data Analysis"
 date: November 01, 2023
 week: 10
 author: "John Paul Helveston"
