@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -315,9 +349,72 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Coming soon!</p>
+<blockquote class="blockquote">
+<p><strong>Due</strong>: 2023-11-21 by 11:59pm</p>
+<p><strong>Weight</strong>: This assignment is worth 1% of your final grade.</p>
+<p><strong>Purpose</strong>: The purpose of this assignment is to introduce you to the concept of allowing the reader to directly interact with your data. Interactive charts are an entirely different class of data visualizations made possible by advances in computing and other languages like html and javascript.</p>
+<p><strong>Assessment</strong>: This assignment is graded using a check system:</p>
+<ul>
+<li>✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.</li>
+<li>✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.</li>
+<li>✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will <em>hopefully</em> not assign these often.</li>
+</ul>
+<p>Notice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is <strong>not enough</strong>. Write at least a paragraph and show me that you did the readings assigned.</p>
+</blockquote>
+<section id="get-organized" class="level1">
+<h1>1. Get Organized</h1>
+<p>Follow these instructions:</p>
+<ol type="1">
+<li>Download and edit <a href="https://eda.seas.gwu.edu/2023-Fall/templates/hw11.zip">this template</a>.</li>
+<li>Unzip the template folder. <strong>Make sure you actually unzip it</strong>! (in Windows, right-click it and use “extract all”)</li>
+<li>Open the .Rproj file to open RStudio.</li>
+<li>Inside RStudio, open the <code>hw11.qmd</code> file, take notes, and write some example code as you go through the readings / exercises below.</li>
+</ol>
+</section>
+<section id="readings" class="level1">
+<h1>2. Readings</h1>
+<p>This week, I want you to experience some <strong>good</strong> interactive charts so you can get a sense for how different the user experience is between static and interactive charts.</p>
+<p>To get started, find an article online that has some interactive charts. I recommend going to <a href="https://pudding.cool/">The Pudding</a> - almost all of their articles blend text, data, and interactive charts. Feel free to use an article on a different site if you wish though.</p>
+<p>Once you’ve found an article you find interesting, read through it carefully. As you scroll though it, take note in your reflection this week of some of the key points you remember from the article. Answer these questions:</p>
+<ul>
+<li>What was one main conclusion or point the author made?</li>
+<li>Were any of the visualizations particularly effective in grabbing your attention and supporting that point?</li>
+<li>Was there anything you could critique about the article or charts you saw?</li>
+</ul>
+</section>
+<section id="turn-any-ggplot-into-an-interactive-chart-with-ggplotly" class="level1">
+<h1>3. Turn any ggplot into an interactive chart with <code>ggplotly()</code></h1>
+<p>Now that you’ve seen some interactive charts, make a simple, static chart in the chunk provided in your reflection. It can be any ggplot chart - feel free to copy-paste something we’ve made in class (don’t forget to also copy-paste any data files you may need to create the chart).</p>
+<p>Once you’ve made your static chart, <strong>make it interactive</strong> using the <code>ggplotly()</code> function from the <code>plotly</code> package. Simply write code to create your <code>plot</code>, then use <code>ggplotly(plot)</code> to make it interactive. Try it out!</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plotly)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplotly</span>(plot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="reflect" class="level1">
+<h1>4. Reflect</h1>
+<p>Reflect on what you’ve learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing?</p>
+<p>Write at least a paragraph in your <code>hw11.qmd</code> file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.</p>
+<p>Some thoughts you may want to try in your reflection:</p>
+<ul>
+<li>Write about an interesting data visualization about trends you’ve seen.</li>
+<li>“I used to think ______, now I think ______ 🤔”</li>
+<li>Discuss some of the key insights or things you found interesting in the readings or recent class periods.</li>
+<li>Connect the course content to your own work or project you’re working on.</li>
+</ul>
+</section>
+<section id="submit" class="level1">
+<h1>5. Submit</h1>
+<p>To submit your assignment, follow these instructions:</p>
+<ol type="1">
+<li>Render your .qmd file by either clicking the “Render” button in RStudio or running the command <code>quarto::quarto_render("hw11.qmd")</code> command.</li>
+<li>Open the rendered html file and make sure it looks good! Is all the formatting as you expected?</li>
+<li>Create a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard.</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
