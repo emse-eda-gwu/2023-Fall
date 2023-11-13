@@ -23,11 +23,12 @@ output:
 ```{r setup, child="../setup.Rmd"}
 ```
 
-```{r}
-#| include: false
-
-source('setup.R')
-```
-
 ---
 
+class: inverse, center, middle
+
+# Follow your plan!
+
+# Work on stuff!
+
+# Ask for help!
