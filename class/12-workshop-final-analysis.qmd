@@ -1,11 +1,12 @@
 ---
-title: "Maps"
+title: "Final Analysis Workshop"
 params:
-  class: "12-maps"
+  class: "12-workshop-final-analysis"
 execute:
   echo: false
   warning: false
   message: false
 ---
 
-Coming soon!
+```{r child = here::here("fragments", "class.qmd")}
+```

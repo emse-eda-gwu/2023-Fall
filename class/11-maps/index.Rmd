@@ -1,6 +1,6 @@
 ---
 title: "Maps"
-subtitle: "EMSE 4572: Exploratory Data Analysis"
+subtitle: "EMSE 4572 / 6572: Exploratory Data Analysis"
 date: November 08, 2022
 week: 11
 author: "John Paul Helveston"
