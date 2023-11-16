@@ -61,7 +61,9 @@ Your slides do not need to include the detailed code used to conduct your analys
 
 # 4. Publish 
 
-If you recorded a video, publish your video recording on the web (e.g. via Youtube, Vimeo, etc.). Only one team member needs to publish the video.
+If you recorded a video, publish your video recording on the web (e.g. via Youtube, Vimeo, etc.), then **send a link to the published video in a DM to Professor Helveston on slack.**
+
+Only one team member needs to publish the video.
 
 # 5. Submit
 
