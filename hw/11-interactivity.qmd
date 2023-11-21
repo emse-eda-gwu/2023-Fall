@@ -21,9 +21,9 @@ Follow these instructions:
 
 This week, I want you to experience some **good** interactive charts so you can get a sense for how different the user experience is between static and interactive charts.
 
-To get started, find an article online that has some interactive charts. I recommend going to [The Pudding](https://pudding.cool/) - almost all of their articles blend text, data, and interactive charts. Feel free to use an article on a different site if you wish though.
+To get started, find an article online that has some interactive charts. I recommend going to [The Pudding](https://pudding.cool/) - almost all of their articles blend text, data, and interactive charts (e.g. check out the article [Are Pop Lyrics Getting More Repetitive?](https://pudding.cool/2017/05/song-repetition/)). Choose an article you find interesting, and feel free to use an article on a different site if you wish.
 
-Once you've found an article you find interesting, read through it carefully. As you scroll though it, take note in your reflection this week of some of the key points you remember from the article. Answer these questions:
+Once you've found an article, read through it carefully. As you scroll though it, take note in your reflection this week of some of the key points you remember from the article. Answer these questions:
 
 - What was one main conclusion or point the author made?
 - Were any of the visualizations particularly effective in grabbing your attention and supporting that point?
