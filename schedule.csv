@@ -12,6 +12,6 @@ week,date,quiz,quiz_content,theme,n_class,stub_class,name_class,description_clas
 11,2023/11/08,4,Weeks 9 - 10,Visualizing,11,maps,Maps,Maps in ggplot; mapping data to maps; projections; project workshop,10,project-workshop,Project Workshop,2023/11/14,3,redesign,Re-design,2023/11/21,,,,
 12,2023/11/15,,,,12,workshop-final-analysis,In-Class Project Workshop,Full day dedicated to making progress towards final analyses,11,interactivity,Interactivity,2023/11/28,,,,,,,,
 13,2023/11/22,,,,,,Thanksgiving - no class,,,,,,,,,,3,final-report,Final Report,2023/12/10
-14,2023/11/29,5,Weeks 6 - 12,Visualizing,13,interactivity,Interactivity,Plotly; interactive tables; shiny apps,12,communicating-results,Communicating Results,2023/12/05,,,,,,,,
-15,2023/12/06,,,Communicating,14,communicating-results,Communicating Results,Telling stories; slide design; giving a talk,,,,,,,,,4,presentation,Presentation,2023/12/12
+14,2023/11/29,,,Visualizing,13,interactivity,Interactivity,Plotly; interactive tables; shiny apps,12,communicating-results,Communicating Results,2023/12/05,,,,,,,,
+15,2023/12/06,5,Weeks 6 - 12,Communicating,14,communicating-results,Communicating Results,Telling stories; slide design; giving a talk,,,,,,,,,4,presentation,Presentation,2023/12/12
 16,2023/12/13,,,Communicating,15,final-presentations,Final Presentations,In-class presentation showcase w/Q&A,,,,,,,,,,,,
