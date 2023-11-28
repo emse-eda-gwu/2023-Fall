@@ -1,7 +1,7 @@
 ---
-title: "Communicating Results"
+title: "Story Telling"
 params:
-  class: "14-communicating-results"
+  class: "14-story-telling"
 execute:
   echo: false
   warning: false
