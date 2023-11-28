@@ -1134,26 +1134,11 @@ knitr::include_graphics("images/closing_par.png")
 
 class: inverse
 
-```{r, echo=FALSE}
-countdown(
-  minutes = 10,
-  warn_when = 30,
-  update_every = 15,
-  top = 0,
-  font_size = '2em'
-)
-```
-
-## Your Turn
-
-.leftcol80[
+## Quick practice
 
 1. Open the `widgets.R` file.
-2. Go to the [Shiny Widgets Gallery](https://shiny.rstudio.com/gallery/widget-gallery.html) and pick a new widget. 
-3. Look at the code for the widget and try to add that widget to the sidebar in the `widgets.R` file below all the other widgets.
-4. Debug together! (ask each other questions)
-
-]
+2. Run the app (Click "run app" button).
+3. Go to the [Shiny Widgets Gallery](https://shiny.rstudio.com/gallery/widget-gallery.html) to see other input widgets. 
 
 ---
 
@@ -1203,13 +1188,6 @@ Output function  | Description
 `dataTableOutput()` | Display a `DT::datatable()`
 `textOutput()`   | Display reactive _text_
 `imageOutput()`  | Display an image
-
----
-
-```{r child="topics/3.Rmd"}
-```
-
-Server
 
 ---
 
@@ -1409,7 +1387,8 @@ countdown(
 
 ---
 
-topic: extras
+```{r child="topics/4.Rmd"}
+```
 
 ---
 
@@ -1466,7 +1445,7 @@ class: center, middle
 
 # If you really want to get good at this:
 
-## 1. Print out this [Cheatsheet](https://shiny.rstudio.com/articles/cheatsheet.html)
+## 1. Print out this [Cheatsheet](https://shiny.posit.co/r/articles/start/cheatsheet/)
 
 ## 2. Watch this [2.5 Hour Comprehensive RStudio Tutorial](https://shiny.rstudio.com/tutorial)
 
@@ -1474,14 +1453,9 @@ class: center, middle
 
 ---
 
-```{r child="topics/5.Rmd"}
-```
-
----
-
 # You can deploy an app for free on [shinyapps.io](https://www.shinyapps.io/)
 
-### Follow [the RStudio guide](https://shiny.rstudio.com/articles/shinyapps.html)
+### Follow [this guide](https://shiny.posit.co/r/articles/share/shinyapps/)
 
 1. Create a shinyapps.io account
 2. Open your tokens, click "Show", copy the code
@@ -1516,15 +1490,3 @@ countdown(
 3. Deploy your app to shinyapps.io
 
 ]
-
----
-
-class: center, middle, inverse
-
-## Fill out course evals: https://gwu.smartevals.com/
-
-### (please be specific!)
-
-<center>
-<img src="https://media.tenor.com/images/76f5c6f0db05171eef3ee586eba77410/tenor.gif" width=600>
-</center>
