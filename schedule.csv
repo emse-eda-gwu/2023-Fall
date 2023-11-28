@@ -1,17 +1,17 @@
-week,date,quiz,quiz_content,theme,n_class,stub_class,name_class,description_class,n_assign,stub_assign,name_assign,due_assign,n_mini,stub_mini,name_mini,due_mini,n_project,stub_project,name_project,due_project
-1,2023/08/30,,,Cleaning,1,getting-started,Getting Started,Class orientation; workflow; Quarto; importing data; data wrangling & plotting refresher,1,tidy-data,Tidy Data,2023/09/05,,,,,,,,
-2,2023/09/06,,,Cleaning,2,tidy-data,Tidy Data,Tidy data; reshaping data; data provenance; writing a research question,2,cleaning-data,Cleaning Data,2023/09/12,,,,,,,,
-3,2023/09/13,1,Weeks 1 - 2,Cleaning,3,cleaning-data,Cleaning Data,Joins; changing data types; dealing with messy Excel files,3,exploring-data,Exploring Data,2023/09/19,1,data-cleaning,Data Cleaning,2023/09/26,1,proposal,Proposal,2023/09/24
+week,date,quiz,quiz_content,theme,n_class,stub_class,name_class,description_class,n_assign,name_assign,stub_assign,due_assign,n_mini,stub_mini,name_mini,due_mini,n_project,stub_project,name_project,due_project
+1,2023/08/30,,,Cleaning,1,getting-started,Getting Started,Class orientation; workflow; Quarto; importing data; data wrangling & plotting refresher,1,Tidy Data,tidy-data,2023/09/05,,,,,,,,
+2,2023/09/06,,,Cleaning,2,tidy-data,Tidy Data,Tidy data; reshaping data; data provenance; writing a research question,2,Cleaning Data,cleaning-data,2023/09/12,,,,,,,,
+3,2023/09/13,1,Weeks 1 - 2,Cleaning,3,cleaning-data,Cleaning Data,Joins; changing data types; dealing with messy Excel files,3,Exploring Data,exploring-data,2023/09/19,1,data-cleaning,Data Cleaning,2023/09/26,1,proposal,Proposal,2023/09/24
 4,2023/09/20,,,Exploring,4,exploring-data,Exploring Data,Data types & scales; centrality & variability; correlation,,,,,,,,,,,,
-5,2023/09/27,,,,5,workshop-proposals,Project Workshop,Team meetings to discuss proposal feedback,4,visualizing-information,Visualizing Information,2023/10/03,,,,,,,,
-6,2023/10/04,2,Week 4,Visualizing,6,visualizing-information,Visualizing Information,"Psychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices",5,factors-amounts-proportions,"Factors, Amounts, & Proportions",2023/10/10,2,exploring-data,Exploring Data,2023/10/17,,,,
-7,2023/10/11,,,Visualizing,7,factors-amounts-proportions,"Factors, Amounts, & Proportions","Manipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole",6,comparisons,Comparisons,2023/10/17,,,,,,,,
-8,2023/10/18,,,Visualizing,8,comparisons,Comparisons,Facets; reference lines; dumbbells; slopes; distributions,7,trends,Trends,2023/10/24,,,,,2,progress-report,Progress Report,2023/10/29
-9,2023/10/25,3,Weeks 7 - 8,Visualizing,9,trends,Trends,Line charts; heat maps; animation,8,polishing-charts,Polishing Charts,2023/10/31,,,,,,,,
-10,2023/11/01,,,Visualizing,10,polishing-charts,Polishing Charts,Colors; annotations; scales; themes; multi-panel figures,9,maps,Maps,2023/11/07,,,,,,,,
-11,2023/11/08,4,Weeks 9 - 10,Visualizing,11,maps,Maps,Maps in ggplot; mapping data to maps; projections; project workshop,10,project-workshop,Project Workshop,2023/11/14,3,redesign,Re-design,2023/11/21,,,,
-12,2023/11/15,,,,12,workshop-final-analysis,In-Class Project Workshop,Full day dedicated to making progress towards final analyses,11,interactivity,Interactivity,2023/11/28,,,,,,,,
+5,2023/09/27,,,,5,workshop-proposals,Project Workshop,Team meetings to discuss proposal feedback,4,Visualizing Information,visualizing-information,2023/10/03,,,,,,,,
+6,2023/10/04,2,Week 4,Visualizing,6,visualizing-information,Visualizing Information,"Psychology of graphical perception; preattentive attributes; ugly, bad, & wrong charts; chart design best practices",5,"Factors, Amounts, & Proportions",factors-amounts-proportions,2023/10/10,2,exploring-data,Exploring Data,2023/10/17,,,,
+7,2023/10/11,,,Visualizing,7,factors-amounts-proportions,"Factors, Amounts, & Proportions","Manipulating factors; plotting amounts with bars, dots, and lollipops; parts of whole",6,Comparisons,comparisons,2023/10/17,,,,,,,,
+8,2023/10/18,,,Visualizing,8,comparisons,Comparisons,Facets; reference lines; dumbbells; slopes; distributions,7,Trends,trends,2023/10/24,,,,,2,progress-report,Progress Report,2023/10/29
+9,2023/10/25,3,Weeks 7 - 8,Visualizing,9,trends,Trends,Line charts; heat maps; animation,8,Polishing Charts,polishing-charts,2023/10/31,,,,,,,,
+10,2023/11/01,,,Visualizing,10,polishing-charts,Polishing Charts,Colors; annotations; scales; themes; multi-panel figures,9,Maps,maps,2023/11/07,,,,,,,,
+11,2023/11/08,4,Weeks 9 - 10,Visualizing,11,maps,Maps,Maps in ggplot; mapping data to maps; projections; project workshop,10,Project Workshop,project-workshop,2023/11/14,3,redesign,Re-design,2023/11/21,,,,
+12,2023/11/15,,,,12,workshop-final-analysis,In-Class Project Workshop,Full day dedicated to making progress towards final analyses,11,Interactivity,interactivity,2023/11/28,,,,,,,,
 13,2023/11/22,,,,,,Thanksgiving - no class,,,,,,,,,,3,final-report,Final Report,2023/12/10
-14,2023/11/29,,,Visualizing,13,interactivity,Interactivity,Plotly; interactive tables; shiny apps,12,communicating-results,Communicating Results,2023/12/05,,,,,,,,
-15,2023/12/06,5,Weeks 6 - 12,Communicating,14,communicating-results,Communicating Results,Telling stories; slide design; giving a talk,,,,,,,,,4,presentation,Presentation,2023/12/12
+14,2023/11/29,,,Visualizing,13,interactivity,Interactivity,Plotly; interactive tables; shiny apps,12,Story Telling,story-telling,2023/12/05,,,,,,,,
+15,2023/12/06,5,Weeks 6 - 12,Communicating,14,story-telling,Story Telling,Telling stories; slide design; giving a talk,,,,,,,,,4,presentation,Presentation,2023/12/12
 16,2023/12/13,,,Communicating,15,final-presentations,Final Presentations,In-class presentation showcase w/Q&A,,,,,,,,,,,,
