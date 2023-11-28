@@ -15,5 +15,12 @@ zip::zip(
         'data',
         'practice.qmd',
         'practice-solutions.qmd',
+        'caseConverter_solution.R',
+        'caseConverter.R',
+        'internetUsers_solution.R',
+        'internetUsers.R',
+        'mpg.R',
+        'shinyWidgets.R',
+        'widgets.R',
         paste0(lesson, ".Rproj"))
 )

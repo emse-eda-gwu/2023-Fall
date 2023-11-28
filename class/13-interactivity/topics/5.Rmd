@@ -9,4 +9,3 @@ class: inverse, middle
 ### Intermission
 
 ### 3. .orange[Shiny apps]
-### 4. Shiny extras
