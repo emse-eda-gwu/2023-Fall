@@ -735,7 +735,7 @@ milk_race_anim <- milk_production %>%
 
 .rightcol[
 
-### .center[Making a bar chart race <br>[(tutorial here)](https://www.emilykuehler.com/portfolio/barchart-race/)]
+### .center[Making a bar chart race <br>[(tutorial here)](https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da)]
 
 .code60[
 ```{r, eval=FALSE}
