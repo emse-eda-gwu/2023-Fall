@@ -80,9 +80,9 @@ You will want to choose different chart types depending on the relationship or m
 
 ## Animating **ggplot2** plots
 
+- [How to create animations in R with gganimate](https://anderfernandez.com/en/blog/how-to-create-animations-in-r-with-gganimate/)
 - [Animate your ggplots with gganimate](https://gganimate.com/articles/gganimate.html)
-- [How to make a bar chart race](https://emilykuehler.github.io/bar-chart-race/)
-
+- [How to make a bar chart race](https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da)
 
 
 
