@@ -575,16 +575,6 @@ class: middle, inverse, center
 
 ## Watch [this video](https://youtu.be/w82a1FT5o88) to find out
 
-```{r, echo=FALSE}
-countdown(
-  minutes = 10,
-  warn_when = 30,
-  update_every = 15,
-  bottom = 0,
-  font_size = '2em'
-)
-```
-
 ---
 
 # How to start a speech
@@ -652,8 +642,6 @@ countdown(
 )
 ```
 
-.leftcol[
-
 Brainstorm different strategies for how to start your presentation for your projects:
 
 1. Tell a story, talk about **people** ("Imagine...").
@@ -662,21 +650,6 @@ Brainstorm different strategies for how to start your presentation for your proj
 
 Afterwards, we will go around the room and one person from each team will practice giving their start to their presentation.
 
-]
-
-.rightcol[.font80[
-
-1. **Anon**: CO2 Offsets (Abdallah Omari, Majd Shatara, Mansour Alhawwas, Sebastian Makrides)
-2. **BIC**: Population Growth Rates (Brynna Johnson, Islay Van Dusen, Claire Foley)
-3. **piRates**: MLB Competitive Balance Tax (Julia Arnsberger, James Ferguson, Anirudh Kumar)
-4. **PoweRpuffs**: College Drop-out Rates? (Ivanna Hidalgo, Kidist Beleke, Lauren Monk, Natasha Stallings)
-5. **RawR**: DMV Crash Data (Ben Buechner, Parker Reese, Max Feng, Vijay Jayamani)
-6. **Soccer**: English Premier League Performance (Karim Rizk, Amen Dahab, Ryan Cedeno, Marvin Castillo)
-7. **team1**: COVID & income inequality (Amaya Walker, Jiyoon Koo, Sahand Salemi)
-8. **wizaRds**: Physical to Digital Music (Esha Patel, Salah Mohammed, Gujri Ahluwalia)
-
-]]
-
 ---
 
 ```{r child="topics/4.Rmd"}
@@ -684,7 +657,7 @@ Afterwards, we will go around the room and one person from each team will practi
 
 ---
 
-# .center[[Final Reports](https://eda.seas.gwu.edu/2023-Fall/project/3-final-report.html) (Due 12/10...you have 4 days left!)]
+# .center[[Final Reports](https://eda.seas.gwu.edu/2023-Fall/project/3-final-report.html) due 12/10<br>(You have 4 days left!)]
 
 --
 
@@ -721,9 +694,9 @@ spelling::spell_check_files("report.qmd")
 
 ---
 
-# .center[[Final Interviews](https://eda.seas.gwu.edu/2022-Fall/class/interviews.html) (12/12 - 12/13)]
+# .center[[Final Interviews](https://eda.seas.gwu.edu/2023-Fall/class/interviews) (12/11 - 12/12)]
 
-- ### Schedule for a 10-minute interview using [this link](https://jhelvy.appointlet.com/b/interview)</br>(also posted in Slack)
+- ### Schedule for a 10-minute interview using [this link](https://jhelvy.appointlet.com/b/interview)</br>(will also be posted in Slack)
 
 --
 
