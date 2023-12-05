@@ -6,7 +6,7 @@ execute:
   message: false
 ---
 
-> **Due**: Students will sign up for individual meetings during finals week (Dec 12 - 13).
+> **Due**: Students will sign up for individual meetings during finals week (Dec 11 - 12).
 >
 > **Weight**: This assignment is worth 10% of your final grade.
 >

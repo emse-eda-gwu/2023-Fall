@@ -99,7 +99,7 @@ View the [final project overview](project/0-overview.qmd) page for more details.
 
 ## Final Interview
 
-Rather than have a final exam, each student will have a 10-minute interview by the instructor. The interview will be focused on the final project the student worked and will contain questions related to concepts covered during the course. Students will be provided a list of questions and the grading rubric ahead of the interview.
+Rather than have a final exam, each student will have a [10-minute interview](/class/interviews.html) by the instructor. The interview will be focused on the final project the student worked and will contain questions related to concepts covered during the course. Students will be provided a list of questions and the grading rubric ahead of the interview.
 
 # Grading
 

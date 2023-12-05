@@ -42,3 +42,7 @@ if (Sys.Date() <= ymd("2023-12-13")) {
 
 done
 ```
+
+<center>
+[Final Interviews](./class/interviews.html) will be held virtually December 11-12 (sign up [here](https://jhelvy.appointlet.com/b/interview))
+</center>
