@@ -20,7 +20,7 @@ project:
     - "!11-maps/"
     - "!12-workshop-final-analysis/"
     - "!13-interactivity/"
-    - "!14-communicating-results/"
+    - "!14-story-telling"
     - "!15-final-presentations/"
   resources:
     - "class/"
