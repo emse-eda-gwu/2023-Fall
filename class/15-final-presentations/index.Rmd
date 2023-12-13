@@ -27,9 +27,81 @@ output:
 
 class: center, middle
 
-# [title](url)
+# [Ukraine After 21 Months](url)
 
-## by student
+## by Bogdan Bunea, Ian Milko, Collin Schwab, and Rayyan Hussien
+
+---
+
+class: center, middle
+
+# [Paying for Prestige: Analysis of University Rankings](url)
+
+## by Ayomide Ojo, Sahale Reese, Benyat Yimaj, and Youssouf Toure
+
+---
+
+class: center, middle
+
+# [Cuban’s Migration](url)
+
+## by Sabina Pereira, Federica Negron, and Marena Marzari
+
+---
+
+class: center, middle
+
+# [Characterizing Crimes in Los Angeles](url)
+
+## by Dilrose Karakattil and Harshita Bharadwaj
+
+---
+
+class: center, middle
+
+# [Parking Violations in Washington DC](url)
+
+## by Arsema Demeke, Kaitlyn Frost, Amna Maqsood, and Lola Nurullaeva
+
+---
+
+class: center, middle
+
+# [From Past to Present: Analyzing Key Economic Metrics and the Shadows of Recessions](url)
+
+## by Nishanth Nandakumar and Sai Kiran Reddy Vellanki
+
+---
+
+class: center, middle
+
+# [Market Pricing Strategies for Different Brands of Mobile Phones](url)
+
+## by Ji Qi (祁绩) and Zeyu Cheng (程泽宇)
+
+---
+
+class: center, middle
+
+# [Advancements in Solar and Wind Energy in the USA](url)
+
+## by Pingfan Hu and Abbey Kollar
+
+---
+
+class: center, middle
+
+# [WMATA Ridership](url)
+
+## by Abdullah Alghamdi, Ziqian Yang, and Arman Naseh
+
+---
+
+class: center, middle
+
+# [The Trends, Spatial Difference, and Associated Outcome of Smoking](url)
+
+## by Kejia Hu and Jiaxin Wang
 
 ---
 
