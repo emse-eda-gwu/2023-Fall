@@ -1,5 +1,5 @@
 ---
-title: "Communicating Results"
+title: "Final Presentations"
 subtitle: "EMSE 4572 / 6572: Exploratory Data Analysis"
 date: December 13, 2023
 week: 15
