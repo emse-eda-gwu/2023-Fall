@@ -27,7 +27,7 @@ output:
 
 class: center, middle
 
-# [Ukraine After 21 Months](url)
+# [Ukraine After 21 Months](https://docs.google.com/presentation/d/1uQoWq_br8ZmEX5b9gdalkfDo2a211J3ahWqHVl9a-4U/edit#slide=id.p)
 
 ## by Bogdan Bunea, Ian Milko, Collin Schwab, and Rayyan Hussien
 
@@ -35,7 +35,7 @@ class: center, middle
 
 class: center, middle
 
-# [Paying for Prestige: Analysis of University Rankings](url)
+# [Paying for Prestige: Analysis of University Rankings](https://www.youtube.com/watch?v=cuBKu9A3n6k)
 
 ## by Ayomide Ojo, Sahale Reese, Benyat Yimaj, and Youssouf Toure
 
@@ -43,7 +43,7 @@ class: center, middle
 
 class: center, middle
 
-# [Cuban’s Migration](url)
+# [Cuban’s Migration](https://gwu.app.box.com/s/1ed9m9vctz6w2jk3hyl7fammbjsadg7w)
 
 ## by Sabina Pereira, Federica Negron, and Marena Marzari
 
@@ -51,7 +51,7 @@ class: center, middle
 
 class: center, middle
 
-# [Characterizing Crimes in Los Angeles](url)
+# [Characterizing Crimes in Los Angeles](https://vimeo.com/893969096?share=copy)
 
 ## by Dilrose Karakattil and Harshita Bharadwaj
 
@@ -59,7 +59,7 @@ class: center, middle
 
 class: center, middle
 
-# [Parking Violations in Washington DC](url)
+# [Parking Violations in Washington DC](https://docs.google.com/presentation/d/1NU1kmM9aBsZDtdUJC6ft5RyqHZ2V4fJ_JYibmlUQkoU/edit?usp=sharing)
 
 ## by Arsema Demeke, Kaitlyn Frost, Amna Maqsood, and Lola Nurullaeva
 
@@ -67,7 +67,7 @@ class: center, middle
 
 class: center, middle
 
-# [From Past to Present: Analyzing Key Economic Metrics and the Shadows of Recessions](url)
+# [From Past to Present: Analyzing Key Economic Metrics and the Shadows of Recessions](https://vimeo.com/893943196?share=copy)
 
 ## by Nishanth Nandakumar and Sai Kiran Reddy Vellanki
 
@@ -75,7 +75,7 @@ class: center, middle
 
 class: center, middle
 
-# [Market Pricing Strategies for Different Brands of Mobile Phones](url)
+# Market Pricing Strategies for Different Brands of Mobile Phones
 
 ## by Ji Qi (祁绩) and Zeyu Cheng (程泽宇)
 
@@ -83,7 +83,7 @@ class: center, middle
 
 class: center, middle
 
-# [Advancements in Solar and Wind Energy in the USA](url)
+# Advancements in Solar and Wind Energy in the USA
 
 ## by Pingfan Hu and Abbey Kollar
 
@@ -91,7 +91,7 @@ class: center, middle
 
 class: center, middle
 
-# [WMATA Ridership](url)
+# [WMATA Ridership](https://www.youtube.com/watch?v=GUMsZ3wQa3Q)
 
 ## by Abdullah Alghamdi, Ziqian Yang, and Arman Naseh
 
@@ -99,7 +99,7 @@ class: center, middle
 
 class: center, middle
 
-# [The Trends, Spatial Difference, and Associated Outcome of Smoking](url)
+# The Trends, Spatial Difference, and Associated Outcome of Smoking
 
 ## by Kejia Hu and Jiaxin Wang
 
@@ -111,19 +111,41 @@ class: center, middle, inverse
 
 ---
 
-# 🗑️ The **Janitor** award goes to...🥁
+class: center, middle 
 
-<br>
+# ✨ The Nominees for the **Shiny** Award are:
 
 --
 
-# 🎉🎉🎉
+<br>
 
-# [title](report_url)
+.cols3[
 
-## by students
+<center>
+<img src="images/ukraine.png" width=100%>
+</center>
 
-XXXX lines of code!
+]
+
+--
+
+.cols3[
+
+<center>
+<img src="images/renewables.png" width=100%>
+</center>
+
+]
+
+--
+
+.cols3[
+
+<center>
+<img src="images/recession.png" width=100%>
+</center>
+
+]
 
 ---
 
@@ -137,19 +159,57 @@ XXXX lines of code!
 
 # 🎉🎉🎉
 
-# [title](paper_url)
+### [From Past to Present: Analyzing Key Economic Metrics and the Shadows of Recessions](https://eda.seas.gwu.edu/showcase/2023-Fall/recessions.html)
 
-## by students
+### by Nishanth Nandakumar and Sai Kiran Reddy Vellanki
 
 ]
 
 .rightcol[
 
 <center>
-<img src="images/" width=100%>
+<img src="images/recession.png" width=100%>
 </center>
 
 ]
+
+---
+
+# 🗑️ The Nominees for the **Janitor** award are:
+
+--
+
+.leftcol[
+
+## [Ukraine After 21 Months](https://eda.seas.gwu.edu/showcase/2023-Fall/ukraine-war.html)
+
+### by Bogdan Bunea, Ian Milko, Collin Schwab, and Rayyan Hussien
+
+]
+
+--
+
+.rightcol[
+
+## [From Past to Present: Analyzing Key Economic Metrics and the Shadows of Recessions](https://eda.seas.gwu.edu/showcase/2023-Fall/recessions.html)
+
+### by Nishanth Nandakumar and Sai Kiran Reddy Vellanki
+
+]
+
+---
+
+# 🗑️ The **Janitor** award goes to...🥁
+
+<br>
+
+--
+
+# 🎉🎉🎉
+
+# [Ukraine After 21 Months](https://eda.seas.gwu.edu/showcase/2023-Fall/ukraine-war.html)
+
+## by Bogdan Bunea, Ian Milko, Collin Schwab, and Rayyan Hussien
 
 ---
 
