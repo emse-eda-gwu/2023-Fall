@@ -1,0 +1,92 @@
+---
+title: "Communicating Results"
+subtitle: "EMSE 4572 / 6572: Exploratory Data Analysis"
+date: December 13, 2023
+week: 15
+author: "John Paul Helveston"
+institute: "The George Washington University | Dept. of Engineering Management and Systems Engineering"
+output:
+  xaringan::moon_reader:
+    css:
+      - default
+      - css/lexis.css
+      - css/lexis-fonts.css
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, child="../setup.Rmd"}
+```
+
+---
+
+class: center, middle
+
+# [title](url)
+
+## by student
+
+---
+
+class: center, middle, inverse 
+
+# 🎉 Awards Ceremony 🎉
+
+---
+
+# 🗑️ The **Janitor** award goes to...🥁
+
+<br>
+
+--
+
+# 🎉🎉🎉
+
+# [title](report_url)
+
+## by students
+
+XXXX lines of code!
+
+---
+
+# ✨ The **Shiny** Award goes to...🥁
+
+<br>
+
+--
+
+.leftcol[
+
+# 🎉🎉🎉
+
+# [title](paper_url)
+
+## by students
+
+]
+
+.rightcol[
+
+<center>
+<img src="images/" width=100%>
+</center>
+
+]
+
+---
+
+class: center, middle, inverse
+
+## Fill out course evals: https://gwu.smartevals.com/
+
+### (please be specific!)
+
+<center>
+<img src="https://media.tenor.com/images/76f5c6f0db05171eef3ee586eba77410/tenor.gif" width=600>
+</center>
