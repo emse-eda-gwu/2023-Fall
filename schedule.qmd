@@ -34,11 +34,11 @@ done <- schedule %>%
   column_spec(column = 4, width = '19em') 
 
 # Add highlighting based on current week if we're still in the semester
-highlight <- which(Sys.Date() > (schedule$Date))
-if (Sys.Date() <= ymd("2023-12-13")) {
-  done <- done %>%
-    row_spec(highlight, background = "#C6C6C6")
-}
+# highlight <- which(Sys.Date() > (schedule$Date))
+# if (Sys.Date() <= ymd("2023-12-13")) {
+#   done <- done %>%
+#     row_spec(highlight, background = "#C6C6C6")
+# }
 
 done
 ```
